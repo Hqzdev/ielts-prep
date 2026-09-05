@@ -1,9 +1,0 @@
-allowBuilds:
-  esbuild: true
-  sharp: true
-  supabase: true
-  '@swc/core': true
-  '@google/genai': false
-  cbor-extract: false
-  protobufjs: false
-  unrs-resolver: true

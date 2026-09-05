@@ -1,0 +1,14 @@
+{
+  "name": "@veylo/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./schemas/*": "./src/schemas/*.ts",
+    "./api": "./src/api.ts",
+    "./openapi.json": "./openapi.json"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  }
+}

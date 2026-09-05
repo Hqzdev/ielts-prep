@@ -1,0 +1,5 @@
+{
+  "swift-openapi-generator": "1.13.1",
+  "swift-openapi-runtime": "1.12.1",
+  "swift-openapi-urlsession": "1.3.1"
+}

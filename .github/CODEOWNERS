@@ -1,0 +1,12 @@
+* @Hqzdev
+/apps/web/ @Hqzdev
+/packages/backend/ @Hqzdev
+/packages/contracts/ @Hqzdev
+/packages/api-client/ @Hqzdev
+/packages/design-tokens/ @Hqzdev
+/packages/ui-web/ @Hqzdev
+/tools/content-generator/ @Hqzdev
+/tools/api-compatibility/ @Hqzdev
+/infra/ @Hqzdev
+/.github/ @Hqzdev
+/scripts/ @Hqzdev

@@ -1,0 +1,67 @@
+name: Verify
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - if: github.event_name == 'pull_request'
+        run: node scripts/check-commit.mjs
+        env:
+          COMMIT_TITLE: ${{ github.event.pull_request.title }}
+      - run: pnpm format:check && pnpm architecture:check && pnpm api:check && pnpm design:check
+      - run: pnpm lint && pnpm typecheck && pnpm test && pnpm content:check
+      - run: pnpm local:setup
+      - run: pnpm test:sql
+      - run: pnpm build
+      - run: pnpm start > /tmp/veylo-server.log 2>&1 &
+      - run: node scripts/wait-for-server.mjs
+      - run: pnpm test:integration
+      - run: pnpm exec playwright install --with-deps chromium chrome webkit
+      - run: pnpm test:e2e
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-diagnostics
+          path: |
+            apps/web/test-results
+            apps/web/playwright-report
+          retention-days: 7
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --project tools/content-generator --frozen
+      - run: node scripts/check-python.mjs
+  swift:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - run: swift format lint --strict tools/api-compatibility/ContractCheck.swift
+      - run: node scripts/check-swift.mjs

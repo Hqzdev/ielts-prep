@@ -1,0 +1,21 @@
+{
+  "name": "@veylo/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./domain/*": "./src/domain/*.ts",
+    "./validation/*": "./src/infrastructure/validation/*.ts",
+    "./ai/*": "./src/infrastructure/ai/*.ts",
+    "./composition": "./src/composition/backend.ts",
+    "./application/*": "./src/application/*.ts",
+    "./persistence/*": "./src/infrastructure/persistence/*.ts",
+    "./composition/*": "./src/composition/*.ts"
+  },
+  "dependencies": {
+    "@veylo/contracts": "workspace:*",
+    "@supabase/supabase-js": "^2.0.0",
+    "@google/genai": "^1.0.0",
+    "zod": "^4.0.0"
+  }
+}

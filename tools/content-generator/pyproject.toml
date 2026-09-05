@@ -1,0 +1,14 @@
+[project]
+name = "veylo-content-generator"
+version = "0.1.0"
+requires-python = ">=3.13,<3.14"
+dependencies = ["google-genai>=1.47.0,<2", "pydantic>=2.9,<3"]
+
+[dependency-groups]
+dev = [
+    "black==26.5.1",
+    "ruff==0.16.6",
+]
+
+[tool.uv]
+package = false

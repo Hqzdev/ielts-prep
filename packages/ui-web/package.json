@@ -1,0 +1,17 @@
+{
+  "name": "@veylo/ui-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./domain/*": "./src/domain/*.ts",
+    "./client/*": "./src/client/*.ts",
+    "./components/*": "./src/components/*.tsx",
+    "./styles/*": "./src/styles/*"
+  },
+  "dependencies": {
+    "@veylo/backend": "workspace:*",
+    "react": "^19.2.0",
+    "@veylo/design-tokens": "workspace:*"
+  }
+}

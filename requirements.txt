@@ -1,2 +1,0 @@
-google-genai>=1.47.0,<2
-pydantic>=2.9,<3
