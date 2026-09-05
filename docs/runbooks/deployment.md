@@ -2,7 +2,7 @@
 
 ## Окружения
 
-Dev — локальный Docker Supabase и Next.js. Для staging и production нужны отдельные проекты Supabase, отдельные ключи и данные. В репозитории сохранена конфигурация Vercel Cron; origin указывает на публичный Hqzdev/ielts-prep. В нём ещё нет default branch; реальные cloud project ID и домены не назначены. Provisioning облачных ресурсов и автоматический CD до их выбора не выполнены.
+Dev — локальный Docker Supabase и Next.js. Для staging и production нужны отдельные проекты Supabase, отдельные ключи и данные. В репозитории сохранена конфигурация Vercel Cron; origin указывает на публичный Hqzdev/ielts-prep. Основная ветка для публикации — `main`; реальные cloud project ID и домены не назначены. Provisioning облачных ресурсов и автоматический CD до их выбора не выполнены.
 
 При использовании Vercel Root Directory — `apps/web`, установка workspace выполняется из корня репозитория по закреплённому pnpm lockfile. Build приложения — `pnpm --filter @veylo/web build`. Разрешить включение файлов вне Root Directory, чтобы доступны были backend/contracts/ui-web/design-tokens. Node — 24. Конфигурация Cron находится в `apps/web/vercel.json`.
 
@@ -26,4 +26,4 @@ Dev — локальный Docker Supabase и Next.js. Для staging и product
 
 ## Внешние незавершённые действия
 
-CODEOWNERS уже назначен @Hqzdev. Нужны публикация выбранного commit в origin, второй ревьюер, подтверждённый хостинг, staging/production project ID и secret store. После этого можно включить branch protection, cloud IaC, CD, резервное копирование и dashboard метрик. Локальная миграция этих внешних настроек не заменяет.
+CODEOWNERS уже назначен @Hqzdev. Нужны второй ревьюер, подтверждённый хостинг, staging/production project ID и secret store. Публикация commit в origin не разворачивает сайт. После этого можно включить branch protection, cloud IaC, CD, резервное копирование и dashboard метрик. Локальная миграция этих внешних настроек не заменяет.

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
+  <title id="title">One core. Clear boundaries.</title>
+  <desc id="desc">Source dependencies flow from Interfaces to Application to Domain. Infrastructure implements application ports and depends on the core. Composition constructs adapters and use cases. Interfaces use Composition to obtain them.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#65548e"/></marker></defs>
+  <rect width="1200" height="580" rx="32" fill="#fdfcfe"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#3c315b">
+    <text x="64" y="79" font-size="46" font-weight="750" letter-spacing="-1">One core. Clear boundaries.</text>
+    <text x="64" y="117" font-size="22" fill="#6e667d">LAYERED ARCHITECTURE / PNPM MONOREPO</text>
+    <g id="dependencies" fill="none" stroke="#65548e" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M 368 222 H 436"/>
+      <path d="M 752 222 H 820"/>
+      <path d="M 216 282 V 356"/>
+      <path d="M 548 434 H 640"/>
+      <path d="M 470 368 V 328 H 548 V 294"/>
+      <path d="M 760 368 V 328 H 656 V 294"/>
+      <path d="M 984 368 V 294"/>
+    </g>
+    <g id="interfaces">
+      <rect x="64" y="158" width="304" height="124" rx="24" fill="#e2dffe"/>
+      <text x="216" y="211" font-size="36" font-weight="700" text-anchor="middle">Interfaces</text>
+      <text x="216" y="250" font-size="20" text-anchor="middle">HTTP · UI · CLI · Workflow</text>
+    </g>
+    <g id="application">
+      <rect x="448" y="158" width="304" height="124" rx="24" fill="#ab9ff2"/>
+      <text x="600" y="211" font-size="36" font-weight="700" text-anchor="middle">Application</text>
+      <text x="600" y="250" font-size="20" text-anchor="middle">Use cases &amp; ports</text>
+    </g>
+    <g id="domain">
+      <rect x="832" y="158" width="304" height="124" rx="24" fill="#3c315b"/>
+      <text x="984" y="211" font-size="36" font-weight="700" text-anchor="middle" fill="#fdfcfe">Domain</text>
+      <text x="984" y="250" font-size="20" text-anchor="middle" fill="#e2dffe">Entities &amp; business rules</text>
+    </g>
+    <g id="composition">
+      <rect x="64" y="368" width="484" height="132" rx="24" fill="#fdfcfe" stroke="#b5a9c9" stroke-width="2"/>
+      <text x="96" y="422" font-size="34" font-weight="700">Composition</text>
+      <text x="96" y="464" font-size="22">Constructs &amp; connects dependencies</text>
+    </g>
+    <g id="infrastructure">
+      <rect x="652" y="368" width="484" height="132" rx="24" fill="#e2dffe"/>
+      <text x="684" y="422" font-size="34" font-weight="700">Infrastructure</text>
+      <text x="684" y="464" font-size="22">Supabase · Gemini · storage · clock</text>
+    </g>
+    <text x="64" y="547" font-size="21" fill="#6e667d">Arrows show source-code dependencies. Core stays independent of frameworks.</text>
+  </g>
+</svg>

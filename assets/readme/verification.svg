@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="536" viewBox="0 0 1200 536" role="img" aria-labelledby="title desc">
+  <title id="title">Checked, from core to browser</title>
+  <desc id="desc">Local verification on 6 September 2026: 105 unit tests, 14 integration tests, 57 browser tests and 4 Python tests passed. Five browser tests were expected skips. Bars show absolute counts, not coverage, with a shared maximum of 105 tests.</desc>
+  <rect width="1200" height="536" rx="32" fill="#e2dffe"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#3c315b">
+    <text x="64" y="79" font-size="46" font-weight="750" letter-spacing="-1">Checked, from core to browser.</text>
+    <text x="64" y="119" font-size="22" fill="#65548e">LOCAL VERIFICATION / 06 SEP 2026 / TEST COUNTS</text>
+    <g id="passed-tests">
+      <text x="64" y="208" font-size="28" font-weight="600">Unit</text>
+      <text x="64" y="280" font-size="28" font-weight="600">Integration</text>
+      <text x="64" y="352" font-size="28" font-weight="600">Browser</text>
+      <text x="64" y="424" font-size="28" font-weight="600">Python</text>
+      <path d="M 276 163 V 443" stroke="#b5a9c9" stroke-width="2"/>
+      <rect x="276" y="173" width="728" height="47" rx="8" fill="#3c315b"/>
+      <rect x="276" y="245" width="97.07" height="47" rx="8" fill="#65548e"/>
+      <rect x="276" y="317" width="395.2" height="47" rx="8" fill="#65548e"/>
+      <rect x="276" y="389" width="27.73" height="47" rx="8" fill="#65548e"/>
+      <text x="1028" y="208" font-size="32" font-weight="700">105</text>
+      <text x="397" y="280" font-size="32" font-weight="700">14</text>
+      <text x="695" y="352" font-size="32" font-weight="700">57</text>
+      <text x="328" y="424" font-size="32" font-weight="700">4</text>
+    </g>
+    <text x="64" y="490" font-size="22" fill="#65548e">5 expected browser skips · SQL, production build and Swift compilation also passed</text>
+  </g>
+</svg>

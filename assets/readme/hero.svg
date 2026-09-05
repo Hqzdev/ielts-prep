@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Veylo — IELTS, one day at a time</title>
+  <desc id="desc">Reading, Writing and Speaking in one workspace, with Vey, the project's lavender AI practice partner. The mascot uses the same vector silhouette as the application.</desc>
+  <defs>
+    <radialGradient id="body" cx="32%" cy="27%" r="83%">
+      <stop offset="0" stop-color="#e5d3ff"/>
+      <stop offset=".43" stop-color="#bea4f6"/>
+      <stop offset=".76" stop-color="#a38ade"/>
+      <stop offset="1" stop-color="#7258ac"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8efff" stop-opacity=".8"/>
+      <stop offset=".45" stop-color="#d9c3ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6b4b9a" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#f6e9ff"/>
+      <stop offset=".65" stop-color="#e2ceff"/>
+      <stop offset="1" stop-color="#bca1ec"/>
+    </linearGradient>
+    <radialGradient id="eyes" cx="32%" cy="22%" r="80%">
+      <stop stop-color="#6f539c"/>
+      <stop offset=".35" stop-color="#3c275f"/>
+      <stop offset="1" stop-color="#25163e"/>
+    </radialGradient>
+    <filter id="soft" x="-35%" y="-35%" width="170%" height="170%"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <path id="shape" d="M 115 241 C 75 241 67 217 62 185 C 57 155 31 134 27 108 C 23 86 40 71 56 79 C 76 87 81 121 101 146 C 107 155 112 155 118 138 C 133 97 137 49 165 29 C 194 7 219 28 215 58 C 211 91 184 104 174 135 C 162 169 174 212 144 234 C 137 239 126 242 115 241 Z"/>
+    <clipPath id="body-clip"><use href="#shape"/></clipPath>
+  </defs>
+  <rect width="1200" height="420" rx="32" fill="#e2dffe"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#3c315b">
+    <g id="title-block">
+      <text x="64" y="72" font-size="21" font-weight="600" letter-spacing="2">IELTS ACADEMIC / YOUR DAILY PRACTICE</text>
+      <text x="57" y="207" font-size="124" font-weight="800" letter-spacing="-7">Veylo</text>
+      <text x="64" y="269" font-size="36" font-weight="500">IELTS, one day at a time.</text>
+      <g id="practice-skills" font-size="22" font-weight="600">
+        <rect x="64" y="316" width="151" height="48" rx="24" fill="#fdfcfe"/>
+        <text x="139.5" y="347" text-anchor="middle">Reading</text>
+        <rect x="227" y="316" width="145" height="48" rx="24" fill="#fdfcfe"/>
+        <text x="299.5" y="347" text-anchor="middle">Writing</text>
+        <rect x="384" y="316" width="166" height="48" rx="24" fill="#fdfcfe"/>
+        <text x="467" y="347" text-anchor="middle">Speaking</text>
+      </g>
+    </g>
+    <g id="vey-specimen">
+      <ellipse cx="963" cy="209" rx="165" ry="158" fill="#ab9ff2" opacity=".32"/>
+      <g transform="translate(819 44) scale(1.17)">
+        <use href="#shape" fill="url(#body)" stroke="url(#rim)" stroke-width="1.5"/>
+        <g clip-path="url(#body-clip)">
+          <path d="M 43 86 Q 60 77 72 100 M 149 57 Q 176 14 200 34" fill="none" stroke="#fff6ff" stroke-width="9" stroke-linecap="round" opacity=".68" filter="url(#soft)"/>
+          <path d="M 47 94 C 62 87 70 113 80 135 C 84 144 77 141 71 136 C 57 126 39 108 47 94 Z" fill="url(#inner)" stroke="#b89ae8" stroke-width=".7"/>
+          <path d="M 177 48 C 198 40 198 62 187 80 C 175 98 158 115 152 118 C 146 122 153 104 158 89 C 163 73 165 55 177 48 Z" fill="url(#inner)" stroke="#b89ae8" stroke-width=".7"/>
+          <ellipse cx="93" cy="178" rx="7.2" ry="12" fill="url(#eyes)"/>
+          <ellipse cx="95" cy="173" rx="2.5" ry="3.6" fill="#fffaff"/>
+          <ellipse cx="137" cy="177" rx="7.2" ry="12" fill="url(#eyes)"/>
+          <ellipse cx="139" cy="172" rx="2.5" ry="3.6" fill="#fffaff"/>
+          <path d="M 99 202 Q 115 218 132 201" fill="none" stroke="url(#eyes)" stroke-width="4.5" stroke-linecap="round"/>
+        </g>
+      </g>
+      <text x="963" y="375" font-size="22" font-weight="600" text-anchor="middle">Meet Vey. Find your rhythm.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">146 ways to start practising</title>
+  <desc id="desc">Task counts in the local bank: Reading 46, Writing 40, Speaking 60. Horizontal bars use a common zero baseline and 60-task maximum. The vocabulary bank contains 300 words in 15 topics.</desc>
+  <rect width="1200" height="500" rx="32" fill="#fdfcfe"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#3c315b">
+    <text x="64" y="78" font-size="46" font-weight="750" letter-spacing="-1">146 ways to start practising.</text>
+    <text x="64" y="119" font-size="23" fill="#6e667d">The actual content bank, ready for local setup.</text>
+    <g id="task-counts">
+      <text x="64" y="211" font-size="27" font-weight="600">Reading</text>
+      <text x="64" y="299" font-size="27" font-weight="600">Writing</text>
+      <text x="64" y="387" font-size="27" font-weight="600">Speaking</text>
+      <path d="M 234 169 V 408" fill="none" stroke="#b5a9c9" stroke-width="2"/>
+      <rect x="234" y="177" width="353" height="46" rx="8" fill="#4a87f2"/>
+      <rect x="234" y="265" width="307" height="46" rx="8" fill="#ffdadc"/>
+      <rect x="234" y="353" width="460" height="46" rx="8" fill="#ffffc4" stroke="#d9d79c"/>
+      <text x="605" y="211" font-size="30" font-weight="700">46</text>
+      <text x="559" y="299" font-size="30" font-weight="700">40</text>
+      <text x="712" y="387" font-size="30" font-weight="700">60</text>
+      <text x="234" y="447" font-size="20" fill="#6e667d">0</text>
+      <text x="694" y="447" font-size="20" fill="#6e667d" text-anchor="end">60 tasks</text>
+    </g>
+    <g id="vocabulary">
+      <rect x="800" y="164" width="336" height="288" rx="24" fill="#3c315b"/>
+      <text x="840" y="214" font-size="21" font-weight="600" fill="#e2dffe" letter-spacing="1">VOCABULARY</text>
+      <text x="835" y="312" font-size="94" font-weight="750" fill="#fdfcfe">300</text>
+      <text x="840" y="352" font-size="27" fill="#fdfcfe">words to explore</text>
+      <path d="M 840 379 H 1096" stroke="#ab9ff2" stroke-opacity=".5"/>
+      <text x="840" y="416" font-size="26" font-weight="600" fill="#e2dffe">15 everyday topics</text>
+    </g>
+  </g>
+</svg>
