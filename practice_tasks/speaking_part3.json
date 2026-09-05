@@ -1,0 +1,442 @@
+[
+  {
+    "id": "sp3-001",
+    "related_topic": "Learning from other people",
+    "questions": [
+      "Why do some practical skills seem easier to learn from another person than from written instructions?",
+      "What qualities make someone good at teaching a practical skill?",
+      "How has technology changed the way people share practical knowledge?",
+      "Should schools give practical subjects as much attention as academic subjects?",
+      "Which skills do you think people will still need to learn in person in the future?"
+    ],
+    "part2_id": "sp2-001",
+    "part2_anchor": "Describe someone who taught you a useful practical skill.\n\nYou should say:\n- who this person is\n- what skill they taught you\n- how they helped you learn it\nand explain why this skill has been useful to you.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-002",
+    "related_topic": "Quiet spaces",
+    "questions": [
+      "Why do some people find it difficult to get time alone?",
+      "Do you think quiet public places are more important in cities than in small towns?",
+      "What can make a library or park feel peaceful even when other people are there?",
+      "How should shared buildings meet the needs of people who want different levels of noise?",
+      "Do you think demand for quiet spaces will change in the future?"
+    ],
+    "part2_id": "sp2-002",
+    "part2_anchor": "Describe a quiet place where you like to spend time.\n\nYou should say:\n- where this place is\n- when you usually go there\n- what you do there\nand explain what makes this a good place for you to be.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-003",
+    "related_topic": "Possessions and value",
+    "questions": [
+      "Why do ordinary objects sometimes become important to people?",
+      "Do younger and older people tend to value the same kinds of possessions?",
+      "How can moving home affect what people choose to keep?",
+      "What difficulties arise when museums decide which everyday objects to collect?",
+      "Do you think digital records can replace physical objects as reminders of the past?"
+    ],
+    "part2_id": "sp2-003",
+    "part2_anchor": "Describe something you have kept for a long time.\n\nYou should say:\n- what the item is\n- how you first got it\n- where you keep it\nand explain why you have decided to keep it.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-004",
+    "related_topic": "Community events",
+    "questions": [
+      "What makes a local event attractive to people of different ages?",
+      "Why do some residents rarely take part in events in their neighbourhood?",
+      "How important are volunteers to the success of community events?",
+      "Should local events mainly serve residents or also try to attract visitors?",
+      "How might the way communities organise events change in the future?"
+    ],
+    "part2_id": "sp2-004",
+    "part2_anchor": "Describe an event in your local area that you enjoyed attending.\n\nYou should say:\n- what the event was\n- who you went with\n- what happened at the event\nand explain why you enjoyed it.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-005",
+    "related_topic": "Problem-solving",
+    "questions": [
+      "Why do some people enjoy solving practical problems?",
+      "When is it better to ask for help than to solve a problem alone?",
+      "How can schools encourage children to try different solutions?",
+      "Does easy access to online advice make people more independent?",
+      "How should workplaces treat mistakes made while someone is trying a new solution?"
+    ],
+    "part2_id": "sp2-005",
+    "part2_anchor": "Describe a time when you solved a practical problem.\n\nYou should say:\n- what the problem was\n- what you did to solve it\n- whether anyone helped you\nand explain how you felt after dealing with the problem.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-006",
+    "related_topic": "Learning in adulthood",
+    "questions": [
+      "What motivates adults to begin learning something unfamiliar?",
+      "What can prevent people from taking up a new activity?",
+      "How is learning for enjoyment different from learning for work?",
+      "Should employers support employees who study subjects unrelated to their jobs?",
+      "Do you think people will spend more of their lives learning in the future?"
+    ],
+    "part2_id": "sp2-006",
+    "part2_anchor": "Describe an activity you would like to learn to do.\n\nYou should say:\n- what the activity is\n- how you became interested in it\n- how you would begin learning it\nand explain why you would like to learn this activity.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-007",
+    "related_topic": "Photographs and memory",
+    "questions": [
+      "Why do people take photographs of ordinary daily activities?",
+      "How has the ease of taking photographs changed which moments people record?",
+      "What can a photograph tell us about the past that written records cannot?",
+      "What problems can arise when people share photographs of others online?",
+      "Do you think printed photographs will remain popular?"
+    ],
+    "part2_id": "sp2-007",
+    "part2_anchor": "Describe a photograph that is important to you.\n\nYou should say:\n- what the photograph shows\n- when it was taken\n- how you keep or display it\nand explain why it is important to you.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-008",
+    "related_topic": "Conversation",
+    "questions": [
+      "What makes a conversation enjoyable for the people taking part?",
+      "Why might people find it easier to talk to strangers in some situations than in others?",
+      "How do conversations between different generations benefit people?",
+      "Has messaging changed the way people handle disagreements?",
+      "Should good listening be taught explicitly at school?"
+    ],
+    "part2_id": "sp2-008",
+    "part2_anchor": "Describe a person you enjoy having conversations with.\n\nYou should say:\n- who this person is\n- how you know them\n- what you usually talk about\nand explain why you enjoy talking to this person.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-009",
+    "related_topic": "Public buildings",
+    "questions": [
+      "What should be the main priorities when designing a public building?",
+      "Why do some public buildings become important symbols of a place?",
+      "How can older buildings be made easier for everyone to use?",
+      "When is it better to replace a public building than to renovate it?",
+      "Should local people have a say in how public buildings are designed?"
+    ],
+    "part2_id": "sp2-009",
+    "part2_anchor": "Describe a public building you have visited.\n\nYou should say:\n- what the building is used for\n- when you went there\n- what you noticed about it\nand explain what you liked or disliked about this building.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-010",
+    "related_topic": "Giving and receiving",
+    "questions": [
+      "Why is choosing a gift easy for some people and difficult for others?",
+      "How important is the amount of money spent on a gift?",
+      "Have expectations about gift-giving changed between generations?",
+      "What are the advantages of giving experiences rather than objects?",
+      "Should people tell others exactly what they would like to receive?"
+    ],
+    "part2_id": "sp2-010",
+    "part2_anchor": "Describe a gift you received that you found useful.\n\nYou should say:\n- what the gift was\n- who gave it to you\n- how you used it\nand explain why this gift was useful to you.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-011",
+    "related_topic": "Cooperation",
+    "questions": [
+      "What kinds of tasks are usually done better by a group than by one person?",
+      "Why can it be difficult to divide work fairly within a group?",
+      "What should a group leader do when members disagree?",
+      "Has working online made cooperation easier or more difficult?",
+      "How can schools assess individual effort in group projects?"
+    ],
+    "part2_id": "sp2-011",
+    "part2_anchor": "Describe an occasion when you worked with other people to achieve something.\n\nYou should say:\n- what you were trying to achieve\n- who you worked with\n- what your own contribution was\nand explain what you learned from working with these people.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-012",
+    "related_topic": "Advice and decisions",
+    "questions": [
+      "Why do people sometimes ask for advice but then ignore it?",
+      "What makes a person seem trustworthy as a source of advice?",
+      "When is professional advice more useful than advice from friends or family?",
+      "How can people judge the quality of advice they find online?",
+      "Should parents let children make decisions that they believe are unwise?"
+    ],
+    "part2_id": "sp2-012",
+    "part2_anchor": "Describe a time when someone gave you helpful advice.\n\nYou should say:\n- what you needed advice about\n- who gave you the advice\n- what you did after hearing it\nand explain why the advice was helpful.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-013",
+    "related_topic": "Outdoor recreation",
+    "questions": [
+      "What encourages people to spend more time outdoors?",
+      "Do children today have the same opportunities for outdoor play as children in the past?",
+      "How should parks accommodate people who want to do different activities?",
+      "What problems can arise when a natural area becomes a popular place for recreation?",
+      "Who should pay for maintaining public outdoor facilities?"
+    ],
+    "part2_id": "sp2-013",
+    "part2_anchor": "Describe an outdoor activity you enjoy doing.\n\nYou should say:\n- what the activity is\n- where you usually do it\n- who you usually do it with\nand explain why you enjoy this activity.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-014",
+    "related_topic": "Learning through media",
+    "questions": [
+      "What makes an educational programme engaging?",
+      "How can viewers tell whether a programme presents reliable information?",
+      "Is there a risk that entertainment can distract from the educational purpose of a programme?",
+      "How has the availability of short videos changed the way people learn?",
+      "Should public broadcasters give more time to educational programmes?"
+    ],
+    "part2_id": "sp2-014",
+    "part2_anchor": "Describe a programme or video that taught you something interesting.\n\nYou should say:\n- what it was about\n- when you watched it\n- what you learned from it\nand explain why you found it interesting.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-015",
+    "related_topic": "Helping others",
+    "questions": [
+      "What motivates people to help someone they do not know?",
+      "Why do some kinds of voluntary work receive more attention than others?",
+      "How can organisations make it easier for people to volunteer?",
+      "Should volunteering be a required part of school education?",
+      "What support do regular volunteers need so they can continue their work?"
+    ],
+    "part2_id": "sp2-015",
+    "part2_anchor": "Describe a person you know who often helps other people.\n\nYou should say:\n- who this person is\n- what kind of help they provide\n- how you became aware of what they do\nand explain what you admire about this person.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-016",
+    "related_topic": "Visitors and local places",
+    "questions": [
+      "How do visitors decide which places are worth seeing?",
+      "Why do residents and tourists sometimes have different opinions about the same place?",
+      "What effects can online recommendations have on a small local business?",
+      "How can an area welcome visitors without making everyday life difficult for residents?",
+      "Is it better for a place to attract many short visits or fewer longer stays?"
+    ],
+    "part2_id": "sp2-016",
+    "part2_anchor": "Describe a place in your area that you would recommend to a visitor.\n\nYou should say:\n- where the place is\n- what a visitor can do there\n- when it is best to visit\nand explain why you would recommend this place.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-017",
+    "related_topic": "Design and convenience",
+    "questions": [
+      "What makes a household object easy to use?",
+      "Why do people sometimes buy products with features they rarely need?",
+      "How important is it for everyday products to be easy to repair?",
+      "Should manufacturers provide the same design for everyone or different designs for different users?",
+      "Do you think people are becoming too dependent on convenient devices?"
+    ],
+    "part2_id": "sp2-017",
+    "part2_anchor": "Describe an object that makes your daily life easier.\n\nYou should say:\n- what the object is\n- how you obtained it\n- how you use it\nand explain how it makes your daily life easier.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-018",
+    "related_topic": "Celebrations and traditions",
+    "questions": [
+      "Why do people mark important events with celebrations?",
+      "How have family celebrations changed in recent years?",
+      "What can make a celebration enjoyable without spending much money?",
+      "Should communities preserve traditions that few young people take part in?",
+      "How might living far from family affect the way people celebrate?"
+    ],
+    "part2_id": "sp2-018",
+    "part2_anchor": "Describe a celebration you enjoyed.\n\nYou should say:\n- what was being celebrated\n- where the celebration took place\n- what you did during the celebration\nand explain what made it enjoyable for you.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-019",
+    "related_topic": "Education beyond school",
+    "questions": [
+      "What do people learn in everyday life that is difficult to teach in a classroom?",
+      "How can employers recognise skills gained through informal experience?",
+      "Why might someone prefer learning independently to attending a course?",
+      "What role can libraries and community centres play in adult education?",
+      "Will formal qualifications become more or less important in the future?"
+    ],
+    "part2_id": "sp2-019",
+    "part2_anchor": "Describe something useful you learned outside school or college.\n\nYou should say:\n- what you learned\n- where you learned it\n- how you learned it\nand explain how it has helped you.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp3-020",
+    "related_topic": "Stories and society",
+    "questions": [
+      "Why do people enjoy listening to stories?",
+      "What can fictional stories help people understand about real life?",
+      "How does hearing a story differ from reading it?",
+      "Why do some stories remain popular for many generations?",
+      "Should historical stories be changed to appeal to modern audiences?"
+    ],
+    "part2_id": "sp2-020",
+    "part2_anchor": "Describe a story that you found interesting.\n\nYou should say:\n- what the story was about\n- where you read or heard it\n- what you remember most clearly\nand explain why it interested you.",
+    "time_minutes": {
+      "minimum": 4,
+      "maximum": 5
+    },
+    "used": false,
+    "_task_type": "speaking_part3",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  }
+]

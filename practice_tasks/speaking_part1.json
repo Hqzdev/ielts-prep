@@ -1,0 +1,322 @@
+[
+  {
+    "id": "sp1-001",
+    "topic": "Your home",
+    "questions": [
+      "What is your favourite part of the place where you live?",
+      "Is there anything you would like to change about your home?",
+      "How much time do you usually spend at home during the day?",
+      "Would you prefer to live in a different kind of home in the future?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-002",
+    "topic": "Your hometown",
+    "questions": [
+      "How would you describe the place where you grew up?",
+      "What did you enjoy doing there when you were a child?",
+      "Has that place changed much since then?",
+      "What would you show someone visiting it for the first time?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-003",
+    "topic": "Daily routines",
+    "questions": [
+      "What do you usually do first in the morning?",
+      "Which part of your day is normally the busiest?",
+      "Do you prefer to plan your day or decide things as you go?",
+      "Is your routine at weekends different from your routine during the week?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-004",
+    "topic": "Cooking",
+    "questions": [
+      "How often do you prepare food for yourself?",
+      "Is there a dish you would like to learn to cook?",
+      "Did you ever help with cooking when you were a child?",
+      "Do you prefer eating at home or eating out?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-005",
+    "topic": "Walking",
+    "questions": [
+      "Do you walk much in your everyday life?",
+      "Is there a place near your home where you enjoy walking?",
+      "Do you prefer to walk alone or with someone else?",
+      "Did you walk more often when you were younger?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-006",
+    "topic": "Public transport",
+    "questions": [
+      "What kinds of public transport are available where you live?",
+      "When did you last use public transport?",
+      "What do you usually do during a bus or train journey?",
+      "Is there anything you would like to improve about transport in your area?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-007",
+    "topic": "Reading",
+    "questions": [
+      "What kinds of things do you read most often?",
+      "Do you prefer reading on a screen or on paper?",
+      "Was there anything you particularly enjoyed reading as a child?",
+      "When do you find it easiest to make time for reading?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-008",
+    "topic": "Music",
+    "questions": [
+      "When do you usually listen to music?",
+      "Have your musical tastes changed since you were younger?",
+      "Do you prefer listening through headphones or through speakers?",
+      "Is there an instrument you would like to learn to play?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-009",
+    "topic": "Weather",
+    "questions": [
+      "What kind of weather do you enjoy most?",
+      "How often do you check the weather forecast?",
+      "Does the weather affect how you spend your free time?",
+      "Is there a season you look forward to every year?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-010",
+    "topic": "Weekends",
+    "questions": [
+      "How do you usually spend the first part of your weekend?",
+      "Do you prefer a busy weekend or a quiet one?",
+      "Is there something you often leave until the weekend?",
+      "What would you like to do next weekend if you have time?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-011",
+    "topic": "Photographs",
+    "questions": [
+      "What do you usually take photographs of?",
+      "Do you prefer taking photos or being in them?",
+      "How do you keep the photographs that matter to you?",
+      "Do you ever look at photographs from your childhood?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-012",
+    "topic": "Making plans",
+    "questions": [
+      "Do you normally make plans far in advance?",
+      "How do you remember things you need to do?",
+      "How do you feel when your plans change unexpectedly?",
+      "Is there something you are looking forward to planning?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-013",
+    "topic": "Parks",
+    "questions": [
+      "Are there any parks near where you live?",
+      "What do you like to do when you visit a park?",
+      "Did you spend much time in parks as a child?",
+      "Would you like to visit parks more often than you do now?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-014",
+    "topic": "Clothes",
+    "questions": [
+      "How do you decide what to wear each day?",
+      "Do you enjoy shopping for clothes?",
+      "Are there any clothes you keep even though you rarely wear them?",
+      "Have the kinds of clothes you like changed over time?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-015",
+    "topic": "Messages",
+    "questions": [
+      "Do you usually send messages or make calls?",
+      "How quickly do you normally reply to a message?",
+      "Do you prefer short messages or longer ones?",
+      "Has the way you keep in touch with friends changed in recent years?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-016",
+    "topic": "Shopping",
+    "questions": [
+      "What do you buy most often?",
+      "Do you usually make a list before you go shopping?",
+      "Do you prefer shopping alone or with someone else?",
+      "Is there anything you prefer to buy in a shop rather than online?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-017",
+    "topic": "Learning new things",
+    "questions": [
+      "Is there something new you are learning at the moment?",
+      "Do you prefer learning by watching someone or by trying things yourself?",
+      "What did you enjoy learning when you were a child?",
+      "Is there a skill you would like to learn in the future?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-018",
+    "topic": "Friends",
+    "questions": [
+      "How do you usually spend time with your friends?",
+      "Do you prefer meeting one friend or a larger group?",
+      "Is it easy to find time to see your friends?",
+      "Do you still keep in touch with anyone you knew at school?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-019",
+    "topic": "Places to relax",
+    "questions": [
+      "Where do you usually go when you want to relax?",
+      "Do you prefer relaxing somewhere quiet or somewhere lively?",
+      "What do you like to have with you when you take a break?",
+      "Has your favourite way of relaxing changed since you were younger?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp1-020",
+    "topic": "Giving gifts",
+    "questions": [
+      "Do you enjoy choosing gifts for other people?",
+      "What helps you decide what gift to buy or make?",
+      "Do you usually give gifts on special occasions only?",
+      "Is there a gift you remember receiving as a child?"
+    ],
+    "scope": "single_topic_set",
+    "used": false,
+    "_task_type": "speaking_part1",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "sp2-001",
+    "topic_category": "person",
+    "topic": "Learning a practical skill",
+    "opening": "Describe someone who taught you a useful practical skill.",
+    "bullet_points": [
+      "who this person is",
+      "what skill they taught you",
+      "how they helped you learn it"
+    ],
+    "explanation": "and explain why this skill has been useful to you.",
+    "rounding_off_questions": [
+      "Do you still use this skill regularly?",
+      "Would you like to teach it to someone else?"
+    ],
+    "cue_card": "Describe someone who taught you a useful practical skill.\n\nYou should say:\n- who this person is\n- what skill they taught you\n- how they helped you learn it\nand explain why this skill has been useful to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-002",
+    "topic_category": "place",
+    "topic": "A quiet place",
+    "opening": "Describe a quiet place where you like to spend time.",
+    "bullet_points": [
+      "where this place is",
+      "when you usually go there",
+      "what you do there"
+    ],
+    "explanation": "and explain what makes this a good place for you to be.",
+    "rounding_off_questions": [
+      "Is it easy for you to get to this place?",
+      "Would you recommend it to someone else?"
+    ],
+    "cue_card": "Describe a quiet place where you like to spend time.\n\nYou should say:\n- where this place is\n- when you usually go there\n- what you do there\nand explain what makes this a good place for you to be.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-003",
+    "topic_category": "object",
+    "topic": "An item worth keeping",
+    "opening": "Describe something you have kept for a long time.",
+    "bullet_points": [
+      "what the item is",
+      "how you first got it",
+      "where you keep it"
+    ],
+    "explanation": "and explain why you have decided to keep it.",
+    "rounding_off_questions": [
+      "Do you use this item very often?",
+      "Would it be easy to replace?"
+    ],
+    "cue_card": "Describe something you have kept for a long time.\n\nYou should say:\n- what the item is\n- how you first got it\n- where you keep it\nand explain why you have decided to keep it.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-004",
+    "topic_category": "event",
+    "topic": "A local event",
+    "opening": "Describe an event in your local area that you enjoyed attending.",
+    "bullet_points": [
+      "what the event was",
+      "who you went with",
+      "what happened at the event"
+    ],
+    "explanation": "and explain why you enjoyed it.",
+    "rounding_off_questions": [
+      "Would you attend a similar event again?",
+      "Was it easy to find out about this event?"
+    ],
+    "cue_card": "Describe an event in your local area that you enjoyed attending.\n\nYou should say:\n- what the event was\n- who you went with\n- what happened at the event\nand explain why you enjoyed it.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-005",
+    "topic_category": "experience",
+    "topic": "Solving an everyday problem",
+    "opening": "Describe a time when you solved a practical problem.",
+    "bullet_points": [
+      "what the problem was",
+      "what you did to solve it",
+      "whether anyone helped you"
+    ],
+    "explanation": "and explain how you felt after dealing with the problem.",
+    "rounding_off_questions": [
+      "Have you faced the same problem since then?",
+      "Would you approach it differently next time?"
+    ],
+    "cue_card": "Describe a time when you solved a practical problem.\n\nYou should say:\n- what the problem was\n- what you did to solve it\n- whether anyone helped you\nand explain how you felt after dealing with the problem.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-006",
+    "topic_category": "activity",
+    "topic": "An activity to learn",
+    "opening": "Describe an activity you would like to learn to do.",
+    "bullet_points": [
+      "what the activity is",
+      "how you became interested in it",
+      "how you would begin learning it"
+    ],
+    "explanation": "and explain why you would like to learn this activity.",
+    "rounding_off_questions": [
+      "Is there somewhere near you where you could learn it?",
+      "Would you prefer to learn it alone or with others?"
+    ],
+    "cue_card": "Describe an activity you would like to learn to do.\n\nYou should say:\n- what the activity is\n- how you became interested in it\n- how you would begin learning it\nand explain why you would like to learn this activity.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-007",
+    "topic_category": "media",
+    "topic": "A memorable photograph",
+    "opening": "Describe a photograph that is important to you.",
+    "bullet_points": [
+      "what the photograph shows",
+      "when it was taken",
+      "how you keep or display it"
+    ],
+    "explanation": "and explain why it is important to you.",
+    "rounding_off_questions": [
+      "Do you look at it often?",
+      "Have you shown it to other people?"
+    ],
+    "cue_card": "Describe a photograph that is important to you.\n\nYou should say:\n- what the photograph shows\n- when it was taken\n- how you keep or display it\nand explain why it is important to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-008",
+    "topic_category": "person",
+    "topic": "An interesting conversation partner",
+    "opening": "Describe a person you enjoy having conversations with.",
+    "bullet_points": [
+      "who this person is",
+      "how you know them",
+      "what you usually talk about"
+    ],
+    "explanation": "and explain why you enjoy talking to this person.",
+    "rounding_off_questions": [
+      "Do you see this person very often?",
+      "Do you usually talk in person or by phone?"
+    ],
+    "cue_card": "Describe a person you enjoy having conversations with.\n\nYou should say:\n- who this person is\n- how you know them\n- what you usually talk about\nand explain why you enjoy talking to this person.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-009",
+    "topic_category": "place",
+    "topic": "A public building",
+    "opening": "Describe a public building you have visited.",
+    "bullet_points": [
+      "what the building is used for",
+      "when you went there",
+      "what you noticed about it"
+    ],
+    "explanation": "and explain what you liked or disliked about this building.",
+    "rounding_off_questions": [
+      "Would you like to visit it again?",
+      "Is it a popular building in your area?"
+    ],
+    "cue_card": "Describe a public building you have visited.\n\nYou should say:\n- what the building is used for\n- when you went there\n- what you noticed about it\nand explain what you liked or disliked about this building.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-010",
+    "topic_category": "object",
+    "topic": "A useful gift",
+    "opening": "Describe a gift you received that you found useful.",
+    "bullet_points": [
+      "what the gift was",
+      "who gave it to you",
+      "how you used it"
+    ],
+    "explanation": "and explain why this gift was useful to you.",
+    "rounding_off_questions": [
+      "Do you still have this gift?",
+      "Would you give a similar gift to someone else?"
+    ],
+    "cue_card": "Describe a gift you received that you found useful.\n\nYou should say:\n- what the gift was\n- who gave it to you\n- how you used it\nand explain why this gift was useful to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-011",
+    "topic_category": "event",
+    "topic": "Working together",
+    "opening": "Describe an occasion when you worked with other people to achieve something.",
+    "bullet_points": [
+      "what you were trying to achieve",
+      "who you worked with",
+      "what your own contribution was"
+    ],
+    "explanation": "and explain what you learned from working with these people.",
+    "rounding_off_questions": [
+      "Did you know the other people well beforehand?",
+      "Would you like to work with them again?"
+    ],
+    "cue_card": "Describe an occasion when you worked with other people to achieve something.\n\nYou should say:\n- what you were trying to achieve\n- who you worked with\n- what your own contribution was\nand explain what you learned from working with these people.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-012",
+    "topic_category": "experience",
+    "topic": "Receiving advice",
+    "opening": "Describe a time when someone gave you helpful advice.",
+    "bullet_points": [
+      "what you needed advice about",
+      "who gave you the advice",
+      "what you did after hearing it"
+    ],
+    "explanation": "and explain why the advice was helpful.",
+    "rounding_off_questions": [
+      "Do you often ask this person for advice?",
+      "Have you passed this advice on to anyone else?"
+    ],
+    "cue_card": "Describe a time when someone gave you helpful advice.\n\nYou should say:\n- what you needed advice about\n- who gave you the advice\n- what you did after hearing it\nand explain why the advice was helpful.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-013",
+    "topic_category": "activity",
+    "topic": "An outdoor activity",
+    "opening": "Describe an outdoor activity you enjoy doing.",
+    "bullet_points": [
+      "what the activity is",
+      "where you usually do it",
+      "who you usually do it with"
+    ],
+    "explanation": "and explain why you enjoy this activity.",
+    "rounding_off_questions": [
+      "Do you do it throughout the year?",
+      "Would you like to spend more time on it?"
+    ],
+    "cue_card": "Describe an outdoor activity you enjoy doing.\n\nYou should say:\n- what the activity is\n- where you usually do it\n- who you usually do it with\nand explain why you enjoy this activity.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-014",
+    "topic_category": "media",
+    "topic": "Something informative",
+    "opening": "Describe a programme or video that taught you something interesting.",
+    "bullet_points": [
+      "what it was about",
+      "when you watched it",
+      "what you learned from it"
+    ],
+    "explanation": "and explain why you found it interesting.",
+    "rounding_off_questions": [
+      "Would you watch something else on the same subject?",
+      "Did you discuss it with anyone afterwards?"
+    ],
+    "cue_card": "Describe a programme or video that taught you something interesting.\n\nYou should say:\n- what it was about\n- when you watched it\n- what you learned from it\nand explain why you found it interesting.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-015",
+    "topic_category": "person",
+    "topic": "Someone who helps others",
+    "opening": "Describe a person you know who often helps other people.",
+    "bullet_points": [
+      "who this person is",
+      "what kind of help they provide",
+      "how you became aware of what they do"
+    ],
+    "explanation": "and explain what you admire about this person.",
+    "rounding_off_questions": [
+      "Have they ever helped you personally?",
+      "Would you like to help others in a similar way?"
+    ],
+    "cue_card": "Describe a person you know who often helps other people.\n\nYou should say:\n- who this person is\n- what kind of help they provide\n- how you became aware of what they do\nand explain what you admire about this person.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-016",
+    "topic_category": "place",
+    "topic": "A place to recommend",
+    "opening": "Describe a place in your area that you would recommend to a visitor.",
+    "bullet_points": [
+      "where the place is",
+      "what a visitor can do there",
+      "when it is best to visit"
+    ],
+    "explanation": "and explain why you would recommend this place.",
+    "rounding_off_questions": [
+      "Do you go there often yourself?",
+      "Would it suit visitors of different ages?"
+    ],
+    "cue_card": "Describe a place in your area that you would recommend to a visitor.\n\nYou should say:\n- where the place is\n- what a visitor can do there\n- when it is best to visit\nand explain why you would recommend this place.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-017",
+    "topic_category": "object",
+    "topic": "A frequently used object",
+    "opening": "Describe an object that makes your daily life easier.",
+    "bullet_points": [
+      "what the object is",
+      "how you obtained it",
+      "how you use it"
+    ],
+    "explanation": "and explain how it makes your daily life easier.",
+    "rounding_off_questions": [
+      "How often do you use it?",
+      "Would you choose the same kind of object again?"
+    ],
+    "cue_card": "Describe an object that makes your daily life easier.\n\nYou should say:\n- what the object is\n- how you obtained it\n- how you use it\nand explain how it makes your daily life easier.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-018",
+    "topic_category": "event",
+    "topic": "A celebration",
+    "opening": "Describe a celebration you enjoyed.",
+    "bullet_points": [
+      "what was being celebrated",
+      "where the celebration took place",
+      "what you did during the celebration"
+    ],
+    "explanation": "and explain what made it enjoyable for you.",
+    "rounding_off_questions": [
+      "Did you help organise it?",
+      "Would you like to celebrate in a similar way again?"
+    ],
+    "cue_card": "Describe a celebration you enjoyed.\n\nYou should say:\n- what was being celebrated\n- where the celebration took place\n- what you did during the celebration\nand explain what made it enjoyable for you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-019",
+    "topic_category": "experience",
+    "topic": "Learning outside the classroom",
+    "opening": "Describe something useful you learned outside school or college.",
+    "bullet_points": [
+      "what you learned",
+      "where you learned it",
+      "how you learned it"
+    ],
+    "explanation": "and explain how it has helped you.",
+    "rounding_off_questions": [
+      "Was it difficult to learn?",
+      "Would you like to develop this knowledge further?"
+    ],
+    "cue_card": "Describe something useful you learned outside school or college.\n\nYou should say:\n- what you learned\n- where you learned it\n- how you learned it\nand explain how it has helped you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "sp2-020",
+    "topic_category": "media",
+    "topic": "An interesting story",
+    "opening": "Describe a story that you found interesting.",
+    "bullet_points": [
+      "what the story was about",
+      "where you read or heard it",
+      "what you remember most clearly"
+    ],
+    "explanation": "and explain why it interested you.",
+    "rounding_off_questions": [
+      "Have you told anyone else about this story?",
+      "Would you like to read or hear it again?"
+    ],
+    "cue_card": "Describe a story that you found interesting.\n\nYou should say:\n- what the story was about\n- where you read or heard it\n- what you remember most clearly\nand explain why it interested you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": {
+      "minimum": 60,
+      "maximum": 120
+    },
+    "used": false,
+    "_task_type": "speaking_part2",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  }
+]

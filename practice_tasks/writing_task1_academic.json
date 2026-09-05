@@ -1,0 +1,995 @@
+[
+  {
+    "id": "w1-001",
+    "chart_type": "bar_chart",
+    "title": "Library services used by three age groups",
+    "prompt": "The bar chart shows the percentage of library members in three age groups who used four services at a city library during 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "%",
+    "periods": [
+      "18–34",
+      "35–54",
+      "55 and over"
+    ],
+    "data_series": [
+      {
+        "category": "Borrowing printed books",
+        "values": {
+          "18–34": 58,
+          "35–54": 72,
+          "55 and over": 81
+        }
+      },
+      {
+        "category": "Downloading e-books",
+        "values": {
+          "18–34": 63,
+          "35–54": 47,
+          "55 and over": 24
+        }
+      },
+      {
+        "category": "Using study spaces",
+        "values": {
+          "18–34": 54,
+          "35–54": 29,
+          "55 and over": 16
+        }
+      },
+      {
+        "category": "Attending events",
+        "values": {
+          "18–34": 22,
+          "35–54": 34,
+          "55 and over": 46
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-002",
+    "chart_type": "line_graph",
+    "title": "Journeys on three urban transport routes",
+    "prompt": "The line graph shows the average number of weekday passenger journeys on three public transport routes in a city between 2015 and 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "thousands of passenger journeys per weekday",
+    "periods": [
+      "2015",
+      "2017",
+      "2019",
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "data_series": [
+      {
+        "category": "Bus route A",
+        "values": {
+          "2015": 18,
+          "2017": 20,
+          "2019": 21,
+          "2021": 17,
+          "2023": 19,
+          "2025": 22
+        }
+      },
+      {
+        "category": "Tram route B",
+        "values": {
+          "2015": 12,
+          "2017": 15,
+          "2019": 19,
+          "2021": 18,
+          "2023": 25,
+          "2025": 29
+        }
+      },
+      {
+        "category": "Bus route C",
+        "values": {
+          "2015": 25,
+          "2017": 24,
+          "2019": 22,
+          "2021": 16,
+          "2023": 17,
+          "2025": 18
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-003",
+    "chart_type": "pie_chart",
+    "title": "Household expenditure in a town",
+    "prompt": "The pie charts show how households in a town divided their total expenditure among five categories in 2005 and 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "%",
+    "periods": [
+      "2005",
+      "2025"
+    ],
+    "data_series": [
+      {
+        "category": "Housing",
+        "values": {
+          "2005": 25,
+          "2025": 35
+        }
+      },
+      {
+        "category": "Food",
+        "values": {
+          "2005": 27,
+          "2025": 20
+        }
+      },
+      {
+        "category": "Transport",
+        "values": {
+          "2005": 18,
+          "2025": 16
+        }
+      },
+      {
+        "category": "Leisure",
+        "values": {
+          "2005": 15,
+          "2025": 17
+        }
+      },
+      {
+        "category": "Other",
+        "values": {
+          "2005": 15,
+          "2025": 12
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-004",
+    "chart_type": "table",
+    "title": "Visitors to four museums",
+    "prompt": "The table gives the number of visits to four museums in one region in 2010, 2015 and 2020. Describe the main features of the information and make relevant comparisons.",
+    "unit": "thousands of visits",
+    "periods": [
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "data_series": [
+      {
+        "category": "History museum",
+        "values": {
+          "2010": 180,
+          "2015": 210,
+          "2020": 245
+        }
+      },
+      {
+        "category": "Science museum",
+        "values": {
+          "2010": 240,
+          "2015": 285,
+          "2020": 310
+        }
+      },
+      {
+        "category": "Transport museum",
+        "values": {
+          "2010": 120,
+          "2015": 115,
+          "2020": 95
+        }
+      },
+      {
+        "category": "Art museum",
+        "values": {
+          "2010": 160,
+          "2015": 200,
+          "2020": 275
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-005",
+    "chart_type": "process_diagram",
+    "title": "Production of recycled paper sheets",
+    "prompt": "The diagram shows a process for making new paper sheets from used office paper. Describe the main stages of the process.",
+    "process_kind": "linear",
+    "process_steps": [
+      "Used office paper is collected and delivered to the recycling facility.",
+      "The paper is sorted, and plastic covers and metal fasteners are removed.",
+      "The sorted paper is mixed with water and broken into a wet pulp.",
+      "The pulp passes through screens that remove remaining solid contaminants.",
+      "The cleaned pulp is spread in a thin layer on a moving mesh belt.",
+      "Water drains through the mesh, and rollers press the wet layer into a continuous sheet.",
+      "Heated cylinders dry the sheet, which is then cut into finished paper sheets."
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-006",
+    "chart_type": "bar_chart",
+    "title": "Employee training by department",
+    "prompt": "The bar chart compares the average annual training hours per employee in four departments of a company in 2018 and 2024. Describe the main features of the information and make relevant comparisons.",
+    "unit": "hours per employee",
+    "periods": [
+      "2018",
+      "2024"
+    ],
+    "data_series": [
+      {
+        "category": "Sales",
+        "values": {
+          "2018": 24,
+          "2024": 36
+        }
+      },
+      {
+        "category": "Administration",
+        "values": {
+          "2018": 18,
+          "2024": 25
+        }
+      },
+      {
+        "category": "Production",
+        "values": {
+          "2018": 32,
+          "2024": 30
+        }
+      },
+      {
+        "category": "Technical support",
+        "values": {
+          "2018": 40,
+          "2024": 56
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-007",
+    "chart_type": "line_graph",
+    "title": "Participation in three evening courses",
+    "prompt": "The line graph shows the number of learners enrolled in three evening courses at an adult education centre from 2016 to 2024. Describe the main features of the information and make relevant comparisons.",
+    "unit": "learners",
+    "periods": [
+      "2016",
+      "2018",
+      "2020",
+      "2022",
+      "2024"
+    ],
+    "data_series": [
+      {
+        "category": "Languages",
+        "values": {
+          "2016": 180,
+          "2018": 195,
+          "2020": 210,
+          "2022": 190,
+          "2024": 175
+        }
+      },
+      {
+        "category": "Computer skills",
+        "values": {
+          "2016": 90,
+          "2018": 125,
+          "2020": 175,
+          "2022": 225,
+          "2024": 260
+        }
+      },
+      {
+        "category": "Practical crafts",
+        "values": {
+          "2016": 140,
+          "2018": 135,
+          "2020": 150,
+          "2022": 185,
+          "2024": 220
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-008",
+    "chart_type": "pie_chart",
+    "title": "Main reasons for visiting a coastal town",
+    "prompt": "The pie charts compare the main reasons given by visitors for travelling to a coastal town in 2012 and 2024. Describe the main features of the information and make relevant comparisons.",
+    "unit": "%",
+    "periods": [
+      "2012",
+      "2024"
+    ],
+    "data_series": [
+      {
+        "category": "Beach activities",
+        "values": {
+          "2012": 48,
+          "2024": 34
+        }
+      },
+      {
+        "category": "Visiting friends or relatives",
+        "values": {
+          "2012": 22,
+          "2024": 20
+        }
+      },
+      {
+        "category": "Cultural attractions",
+        "values": {
+          "2012": 12,
+          "2024": 25
+        }
+      },
+      {
+        "category": "Business",
+        "values": {
+          "2012": 10,
+          "2024": 13
+        }
+      },
+      {
+        "category": "Other reasons",
+        "values": {
+          "2012": 8,
+          "2024": 8
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-009",
+    "chart_type": "table",
+    "title": "Monthly water consumption in four districts",
+    "prompt": "The table shows average monthly household water consumption in four districts of a city in three different years. Describe the main features of the information and make relevant comparisons.",
+    "unit": "cubic metres per household per month",
+    "periods": [
+      "2014",
+      "2019",
+      "2024"
+    ],
+    "data_series": [
+      {
+        "category": "North",
+        "values": {
+          "2014": 18,
+          "2019": 16,
+          "2024": 14
+        }
+      },
+      {
+        "category": "South",
+        "values": {
+          "2014": 22,
+          "2019": 21,
+          "2024": 19
+        }
+      },
+      {
+        "category": "East",
+        "values": {
+          "2014": 15,
+          "2019": 17,
+          "2024": 18
+        }
+      },
+      {
+        "category": "West",
+        "values": {
+          "2014": 24,
+          "2019": 20,
+          "2024": 16
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-010",
+    "chart_type": "process_diagram",
+    "title": "A reusable food-container service",
+    "prompt": "The diagram illustrates the cycle used by a service that supplies reusable food containers to cafes. Describe the main stages of the process.",
+    "process_kind": "cyclical",
+    "process_steps": [
+      "Clean containers are delivered to participating cafes.",
+      "A cafe places a customer's takeaway meal in a container and records its unique code.",
+      "The customer takes the meal away and uses the container.",
+      "The empty container is returned to any participating collection point.",
+      "Returned containers are collected and transported to the cleaning centre.",
+      "The containers are washed, dried and checked for damage; damaged containers leave the service.",
+      "Containers that pass inspection are packed and returned to the delivery stage for another cycle."
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-011",
+    "chart_type": "bar_chart",
+    "title": "Participation in leisure activities",
+    "prompt": "The bar chart shows the percentage of adults in two towns who took part in four leisure activities at least once a month in 2024. Describe the main features of the information and make relevant comparisons.",
+    "unit": "%",
+    "periods": [
+      "Town A",
+      "Town B"
+    ],
+    "data_series": [
+      {
+        "category": "Swimming",
+        "values": {
+          "Town A": 38,
+          "Town B": 24
+        }
+      },
+      {
+        "category": "Cycling",
+        "values": {
+          "Town A": 42,
+          "Town B": 47
+        }
+      },
+      {
+        "category": "Cinema visits",
+        "values": {
+          "Town A": 56,
+          "Town B": 39
+        }
+      },
+      {
+        "category": "Community classes",
+        "values": {
+          "Town A": 19,
+          "Town B": 33
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-012",
+    "chart_type": "line_graph",
+    "title": "Sales through different retail channels",
+    "prompt": "The line graph shows annual sales through three retail channels for a furniture business between 2014 and 2024. Describe the main features of the information and make relevant comparisons.",
+    "unit": "millions of currency units",
+    "periods": [
+      "2014",
+      "2016",
+      "2018",
+      "2020",
+      "2022",
+      "2024"
+    ],
+    "data_series": [
+      {
+        "category": "City-centre store",
+        "values": {
+          "2014": 8.2,
+          "2016": 8.6,
+          "2018": 8,
+          "2020": 6.9,
+          "2022": 6.4,
+          "2024": 6.1
+        }
+      },
+      {
+        "category": "Out-of-town store",
+        "values": {
+          "2014": 5.1,
+          "2016": 5.8,
+          "2018": 6.5,
+          "2020": 7.2,
+          "2022": 7.4,
+          "2024": 7.1
+        }
+      },
+      {
+        "category": "Online shop",
+        "values": {
+          "2014": 0.8,
+          "2016": 1.6,
+          "2018": 3.1,
+          "2020": 5.8,
+          "2022": 7.6,
+          "2024": 9.3
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-013",
+    "chart_type": "pie_chart",
+    "title": "Land use in a research campus",
+    "prompt": "The pie charts show how the land within a research campus was used in 1995 and 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "%",
+    "periods": [
+      "1995",
+      "2025"
+    ],
+    "data_series": [
+      {
+        "category": "Laboratory buildings",
+        "values": {
+          "1995": 20,
+          "2025": 30
+        }
+      },
+      {
+        "category": "Offices",
+        "values": {
+          "1995": 15,
+          "2025": 18
+        }
+      },
+      {
+        "category": "Parking",
+        "values": {
+          "1995": 25,
+          "2025": 12
+        }
+      },
+      {
+        "category": "Green space",
+        "values": {
+          "1995": 30,
+          "2025": 24
+        }
+      },
+      {
+        "category": "Other uses",
+        "values": {
+          "1995": 10,
+          "2025": 16
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-014",
+    "chart_type": "table",
+    "title": "Travel times to work in three cities",
+    "prompt": "The table shows average one-way journey times to work by three modes of transport in three cities in 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "minutes",
+    "periods": [
+      "City A",
+      "City B",
+      "City C"
+    ],
+    "data_series": [
+      {
+        "category": "Car",
+        "values": {
+          "City A": 32,
+          "City B": 45,
+          "City C": 28
+        }
+      },
+      {
+        "category": "Bus",
+        "values": {
+          "City A": 41,
+          "City B": 38,
+          "City C": 36
+        }
+      },
+      {
+        "category": "Bicycle",
+        "values": {
+          "City A": 26,
+          "City B": 29,
+          "City C": 31
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-015",
+    "chart_type": "process_diagram",
+    "title": "Collecting rainwater for a community garden",
+    "prompt": "The diagram shows how rainwater is collected from a building and supplied to a community garden. Describe the main stages of the process.",
+    "process_kind": "linear",
+    "process_steps": [
+      "Rain falls onto the roof of a building beside the garden.",
+      "Gutters carry the roof water towards a covered downpipe.",
+      "A coarse screen removes leaves and other large pieces of debris.",
+      "The water passes into a covered storage tank, while excess water flows to a drainage channel.",
+      "A pump moves stored water through a second filter into a distribution pipe.",
+      "The distribution pipe carries the water to separate garden beds.",
+      "Small outlets release the water onto the soil around the plants."
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-016",
+    "chart_type": "bar_chart",
+    "title": "Types of accommodation used by students",
+    "prompt": "The bar chart shows the percentage of full-time students using four types of accommodation at a university in 2010 and 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "%",
+    "periods": [
+      "2010",
+      "2025"
+    ],
+    "data_series": [
+      {
+        "category": "University residences",
+        "values": {
+          "2010": 42,
+          "2025": 35
+        }
+      },
+      {
+        "category": "Shared rented housing",
+        "values": {
+          "2010": 28,
+          "2025": 39
+        }
+      },
+      {
+        "category": "Living with family",
+        "values": {
+          "2010": 24,
+          "2025": 20
+        }
+      },
+      {
+        "category": "Other accommodation",
+        "values": {
+          "2010": 6,
+          "2025": 6
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-017",
+    "chart_type": "line_graph",
+    "title": "Energy used in three parts of a factory",
+    "prompt": "The line graph shows annual electricity consumption in three parts of a factory between 2017 and 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "megawatt-hours",
+    "periods": [
+      "2017",
+      "2019",
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "data_series": [
+      {
+        "category": "Production hall",
+        "values": {
+          "2017": 950,
+          "2019": 1030,
+          "2021": 1100,
+          "2023": 940,
+          "2025": 860
+        }
+      },
+      {
+        "category": "Warehouse",
+        "values": {
+          "2017": 320,
+          "2019": 350,
+          "2021": 390,
+          "2023": 410,
+          "2025": 430
+        }
+      },
+      {
+        "category": "Offices",
+        "values": {
+          "2017": 240,
+          "2019": 225,
+          "2021": 190,
+          "2023": 170,
+          "2025": 160
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-018",
+    "chart_type": "pie_chart",
+    "title": "How residents receive local news",
+    "prompt": "The pie charts compare the main sources of local news used by residents of a town in 2010 and 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "%",
+    "periods": [
+      "2010",
+      "2025"
+    ],
+    "data_series": [
+      {
+        "category": "Printed newspaper",
+        "values": {
+          "2010": 40,
+          "2025": 15
+        }
+      },
+      {
+        "category": "Radio",
+        "values": {
+          "2010": 25,
+          "2025": 18
+        }
+      },
+      {
+        "category": "Local news websites",
+        "values": {
+          "2010": 15,
+          "2025": 32
+        }
+      },
+      {
+        "category": "Social media",
+        "values": {
+          "2010": 5,
+          "2025": 25
+        }
+      },
+      {
+        "category": "Other sources",
+        "values": {
+          "2010": 15,
+          "2025": 10
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-019",
+    "chart_type": "table",
+    "title": "Use of public sports facilities",
+    "prompt": "The table gives the average number of daily visits to four public sports facilities in three age groups during 2025. Describe the main features of the information and make relevant comparisons.",
+    "unit": "visits per day",
+    "periods": [
+      "Under 18",
+      "18–59",
+      "60 and over"
+    ],
+    "data_series": [
+      {
+        "category": "Swimming pool",
+        "values": {
+          "Under 18": 180,
+          "18–59": 220,
+          "60 and over": 110
+        }
+      },
+      {
+        "category": "Fitness centre",
+        "values": {
+          "Under 18": 45,
+          "18–59": 310,
+          "60 and over": 95
+        }
+      },
+      {
+        "category": "Outdoor courts",
+        "values": {
+          "Under 18": 120,
+          "18–59": 160,
+          "60 and over": 35
+        }
+      },
+      {
+        "category": "Indoor sports hall",
+        "values": {
+          "Under 18": 150,
+          "18–59": 185,
+          "60 and over": 60
+        }
+      }
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "w1-020",
+    "chart_type": "process_diagram",
+    "title": "Making ceramic mugs",
+    "prompt": "The diagram shows the stages used in a workshop to produce glazed ceramic mugs. Describe the main stages of the process.",
+    "process_kind": "linear",
+    "process_steps": [
+      "Prepared clay is divided into portions of equal weight.",
+      "Each portion is shaped into a mug body, and a clay handle is attached.",
+      "The mugs are left on racks until sufficiently dry for the first firing.",
+      "The dried mugs are fired in a kiln and then allowed to cool.",
+      "A coating of glaze is applied to the outer and inner surfaces of each mug.",
+      "The glazed mugs are fired again in the kiln and cooled.",
+      "Finished mugs are inspected, and those that pass are packed for sale."
+    ],
+    "time_minutes": 20,
+    "minimum_words": 150,
+    "instructions": "Allow about 20 minutes. Write at least 150 words.",
+    "visual_status": "not_rendered",
+    "data_origin": "synthetic",
+    "used": false,
+    "_task_type": "writing_task1_academic",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  }
+]

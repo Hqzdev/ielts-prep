@@ -1,0 +1,2622 @@
+[
+  {
+    "id": "rd-001",
+    "title": "Quiet in a shared library",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The central library in Bellford had acquired a reputation for being noisy, although a visitor arriving early in the morning might have found that description puzzling. Most complaints came from people using the building between three and five in the afternoon, when school pupils, language groups and commuters overlapped. The library manager initially considered extending a silence rule across the entire ground floor. Before changing the rules, however, she asked a small team to observe how the building was actually used. Their brief was to examine where activities conflicted, rather than to decide which visitors deserved priority. The council had already agreed to keep the library open throughout the investigation, so the work had to take place around normal services."
+      },
+      {
+        "label": "B",
+        "text": "For four weeks, observers recorded the location and approximate size of groups at regular intervals. They did not record conversations or identify individual visitors. A simple plan of the room proved more informative than a single noise reading: people sitting beside the entrance were repeatedly disturbed by movement even when nobody nearby was speaking. Meanwhile, some readers tolerated conversation if they could face away from it. The team also counted empty seats, since a quiet area that was always full offered little practical choice. The observations showed that the busiest tables were those closest to electrical sockets. Students were clustering around power supplies, not deliberately choosing the area where they would cause the greatest disturbance."
+      },
+      {
+        "label": "C",
+        "text": "The first rearrangement moved several large tables towards the entrance and placed individual desks along a side wall. Portable screens separated the desks without preventing staff from seeing the whole floor. Extra sockets were installed near both kinds of seating. Signs described the larger tables as suitable for shared work and the desks as intended for quiet study. The wording mattered. Earlier signs had listed prohibited behaviours, but had said nothing about where people could carry out perfectly legitimate activities. Staff still intervened when a group was unusually loud; the new arrangement was not treated as permission for unlimited noise. Nor was it expected to prevent the sound of doors opening or books being returned."
+      },
+      {
+        "label": "D",
+        "text": "During the next month, written complaints fell. This result looked encouraging until the team examined who had submitted them. A few frequent correspondents had stopped writing, while conversations at the help desk revealed continuing dissatisfaction among other users. Complaint totals were therefore retained as one indicator, rather than adopted as the sole measure of success. Staff added short, voluntary exit questions about whether visitors had found a suitable place to work. They also noted whether people abandoned a seat before beginning an activity. Neither method captured everyone who might have stayed away, a limitation that the final report made explicit. The team resisted describing the lower complaint count as proof that every group was satisfied."
+      },
+      {
+        "label": "E",
+        "text": "One unexpected difficulty concerned the quiet desks themselves. Their new location was further from the children's shelves, making them less useful to adults who wanted to read while supervising a child. Rather than move all the desks again, staff created a small intermediate area with low tables and a view of the shelves. Conversation was permitted there at a moderate level. Its purpose was not immediately obvious to some visitors, so librarians explained the arrangement during ordinary interactions. This took staff time, although the report did not assign a monetary value to it. The intermediate area also meant losing two individual study places, a trade-off that was retained in the published plan."
+      },
+      {
+        "label": "F",
+        "text": "After six months, the library kept the revised layout but stopped treating it as a finished design. Furniture positions would be reviewed at the start of each school term, when patterns of use could change. The manager rejected a proposal to reserve the quiet desks permanently for adults, arguing that the type of activity, rather than a visitor's age, should determine where it belonged. What emerged was not a silent building. It was a building with more legible choices and a routine for correcting arrangements that did not work. The report recommended that other branches observe their own users before copying the plan, because identical furniture could produce different results in rooms with different entrances and sight lines."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The council required the library to remain open while the investigation took place."
+      },
+      {
+        "number": 2,
+        "statement": "The observers made audio recordings of visitors' conversations."
+      },
+      {
+        "number": 3,
+        "statement": "The investigation established that students preferred sharing tables with people they already knew."
+      },
+      {
+        "number": 4,
+        "statement": "The new signs explained which activities suited the different seating areas."
+      },
+      {
+        "number": 5,
+        "statement": "A reduction in written complaints was accepted as sufficient proof that all users were satisfied."
+      },
+      {
+        "number": 6,
+        "statement": "Some visitors were paid to answer the exit questions."
+      },
+      {
+        "number": 7,
+        "statement": "The intermediate seating area reduced the number of individual study places."
+      },
+      {
+        "number": 8,
+        "statement": "The manager agreed that only adults should be allowed to use the quiet desks."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "keep the library open throughout the investigation",
+        "explanation": "The council explicitly required continued opening during the work."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "They did not record conversations",
+        "explanation": "The method explicitly excluded recording conversations."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "the busiest tables were those closest to electrical sockets.",
+        "explanation": "The passage explains clustering around sockets but does not establish friendship preferences."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "suitable for shared work",
+        "explanation": "The signs identified shared-work tables and quiet-study desks."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "rather than adopted as the sole measure of success",
+        "explanation": "The team explicitly refused to rely on complaints alone."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "short, voluntary exit questions",
+        "explanation": "Participation was voluntary; payment is not mentioned."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "losing two individual study places",
+        "explanation": "The intermediate area replaced two individual places."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "rejected a proposal to reserve the quiet desks permanently for adults",
+        "explanation": "She rejected the age-based restriction."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-002",
+    "title": "Following an old railway",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "When the last freight service left the Harrow Vale railway, the track formed a narrow, unused strip through several settlements. A cycling association proposed converting it into a route between the valley's towns. On a map, the idea appeared straightforward: the railway already followed a continuous line, and most of its steepest gradients had been avoided during construction. On the ground, continuity was less certain. The former railway crossed land controlled by several owners, and a bridge near the northern end had been removed. Supporters described the corridor as an opportunity, but the transport team responsible for the proposal needed to establish which journeys it could realistically serve before deciding how much of it to build."
+      },
+      {
+        "label": "B",
+        "text": "The team began with travel diaries completed by a volunteer sample of residents. Participants recorded destinations and departure times for one week, including journeys they made on foot or by bus. Weekend leisure trips were easier to fit onto the railway corridor than many ordinary journeys. Several large employers stood uphill from it, while the secondary school lay beyond a busy road. This did not make the proposal worthless; it changed the case for particular entrances and connecting paths. A route could be continuous yet inconvenient if people had to travel a long distance to reach it. The diaries were therefore used alongside a map of possible access points, not simply as evidence that residents liked cycling."
+      },
+      {
+        "label": "C",
+        "text": "The first section opened between two residential areas and a shopping street. It was selected partly because the land agreements were already complete, allowing construction to begin without waiting for decisions elsewhere. A smooth surface was provided for bicycles, wheelchairs and pushchairs, with wider resting places at intervals. The team deliberately left some existing vegetation beside the path, both to reduce the scale of clearance and to provide separation from nearby gardens. The project account listed construction costs, but did not calculate how much local house prices changed after opening. Claims about increased property values appeared in public discussion, yet they were not supported by measurements made by the project team."
+      },
+      {
+        "label": "D",
+        "text": "Counting use presented another problem. A counter at the western entrance registered passages, not distinct people, so someone travelling out and back appeared twice. Observers were placed at selected points to distinguish approximate patterns of use. Their notes suggested that short local journeys were common on weekdays, whereas longer trips were more visible on Sundays. Weather and school holidays affected both sets of observations. The council published these qualifications with the figures instead of converting every recorded passage into a new journey that had replaced a car trip. Some people undoubtedly used the route instead of driving, but the monitoring system could not determine the previous travel method of everyone it counted."
+      },
+      {
+        "label": "E",
+        "text": "The missing bridge became the most contested part of the next phase. Rebuilding it would create a direct connection to the northern settlement, but would also absorb much of the available budget. An alternative link along existing streets was cheaper and could open earlier, although it included two road crossings. Residents were shown both options with journey distances and likely construction periods. The consultation did not produce a unanimous preference. People making frequent local trips tended to value the direct bridge connection, while some recreational users preferred improvements elsewhere along the corridor. The transport team kept the options separate in its report rather than presenting all support for the overall route as support for rebuilding the bridge."
+      },
+      {
+        "label": "F",
+        "text": "The eventual programme combined improvements to entrances with a longer search for bridge funding. This disappointed campaigners who wanted a complete route immediately, but allowed unfinished sections to remain visible in public plans instead of disappearing from them. Maintenance responsibilities were written into each new land agreement, specifying who would clear vegetation and respond to damage. The project also retained annual travel surveys, because a popular path could still fail to serve people without a convenient way onto it. Its practical lesson concerned connections: reusing a continuous piece of infrastructure did not automatically create a connected transport service. Access, crossing points and maintenance had to be designed with as much care as the surface of the path."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "Ownership of the former railway corridor was divided between different parties."
+      },
+      {
+        "number": 2,
+        "statement": "Residents were asked to record only journeys made by bicycle."
+      },
+      {
+        "number": 3,
+        "statement": "The first section opened where the necessary land agreements had been completed."
+      },
+      {
+        "number": 4,
+        "statement": "The project team found that nearby house prices rose after the first section opened."
+      },
+      {
+        "number": 5,
+        "statement": "A person passing the entrance counter twice was counted as one user."
+      },
+      {
+        "number": 6,
+        "statement": "The report disclosed limitations in the route's usage figures."
+      },
+      {
+        "number": 7,
+        "statement": "All groups consulted preferred rebuilding the bridge to using the street connection."
+      },
+      {
+        "number": 8,
+        "statement": "An outside organisation eventually agreed to pay the full cost of the bridge."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "land controlled by several owners",
+        "explanation": "The corridor was not under one owner's control."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "including journeys they made on foot or by bus",
+        "explanation": "The diaries included other travel modes."
+      },
+      {
+        "number": 3,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "the land agreements were already complete",
+        "explanation": "Completed agreements were one reason for choosing the section."
+      },
+      {
+        "number": 4,
+        "answer": "NOT GIVEN",
+        "paragraph": "C",
+        "evidence": "did not calculate how much local house prices changed",
+        "explanation": "No measured result for property prices is provided."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "someone travelling out and back appeared twice",
+        "explanation": "The device counted passages, so return trips produced two records."
+      },
+      {
+        "number": 6,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "published these qualifications with the figures",
+        "explanation": "The council made the measurement limitations public."
+      },
+      {
+        "number": 7,
+        "answer": "FALSE",
+        "paragraph": "E",
+        "evidence": "did not produce a unanimous preference",
+        "explanation": "Preferences differed between users."
+      },
+      {
+        "number": 8,
+        "answer": "NOT GIVEN",
+        "paragraph": "F",
+        "evidence": "a longer search for bridge funding",
+        "explanation": "A search is described, but no full funding agreement is reported."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-003",
+    "title": "A library of seeds",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The seed shelves at Fenwick's community library began with an apparently simple exchange. Gardeners could take small packets at the beginning of the growing season and were invited to return seeds from suitable plants later in the year. Organisers hoped that this would let people try unfamiliar varieties without buying a full packet. They did not require every borrower to make a return. Some participants had little growing space, and others were learning for the first time. A compulsory contribution might have excluded precisely those people the scheme wanted to reach. The library supplied the shelves and a weekly meeting room, while a gardening group took responsibility for preparing packets and explaining how the exchange worked."
+      },
+      {
+        "label": "B",
+        "text": "At first, handwritten labels usually gave a plant name and little else. This was enough for experienced gardeners who recognised familiar varieties, but could leave newcomers uncertain about what they had received. Volunteers introduced a standard label recording the variety, the collection year and the name of the person who had supplied it. A separate note distinguished a donor's growing experience from a general guarantee of performance. If one gardener reported that a variety had done well in a shaded plot, that observation remained attached to that particular setting. The revised label did not claim that every recipient would obtain the same result. It made the origin of the information visible without pretending to turn the exchange into a commercial testing service."
+      },
+      {
+        "label": "C",
+        "text": "The group also divided responsibility for donated material. Two volunteers checked packet descriptions together before placing the packets on public shelves. This was a review of the information supplied, not laboratory certification of the contents. Material with an unclear identity was put aside until the donor could be contacted. The number of packets set aside surprised some supporters, who had expected every donation to increase the usable collection immediately. Organisers explained that a smaller collection with clearer descriptions could be more useful than a larger one filled with uncertain names. Their annual account included the number of packets accepted and withheld, although it did not state how old the donors were or compare participation by age."
+      },
+      {
+        "label": "D",
+        "text": "Meetings gradually became as important as the shelves. Beginners could describe a problem without needing to know a technical term, and more experienced growers could ask about the conditions in a particular garden before answering. During one session, the organiser asked participants to bring an account of an unsuccessful attempt, not merely examples of what had grown well. This changed the conversation. A disappointing result could reveal when instructions had been unclear or when a person's available space had been overlooked. The group kept brief notes of questions that recurred, then revised its information sheets. It did not publish a ranking of gardeners or identify the people whose questions had prompted a revision."
+      },
+      {
+        "label": "E",
+        "text": "Evaluating the exchange required care. The number of packets taken from the library was easy to count, but it did not show whether their contents had been planted. Nor did a return donation establish that a participant had become more confident. A short end-of-season questionnaire asked about both use and experience, and respondents could report that they had not grown anything. Fewer people answered the questionnaire than had taken packets, so the organisers avoided treating the responses as a complete account of the membership. They could describe the experience of respondents; they could not assume that people who remained silent had achieved similar outcomes. No comparison with a neighbouring seed scheme was included in the evaluation."
+      },
+      {
+        "label": "F",
+        "text": "The exchange continued with a modest change to its ambitions. Rather than promising to supply every participant indefinitely from returned seeds, the organisers set aside a small budget for additional labelled stock when supplies were uneven. This prevented a popular category from vanishing simply because too few suitable returns had arrived. The written rules also allowed a volunteer to remove material when its description could no longer be trusted. For the library, the scheme's value lay partly in lending something unusual, but also in creating a place where uncertainty could be discussed openly. A packet was useful because it came with a traceable description and an opportunity to ask questions, not because being locally donated made it automatically reliable."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "Participants had to donate seeds before they could take any packets."
+      },
+      {
+        "number": 2,
+        "statement": "The revised labels included the year in which the seeds had been collected."
+      },
+      {
+        "number": 3,
+        "statement": "Most donors were older than the people taking packets from the library."
+      },
+      {
+        "number": 4,
+        "statement": "Every donation was made publicly available as soon as it arrived."
+      },
+      {
+        "number": 5,
+        "statement": "One meeting specifically encouraged participants to discuss unsuccessful growing attempts."
+      },
+      {
+        "number": 6,
+        "statement": "The organisers assumed questionnaire respondents represented everyone who took packets."
+      },
+      {
+        "number": 7,
+        "statement": "A nearby exchange achieved a higher questionnaire response rate."
+      },
+      {
+        "number": 8,
+        "statement": "The scheme reserved money to supplement categories with insufficient returned seeds."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "They did not require every borrower to make a return.",
+        "explanation": "Making a return was optional, not a condition of borrowing."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "the collection year",
+        "explanation": "This information was required on the standard label."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "C",
+        "evidence": "did not state how old the donors were",
+        "explanation": "No age comparison between donors and recipients is given."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "put aside until the donor could be contacted",
+        "explanation": "Unclear material was withheld rather than immediately distributed."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "an account of an unsuccessful attempt",
+        "explanation": "The organiser requested such accounts."
+      },
+      {
+        "number": 6,
+        "answer": "FALSE",
+        "paragraph": "E",
+        "evidence": "avoided treating the responses as a complete account",
+        "explanation": "They explicitly recognised that not everyone responded."
+      },
+      {
+        "number": 7,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "No comparison with a neighbouring seed scheme",
+        "explanation": "The evaluation provides no result for another scheme."
+      },
+      {
+        "number": 8,
+        "answer": "TRUE",
+        "paragraph": "F",
+        "evidence": "a small budget for additional labelled stock",
+        "explanation": "Additional stock could be bought when supplies were uneven."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-004",
+    "title": "Mapping the sounds of a neighbourhood",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A conventional street map can show a park, a road and a row of houses without revealing how different they sound. Residents of North Quay became interested in that gap when a new square was proposed beside their homes. The planning drawings suggested where people might sit, but not what they would hear from those seats. A neighbourhood association therefore assembled a temporary sound map of the surrounding streets. It was not intended to establish whether any business had broken a legal noise limit. Its purpose was descriptive: to record how residents experienced familiar places at different times, and to bring those experiences into a discussion otherwise dominated by the appearance of buildings and surfaces."
+      },
+      {
+        "label": "B",
+        "text": "Participants walked six short routes carrying a notebook and a shared recording device. At marked stopping points, they listed the sounds they could distinguish before making a brief recording. This sequence was deliberate. If they listened to a recording first, louder sounds often became the focus of their notes, while less prominent sounds that had shaped the experience of standing there were forgotten. People were asked to include pleasant and ordinary sounds as well as irritating ones. The organisers did not want a collection made up only of complaints. Some walkers noted footsteps under an archway, the opening of shop shutters or a distant bell that helped them recognise where they were without looking around."
+      },
+      {
+        "label": "C",
+        "text": "Recordings from the same place could differ considerably. At the covered market, traders' voices dominated on Saturday mornings, whereas deliveries were more noticeable before the stalls opened. An evening recording captured a ventilation unit that was difficult to distinguish during the day. The final map therefore displayed time labels beside each recording instead of assigning a single sound to an entire street. The original walk schedules remained available so users could see which periods were missing. There were no overnight visits during the initial exercise. The map could describe the sampled hours, but its creators had no basis for presenting them as a continuous record of life in the neighbourhood."
+      },
+      {
+        "label": "D",
+        "text": "Disagreement became particularly useful when the group reviewed its notes. Some residents described the market calls as intrusive; others regarded them as evidence that the area still had an active public life. Both descriptions were retained. The association decided that averaging them into one satisfaction score would remove the very difference that planners needed to understand. The map linked observations to the circumstances in which they were made, including whether the listener was resting, working or walking through. A sound might be welcome during a short visit and tiring during a long shift. Instead of deciding that one reaction was correct, the group made the contrasting accounts visible side by side."
+      },
+      {
+        "label": "E",
+        "text": "When designers examined the material, they changed the location of several proposed seats. A low wall beside the square's service entrance had looked attractive on the drawings, but recordings and comments revealed frequent interruptions from deliveries. Seating was shifted towards a quieter edge, while a separate standing area remained near the market. The association also held a listening session indoors for residents unable to join the walks. Participants could hear the recordings and discuss them, although the organisers explained that listening through speakers was not identical to occupying the original place. The session widened participation without being presented as a replacement for observations made on the street."
+      },
+      {
+        "label": "F",
+        "text": "The completed map was displayed online and in the neighbourhood hall. It included instructions for submitting new observations, since construction, trading hours and patterns of use might alter the sound of the area. Each submission needed a place, a time and a short description of the listening situation. Recordings that clearly contained private conversations were withheld from public playback. The resulting collection did not offer a simple answer to whether North Quay was noisy. It made a more precise conversation possible: which sounds occurred where, for whom they mattered, and what could be changed without erasing activities residents valued. Its usefulness depended on preserving that detail as the neighbourhood changed."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The sound map was designed to determine whether local businesses exceeded legal noise limits."
+      },
+      {
+        "number": 2,
+        "statement": "Walkers described sounds before making a recording at each stopping point."
+      },
+      {
+        "number": 3,
+        "statement": "The recording equipment was donated by a local electronics shop."
+      },
+      {
+        "number": 4,
+        "statement": "The first round of observations covered the whole night."
+      },
+      {
+        "number": 5,
+        "statement": "Contrasting reactions to the market sounds were both included in the map."
+      },
+      {
+        "number": 6,
+        "statement": "The planned seats remained in their original position beside the service entrance."
+      },
+      {
+        "number": 7,
+        "statement": "Most participants at the indoor listening session had previously complained about noise."
+      },
+      {
+        "number": 8,
+        "statement": "A new observation needed information about when the sound was heard."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "It was not intended to establish whether any business had broken a legal noise limit.",
+        "explanation": "Legal compliance was explicitly outside the project's purpose."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "listed the sounds they could distinguish before making a brief recording",
+        "explanation": "Written observation preceded recording."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "a shared recording device",
+        "explanation": "The device is mentioned, but its supplier and ownership history are not given."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "There were no overnight visits during the initial exercise.",
+        "explanation": "No overnight observations were made."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "Both descriptions were retained.",
+        "explanation": "Neither reaction was removed in favour of the other."
+      },
+      {
+        "number": 6,
+        "answer": "FALSE",
+        "paragraph": "E",
+        "evidence": "Seating was shifted towards a quieter edge",
+        "explanation": "The seats were moved from the proposed position to a quieter edge."
+      },
+      {
+        "number": 7,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "a listening session indoors for residents unable to join the walks",
+        "explanation": "Their previous complaint history is not described."
+      },
+      {
+        "number": 8,
+        "answer": "TRUE",
+        "paragraph": "F",
+        "evidence": "a place, a time and a short description",
+        "explanation": "Time information was a submission requirement."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-005",
+    "title": "What a repair record leaves out",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "On the first Saturday of each month, a group of volunteers in Westmere opened a workshop for people bringing broken household objects. The organisers initially measured success by counting how many items left in working order. This was an understandable choice: a repaired lamp or functioning zip offered a clear result. Yet a repairer could spend an entire morning on one object while another completed several straightforward jobs. A count of finished repairs gave those mornings very different values. After a year, the volunteers began examining what their records actually represented. They wanted to explain their work to supporters without reducing every useful encounter to a simple repaired-or-unrepaired label."
+      },
+      {
+        "label": "B",
+        "text": "A typical record contained the object type, its reported fault and the outcome of the session. The forms were deliberately short so that volunteers would complete them while working. However, this meant that important intermediate steps vanished. An owner might learn how to open a case safely, identify an unavailable part and leave with a plan for another visit. On the form, that object was simply marked unsuccessful. In another case, an apparently successful repair might last only briefly after the item returned home. The workshop had no routine follow-up system, so the record described the condition at departure rather than demonstrating that the object would continue to work for months."
+      },
+      {
+        "label": "C",
+        "text": "The revised form kept the original outcome field but added a small number of categories: diagnosis completed, part needed, owner practised a technique, and further visit agreed. Volunteers could select more than one category. This made it possible to distinguish an unresolved problem from a problem that had been understood but not yet fixed. The organisers rejected a suggestion to write a full narrative for every object, because the recording task would have competed with the repair itself. Instead, space was provided for a brief note when the listed categories did not fit. The revised system was intended to reveal the stages of work without requiring a second, equally time-consuming activity beside it."
+      },
+      {
+        "label": "D",
+        "text": "Owners were also given a card inviting them to report what happened afterwards. Returning the card was optional, and people could respond by telephone if writing was inconvenient. Reports arrived unevenly. Some described an object still working well; others asked for further help. The workshop displayed the number of replies alongside the outcomes rather than treating silence as evidence of success. A volunteer handling the calls noticed that owners sometimes described a change in how they used an object, even when the original fault had not been resolved. For example, one visitor stopped forcing a stiff mechanism after being shown how it operated. That kind of learning had been absent from the earlier forms."
+      },
+      {
+        "label": "E",
+        "text": "The broader record did not remove difficult choices about what to accept. A small workshop could not promise to tackle every object, and volunteers needed to stay within their skills and equipment. The group prepared a list of items it would not work on and explained the limits before visitors waited in a queue. When a task was declined, the record distinguished lack of capacity from a judgement that the object could never be repaired. This mattered when the organisers reviewed demand. Several declined jobs of one kind might justify finding an appropriately skilled volunteer; they did not establish that the entire category of objects was beyond repair or that owners should discard it."
+      },
+      {
+        "label": "F",
+        "text": "At the end of the next year, the workshop published a shorter summary than some supporters expected. It gave counts for completed repairs and several other outcomes, with clear descriptions of what each count included. It did not combine them into a single grand total, because one visit could appear in several categories. The organisers also retained examples of unresolved cases to explain where time and resources were needed. Their records had become less convenient for a headline, but more useful for deciding what to change. A successful workshop could now be discussed in terms of extended use, useful diagnosis and shared knowledge, while still acknowledging the objects for which the volunteers had achieved little."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The original measure of success focused on objects that were working when they left."
+      },
+      {
+        "number": 2,
+        "statement": "The workshop's first forms distinguished between diagnosis and completed repair."
+      },
+      {
+        "number": 3,
+        "statement": "Most owners who needed a replacement part returned within a month."
+      },
+      {
+        "number": 4,
+        "statement": "The new form permitted several outcome categories to be selected for one object."
+      },
+      {
+        "number": 5,
+        "statement": "Every owner was required to return a follow-up card."
+      },
+      {
+        "number": 6,
+        "statement": "Telephone follow-up was used more often than written cards."
+      },
+      {
+        "number": 7,
+        "statement": "The revised records separated limited workshop capacity from an object's repairability."
+      },
+      {
+        "number": 8,
+        "statement": "The final annual summary added all outcome categories into one total."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "counting how many items left in working order",
+        "explanation": "Working items were the initial success measure."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "that object was simply marked unsuccessful",
+        "explanation": "Intermediate progress was not distinguished in the original record."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "leave with a plan for another visit",
+        "explanation": "No return rate or one-month period is specified."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "Volunteers could select more than one category.",
+        "explanation": "A record could include multiple categories."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "Returning the card was optional",
+        "explanation": "Responding was voluntary."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "people could respond by telephone",
+        "explanation": "Both options existed, but their relative use is not reported."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "distinguished lack of capacity from a judgement that the object could never be repaired",
+        "explanation": "The records treated these as different reasons."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "It did not combine them into a single grand total",
+        "explanation": "Combining overlapping categories would have been misleading."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-006",
+    "title": "Handling the past",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A small museum of domestic life held a collection of cooking vessels, tools and household fittings. Most objects were displayed behind glass, where visitors could examine their appearance but not their weight or movement. Curators often heard the same question: how had somebody actually used the object? Adding longer labels did not always answer it. The museum therefore commissioned a limited set of replicas for supervised handling sessions. These were newly made objects intended to reproduce selected features of items in the collection. They were not substitutes for the originals in every respect, and the curators wanted visitors to understand that distinction as part of the experience rather than discover it only after making an assumption."
+      },
+      {
+        "label": "B",
+        "text": "The first replicas were chosen because handling them could answer a particular question. A hand-operated kitchen tool showed how much turning was involved in its use; a vessel demonstrated the awkwardness of carrying a full container without a modern handle. The makers were given records of dimensions and photographs, but some construction details remained uncertain. Where evidence was incomplete, the museum documented the choice made by the replica maker. Visitors were told which features followed the original and which involved an informed reconstruction. This information appeared on the handling table, not only in a file kept in the curator's office. Uncertainty was treated as part of the object's interpretation."
+      },
+      {
+        "label": "C",
+        "text": "Staff initially planned to place an explanatory card in front of each replica and invite visitors to read it before touching anything. A trial session suggested a different sequence. People who first tried a permitted movement often had a precise question they then wanted the card to answer. Those who read the full explanation at the outset sometimes repeated its language without noticing the physical detail it described. The museum did not conclude that reading was unhelpful. It changed the order: a short instruction established safe use, a visitor explored the object, and the longer explanation followed. Staff could interrupt or adapt this sequence when a particular object or visitor required it."
+      },
+      {
+        "label": "D",
+        "text": "Reactions were not uniform. One participant found a replica unexpectedly heavy, while another with experience of similar equipment considered it manageable. The difference led to discussion about familiarity and technique rather than a competition over whose reaction was authentic. Curators were careful not to claim that modern visitors had reproduced the experience of people who used the objects daily. A few minutes at a museum table omitted repetition, fatigue and the purpose of the original task. The replica could make an aspect of use tangible while leaving much of the historical experience unexplored. This qualification became especially important when visitors described a device as either easy or impossibly difficult to operate."
+      },
+      {
+        "label": "E",
+        "text": "The museum also considered visitors who could not comfortably grip or lift the replicas. It provided stable supports, allowed exploration of smaller movable components and offered close views of staff demonstrations. These changes did not create an identical experience for everyone, but gave people more than one way to investigate the same question. The replicas were inspected after each session, with wear recorded before any repair. Some marks were useful evidence of how the objects were being handled; others signalled a need to change the activity. Replacement parts were labelled in the internal record so that future staff would know when the handling object's construction had departed further from the original design."
+      },
+      {
+        "label": "F",
+        "text": "By the second season, the museum had stopped describing the handling table simply as an activity area. It had become a place where claims about the past could be examined through a carefully limited encounter with a reconstructed object. The curators retained the original displays, since material traces on an old object could tell stories that a new replica could not. Visitors were encouraged to move between the two. A worn surface behind glass might become more meaningful after handling a replica, while an uncertain detail in the replica could send someone back to inspect the original. The value lay in the relationship between them, not in declaring either kind of object sufficient on its own."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The museum introduced replicas partly to help visitors understand how objects were used."
+      },
+      {
+        "number": 2,
+        "statement": "The replicas reproduced every feature of the originals with complete certainty."
+      },
+      {
+        "number": 3,
+        "statement": "The museum selected the replica makers through an international competition."
+      },
+      {
+        "number": 4,
+        "statement": "After the trial, the museum always required visitors to read the full explanation before handling a replica."
+      },
+      {
+        "number": 5,
+        "statement": "Previous experience affected how some visitors responded to a replica's weight."
+      },
+      {
+        "number": 6,
+        "statement": "Most visitors preferred watching demonstrations to handling replicas themselves."
+      },
+      {
+        "number": 7,
+        "statement": "Staff documented replacement parts fitted to replicas."
+      },
+      {
+        "number": 8,
+        "statement": "The original objects were removed when the handling programme was expanded."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "how had somebody actually used the object?",
+        "explanation": "This recurring visitor question prompted the handling programme."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "some construction details remained uncertain",
+        "explanation": "Some details required reconstruction rather than certain reproduction."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "The makers were given records of dimensions and photographs",
+        "explanation": "How the makers were selected is not described."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "the longer explanation followed",
+        "explanation": "The sequence changed so exploration could precede the longer explanation."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "another with experience of similar equipment considered it manageable",
+        "explanation": "Familiarity produced a different reaction to handling."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "offered close views of staff demonstrations",
+        "explanation": "Demonstrations were available; visitor preference totals are not provided."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "Replacement parts were labelled in the internal record",
+        "explanation": "Changes to the handling objects were recorded."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "The curators retained the original displays",
+        "explanation": "The original displays remained alongside the replicas."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-007",
+    "title": "The hidden history of a street tree",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "On a drawing for a new pedestrian crossing, a mature street tree appeared as a circle that could be moved slightly to the left. In the planning office at Eastborough, that small mark prompted a larger question. What did the council actually know about the tree? The parks department had a species list, the highways team held records of pavement work, and a contractor kept inspection notes. None of those records alone described the tree's recent history. The crossing project was paused while staff compared them. Their investigation did not begin as a plan for a comprehensive digital tree inventory, but it soon exposed the limits of treating a living, maintained object as a fixed symbol on a map."
+      },
+      {
+        "label": "B",
+        "text": "The first task was to determine which records referred to the same tree. Street names had changed, house numbers were sometimes missing and older inspections described locations through nearby landmarks. A note about a tree outside a bakery became difficult to use after the bakery closed. Staff assigned each tree a reference number and linked it to a position on the current street plan. They did not discard the earlier descriptions, because these could help resolve a mistaken match. Each link retained the original wording and an indication of how confidently the team had identified the object. A neat database entry was not allowed to conceal an uncertain historical connection."
+      },
+      {
+        "label": "C",
+        "text": "Once records could be compared, the timing of work became more visible. Repeated pavement repairs near one tree had previously been treated as separate maintenance events. Read together, they raised questions about the design of the surrounding surface. Elsewhere, an inspection completed before major roadworks could no longer be assumed to describe the current setting. The inventory therefore recorded dates and the purpose of each visit, rather than giving every tree a single undifferentiated status. A recent photograph could show appearance, but it did not replace a specialist inspection. The team designed the screen so users had to see the date and source beside each assessment, even when viewing several records quickly."
+      },
+      {
+        "label": "D",
+        "text": "Members of the public were invited to submit observations, including photographs of damaged guards or obstructed watering openings. Their reports entered a separate queue for review. A resident's observation could prompt an inspection, but did not automatically become a professional judgement about a tree's condition. This separation caused some frustration: contributors wanted to see their reports appear immediately on the public map. The council instead displayed that a report had been received and later showed whether action had followed. Contributors could track progress without the system treating every description as verified. The approach required staff to respond to reports as well as collect them, creating a continuing obligation that had been easy to overlook during the database's design."
+      },
+      {
+        "label": "E",
+        "text": "An unexpected benefit emerged during planning for street works. Contractors could see that a tree had recently been watered, protected or inspected, and could contact the team responsible before changing the surrounding area. However, access to records did not by itself settle competing priorities. A wider pavement might still conflict with existing planting, and a damaged surface still needed repair. The inventory made the evidence available for discussion rather than generating an automatic instruction to preserve or remove a tree. Cost information was recorded for maintenance activities, but staff avoided assigning a single financial value to each tree. The planning decisions continued to require judgement about the particular street and the people using it."
+      },
+      {
+        "label": "F",
+        "text": "The original crossing was eventually built with its alignment adjusted so the tree could remain in place. That outcome became a useful example of the inventory's role, although it did not establish that every future conflict would be resolved in the same way. The more lasting change was organisational. Parks staff, road planners and contractors had agreed on how to identify a tree, add evidence and correct an error. Maintaining those agreements took less public attention than launching the map, but determined whether it would remain dependable. An inventory that stopped receiving updates would gradually become another historical source. Its value as a working tool depended on the next inspection being recorded as carefully as the first."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The council's different departments initially held separate information about the same tree."
+      },
+      {
+        "number": 2,
+        "statement": "Old location descriptions were deleted once reference numbers had been assigned."
+      },
+      {
+        "number": 3,
+        "statement": "Every tree reference number was displayed on a metal tag attached to the tree."
+      },
+      {
+        "number": 4,
+        "statement": "Users could view an assessment without being shown when it had been made."
+      },
+      {
+        "number": 5,
+        "statement": "A report from a resident could lead to a professional inspection."
+      },
+      {
+        "number": 6,
+        "statement": "The council paid residents for photographs that resulted in maintenance work."
+      },
+      {
+        "number": 7,
+        "statement": "The inventory automatically decided whether a tree should be removed."
+      },
+      {
+        "number": 8,
+        "statement": "The crossing was redesigned so that the original tree could be kept."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "None of those records alone described the tree's recent history.",
+        "explanation": "The relevant history was distributed across several sets of records."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "They did not discard the earlier descriptions",
+        "explanation": "Historical descriptions were retained."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "assigned each tree a reference number",
+        "explanation": "The passage does not say whether the numbers were physically displayed."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "users had to see the date and source beside each assessment",
+        "explanation": "Dates and sources were displayed with the assessments."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "A resident's observation could prompt an inspection",
+        "explanation": "Public observations could trigger inspections."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "Members of the public were invited to submit observations",
+        "explanation": "No payment arrangement is described."
+      },
+      {
+        "number": 7,
+        "answer": "FALSE",
+        "paragraph": "E",
+        "evidence": "rather than generating an automatic instruction",
+        "explanation": "Decisions still required judgement."
+      },
+      {
+        "number": 8,
+        "answer": "TRUE",
+        "paragraph": "F",
+        "evidence": "its alignment adjusted so the tree could remain in place",
+        "explanation": "The adjusted crossing retained the tree."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-008",
+    "title": "The sign at the turning point",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Visitors entering the restored Marlin Ferry Terminal could admire its roof structure long before they worked out where to buy a ticket. Direction signs had accumulated over several renovations, each responding to a particular complaint. Some used an arrow, some a destination name and others a symbol. Their positions reflected available wall space more often than the point at which a passenger needed to choose a direction. A design team was invited to replace the signs during a refurbishment. Rather than start by choosing a typeface, its members followed the journeys of people unfamiliar with the terminal. They wanted to understand the sequence of decisions involved in reaching a boat, a ticket office or an exit."
+      },
+      {
+        "label": "B",
+        "text": "The observations distinguished noticing a sign from understanding it. A passenger could look directly at an arrow and still turn the wrong way because the arrow's relation to a nearby staircase was unclear. Equally, a sign could be perfectly readable from close up but too late to help someone who had already passed the relevant junction. The team placed temporary notices on movable stands and changed their positions between sessions. Each version was tested with new participants so that familiarity with a previous route would not make the later version appear more successful. Participants were asked to travel to a named destination without receiving directions from the observer accompanying them."
+      },
+      {
+        "label": "C",
+        "text": "Language raised a different problem. Managers wanted every permanent sign translated into all the languages commonly used by passengers. The available space could not accommodate that amount of text without shrinking the letters. Instead, the team distinguished short directional information from longer explanations. Major destinations received a limited set of translations on the signs, while detailed travel instructions were provided on printed sheets in additional languages. Symbols accompanied some words, but were tested rather than assumed to be universal. One proposed symbol for ticket collection was mistaken for a place to post letters. It was withdrawn even though the designers had considered it visually neat and easy to reproduce."
+      },
+      {
+        "label": "D",
+        "text": "A historic place name created another disagreement. Staff referred to one departure area by a traditional name that also appeared in old timetables. First-time visitors did not know what it meant. Removing the name entirely would have made the new system inconsistent with documents still in use, while keeping it alone would preserve the confusion. The final sign paired the traditional name with a plain description and a departure number. This was longer than the designers' preferred version, but made the connection between old and new information explicit. The team accepted the compromise because the sign had to work within a wider information system, not merely look consistent with the other new signs."
+      },
+      {
+        "label": "E",
+        "text": "The refurbishment offered an opportunity to use colour, but colour was never the sole means of identifying a route. Each coloured route also had a number and a written destination. The team checked signs under the building's ordinary lighting at different times, since sunlight through the high windows could make a surface harder to read. Paper mock-ups were useful for testing wording and placement, but the final materials were checked again before installation. This second stage revealed reflections that had not appeared on paper. A small change to the surface finish solved the problem without altering the route colours. The signs were then inspected from the positions in which passengers were expected to encounter them."
+      },
+      {
+        "label": "F",
+        "text": "After opening, staff kept a log of the questions passengers still asked. Some questions indicated gaps in the signs; others concerned cancellations or personal circumstances that a permanent sign could not reasonably address. The aim was never to eliminate conversation with staff. It was to avoid making every visitor ask the same basic question before beginning a journey. Changes to destinations were assigned to a named team so that an altered service would trigger a review of the relevant signs. The terminal had learned how easily an orderly system could become a collection of unrelated additions. Keeping the signs useful required an editing process after installation, not only a careful design before it."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The design team began by selecting the lettering style for the new signs."
+      },
+      {
+        "number": 2,
+        "statement": "The team used different participants when testing successive temporary sign arrangements."
+      },
+      {
+        "number": 3,
+        "statement": "Participants received a free ferry journey in return for taking part."
+      },
+      {
+        "number": 4,
+        "statement": "A symbol was rejected because some users interpreted it incorrectly."
+      },
+      {
+        "number": 5,
+        "statement": "The traditional departure-area name was completely removed from the final sign."
+      },
+      {
+        "number": 6,
+        "statement": "The route numbers were chosen by a vote among terminal employees."
+      },
+      {
+        "number": 7,
+        "statement": "Testing the final sign materials revealed a problem that paper versions had not shown."
+      },
+      {
+        "number": 8,
+        "statement": "The completed system was intended to remove any need for passengers to speak to staff."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "Rather than start by choosing a typeface",
+        "explanation": "The team began by observing passenger journeys."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "Each version was tested with new participants",
+        "explanation": "New participants prevented familiarity from distorting later tests."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "Participants were asked to travel to a named destination",
+        "explanation": "No reward or free journey is mentioned."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "mistaken for a place to post letters",
+        "explanation": "The ticket-collection symbol was misunderstood and withdrawn."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "paired the traditional name with a plain description",
+        "explanation": "The old name remained alongside additional information."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "a number and a written destination",
+        "explanation": "The text does not explain how numbers were selected."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "reflections that had not appeared on paper",
+        "explanation": "Material tests revealed reflections absent from paper mock-ups."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "The aim was never to eliminate conversation with staff.",
+        "explanation": "Some questions still reasonably required staff assistance."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-009",
+    "title": "The last part of a parcel's journey",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The management committee of Linden Court first discussed a shared parcel room after residents complained about missed deliveries. The complex consisted of five buildings around a courtyard, with no single reception desk. Drivers might spend several minutes finding an entrance, only to discover that the recipient was away. A spare ground-floor room offered an alternative location, but using it raised questions that were not answered by installing shelves. Someone needed authority to accept parcels, residents needed a reliable way to collect them, and mistakes needed a clear route to resolution. The committee treated the room as a small service with responsibilities, not simply as extra storage space."
+      },
+      {
+        "label": "B",
+        "text": "During a short trial, participating residents registered the names under which their deliveries usually arrived. This proved more useful than relying only on apartment numbers, because labels sometimes omitted a building letter or used a household member's name. A volunteer accepted deliveries during two afternoon periods each week and recorded each arrival in a bound register. The trial deliberately used a paper system before the committee considered buying software. Volunteers wanted to discover which details they needed and which problems recurred. A handwritten register could be changed quickly, although it also required the person at the desk to write clearly and to keep entries in the agreed order."
+      },
+      {
+        "label": "C",
+        "text": "The most important distinction was between arrival and collection. A parcel could be safely inside the building yet still be unavailable to its owner if collection hours were inconvenient. The first timetable suited people returning from daytime work, but not everyone kept those hours. A revised rota added an early session and a weekend period. Residents received a notification when an item arrived, but the message did not describe that item as delivered into their personal possession. The committee wanted the language to match the remaining step in the process. Until collection, the parcel room still had a responsibility to store the item and make it accessible under the published arrangements."
+      },
+      {
+        "label": "D",
+        "text": "Items that did not fit the ordinary process were considered separately. The room would not accept deliveries requiring special storage or a direct identity check by the recipient. Those restrictions were displayed near the entrance and repeated when residents joined. Large parcels created a less obvious difficulty. One bulky item could block access to several smaller ones, so the committee introduced a size limit based on available shelf space and clear walkways. This was reviewed when shelving changed. The service was intended to reduce inconvenience, but that did not mean every delivery could be absorbed without limits. Refused items remained the responsibility of the carrier and recipient under their existing arrangements."
+      },
+      {
+        "label": "E",
+        "text": "The committee monitored use for three months. Records showed how many parcels were accepted, how long they remained and when collection sessions became busy. The average storage period shortened after the timetable changed, although the report noted that the mix of participating households had also changed. It therefore avoided attributing the entire difference to the new opening hours. Nor did the committee calculate a total reduction in delivery-vehicle mileage. Drivers sometimes served other addresses nearby, and no tracking data had been collected for those journeys. The available evidence supported conclusions about the room's operation, not every wider transport benefit that supporters associated with shared delivery."
+      },
+      {
+        "label": "F",
+        "text": "At the end of the trial, residents voted to continue the service with a paid part-time coordinator supported by volunteers. The coordinator maintained the rota, handled unresolved discrepancies and arranged cover when a session could not open. Software was introduced only after the register's categories had become stable. It made notifications easier, but did not decide who should investigate a missing item or how an absent volunteer would be replaced. Those were organisational decisions that had to remain clear outside the system. The parcel room worked when residents could predict what would happen from arrival to collection. A notification was helpful, but reliable custody and dependable access gave that message its meaning."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The residential complex already had a single reception desk serving all five buildings."
+      },
+      {
+        "number": 2,
+        "statement": "The trial relied on paper records before software was considered."
+      },
+      {
+        "number": 3,
+        "statement": "Every volunteer had previously worked in a delivery business."
+      },
+      {
+        "number": 4,
+        "statement": "Opening times were expanded to accommodate residents with different schedules."
+      },
+      {
+        "number": 5,
+        "statement": "The parcel room accepted items needing special storage."
+      },
+      {
+        "number": 6,
+        "statement": "The records showed a shorter average storage period after the timetable revision."
+      },
+      {
+        "number": 7,
+        "statement": "Most carriers reduced their daily working hours because of the parcel room."
+      },
+      {
+        "number": 8,
+        "statement": "New software took over decisions about replacing absent volunteers."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "with no single reception desk",
+        "explanation": "The complex lacked a shared reception desk."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "used a paper system before the committee considered buying software",
+        "explanation": "Paper records preceded consideration of software."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "A volunteer accepted deliveries",
+        "explanation": "The volunteers' employment backgrounds are not specified."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "added an early session and a weekend period",
+        "explanation": "The revised schedule served people not suited by the first timetable."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "would not accept deliveries requiring special storage",
+        "explanation": "Such items were excluded."
+      },
+      {
+        "number": 6,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "The average storage period shortened after the timetable changed",
+        "explanation": "This was the recorded outcome, although its cause was not fully isolated."
+      },
+      {
+        "number": 7,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "no tracking data had been collected for those journeys",
+        "explanation": "No finding about carriers' working hours is reported."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "It made notifications easier, but did not decide who should investigate a missing item or how an absent volunteer would be replaced.",
+        "explanation": "Cover arrangements remained an organisational responsibility."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-010",
+    "title": "A voice in the archive",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "When the textile works in Dunley closed, a local history group began recording conversations with former employees. Members wanted to preserve experiences that rarely appeared in the company's formal papers: how a new worker learned a task, what happened during a break, and which places in the building mattered to people. The first interviews were recorded in a borrowed room above a shop. Interviewers asked participants to tell their stories in their own order rather than work through a fixed list of identical questions. This produced lively accounts, but it also created an archive that could not be understood simply by arranging the recordings according to the dates on which they had been made."
+      },
+      {
+        "label": "B",
+        "text": "An interview could move from childhood to a recent visit to the old factory site and then return to an incident thirty years earlier. To help users navigate this material, volunteers produced summaries with time references pointing to different topics in each recording. The summaries were finding aids, not replacements for listening. Tone, pauses and changes of emphasis could matter to someone studying the account. The group also made written transcripts where resources allowed, but retained links to the audio. An uncertain word was marked as uncertain instead of being silently replaced by a guess. Several volunteers checked difficult passages together before asking the speaker for clarification when contact was still possible."
+      },
+      {
+        "label": "C",
+        "text": "Consent proved more complex than a single permission form signed before the microphone was switched on. Someone might happily describe a machine but later become uncomfortable about naming a former colleague. Participants were therefore offered the chance to review access arrangements after the interview. They could permit unrestricted listening, limit use to the archive's reading room or request that a specified section remain closed for a period. The available choices were explained in ordinary language. Interviewers did not promise control over every future interpretation of an account, but they could explain where the recording would be stored and what access rules the group was able to apply."
+      },
+      {
+        "label": "D",
+        "text": "Two accounts of the same event sometimes differed. One speaker remembered a change in working hours as popular, while another recalled considerable opposition. The group did not merge these into a single supposedly representative version. It preserved the accounts separately, with information about each speaker's role at the time. This did not mean that every remembered detail had to be treated as equally accurate. Dates could be compared with surviving documents, and discrepancies could be noted. However, disagreement about how an event felt was itself part of the history. A record made by a supervisor and one made by a recently recruited worker might illuminate different aspects of the same decision."
+      },
+      {
+        "label": "E",
+        "text": "Public use of the archive introduced another set of choices. A proposed exhibition needed short extracts, yet cutting a few sentences from a long conversation could change their meaning. Curators prepared each extract with a note about the question that had prompted it and the surrounding discussion. Speakers were contacted about the proposed use where the access agreement required it. The team also reviewed whether an extract named someone who had not been interviewed. These checks took time, particularly when a recording had been made years earlier. The exhibition schedule was adjusted to allow for the work rather than treating permission and context as tasks that could be completed after the display was ready."
+      },
+      {
+        "label": "F",
+        "text": "The archive eventually moved to the town's public library, where storage and access could be maintained more consistently. The transfer included the recordings, finding aids and permission records together. Moving only the audio would have left future staff unable to determine how particular sections could be used. Volunteers continued interviewing, but the group reserved part of its annual budget for organising material already collected. There was always an attractive new story to record; there was less visible satisfaction in checking an old reference or updating a contact record. Yet a voice was not securely preserved merely because a file existed. It needed enough surrounding information for someone else to find it, interpret it and use it appropriately."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "Every participant was asked the same questions in the same order."
+      },
+      {
+        "number": 2,
+        "statement": "The topic summaries were intended to help people locate parts of recordings."
+      },
+      {
+        "number": 3,
+        "statement": "The group hired professional typists to prepare every transcript."
+      },
+      {
+        "number": 4,
+        "statement": "Participants could request restrictions on access to particular sections."
+      },
+      {
+        "number": 5,
+        "statement": "Conflicting memories were combined into one official account."
+      },
+      {
+        "number": 6,
+        "statement": "The exhibition opening was delayed by exactly six weeks."
+      },
+      {
+        "number": 7,
+        "statement": "The transfer to the library included documentation of access permissions."
+      },
+      {
+        "number": 8,
+        "statement": "The group spent all of its annual budget on making new recordings."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "rather than work through a fixed list of identical questions",
+        "explanation": "Participants told stories in their own order."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "time references pointing to different topics",
+        "explanation": "The summaries linked topics to positions in the audio."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "made written transcripts where resources allowed",
+        "explanation": "The passage does not identify professional typists or universal transcription."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "request that a specified section remain closed",
+        "explanation": "Section-level access restrictions were available."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "It preserved the accounts separately",
+        "explanation": "The group retained the different accounts."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "The exhibition schedule was adjusted",
+        "explanation": "No precise length of delay is given."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "F",
+        "evidence": "permission records together",
+        "explanation": "The permission records accompanied the audio and finding aids."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "reserved part of its annual budget for organising material already collected",
+        "explanation": "Some funding was explicitly allocated to existing material."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-011",
+    "title": "A second life for building materials",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The proposal to convert an old school into flats left the project team with an uncomfortable list of materials that would no longer be needed. Doors, floorboards and fittings were still usable, but had no role in the new design. A regional materials exchange offered to advertise them to other building projects. It seemed that taking photographs and finding buyers would be the main tasks. The school project soon showed why reuse required more coordination than an ordinary sale. A buyer needed to know what could be supplied, when it would be available and whether its condition after removal would match the description. These questions linked decisions on one building site to the timetable of another."
+      },
+      {
+        "label": "B",
+        "text": "The first inventory was made while the school remained intact. Staff counted visible items and photographed examples, noting dimensions where they could be measured. They distinguished estimated quantities from quantities confirmed after removal. This distinction prevented an attractive listing from becoming a promise that the team could not keep. A run of flooring might look continuous until hidden damage was found, and identical-looking doors could differ in size. Each advertisement therefore included the basis of its measurements and any areas that had not been inspected. Potential users were invited to arrange a closer look before specifying the material in a design that depended on a precise quantity or dimension."
+      },
+      {
+        "label": "C",
+        "text": "Timing produced the most difficult negotiations. Contractors wanted to clear rooms efficiently, while potential buyers might not have space to receive materials for several weeks. The exchange arranged temporary storage for selected items, but storage was neither unlimited nor free. Materials that could be removed, documented and collected on a predictable schedule had an advantage over items that remained uncertain until late in the project. The team began discussing reuse earlier in the design process, when there was still time to change removal sequences. This did not make every item worth saving. It made the costs of keeping and storing it visible before disposal became the only practical option left."
+      },
+      {
+        "label": "D",
+        "text": "A nearby workshop agreed to take a group of doors, subject to inspection after they had been removed. Several were rejected because their condition was worse than the initial photographs suggested. The exchange updated the listing and kept a record of the reason rather than leaving the rejected items advertised as equivalent to the rest. Other buyers sought information about previous treatment or use that the school records could not provide. In those cases, the exchange described the gap and left the buyer to obtain appropriate advice for the proposed application. It did not certify a material merely because it came from a familiar public building or looked sound in a photograph."
+      },
+      {
+        "label": "E",
+        "text": "Reuse also affected the receiving designs. One architect changed the spacing of interior openings to accommodate available doors instead of ordering a uniform new set. This required earlier agreement from the client and careful coordination with the rest of the project. The materials were not costless simply because they had been used before: inspection, removal, transport and preparation all required resources. The exchange recorded these activities separately from the purchase price. Some transactions remained attractive, while others did not proceed. A failed match was still useful information if it showed that dimensions, timing or documentation had prevented reuse. The team could then distinguish those barriers from a lack of interest in second-hand materials."
+      },
+      {
+        "label": "F",
+        "text": "By the time the school conversion finished, the exchange had placed several batches of materials and declined others. Its report did not describe the building as completely rescued from waste. Instead, it traced the batches that had found a new use and explained which claims could be supported by delivery records. Advertised quantities were kept separate from quantities actually collected. The experience changed the exchange's advice to future projects: identify possible materials before demolition dates are fixed, be explicit about uncertainty, and treat removal as part of preparing a product for another user. Reuse depended on a chain of dependable information and physical handling. Breaking either part of that chain could leave an apparently valuable item without a realistic destination."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The team found that reuse required coordination between different building projects."
+      },
+      {
+        "number": 2,
+        "statement": "All advertised quantities had already been confirmed by removing the materials."
+      },
+      {
+        "number": 3,
+        "statement": "Photographs in the inventory were taken by the school’s former pupils."
+      },
+      {
+        "number": 4,
+        "statement": "Temporary storage was available without any cost or capacity limit."
+      },
+      {
+        "number": 5,
+        "statement": "The listings were revised when removed doors failed inspection."
+      },
+      {
+        "number": 6,
+        "statement": "The receiving workshop planned to use the doors in a restaurant."
+      },
+      {
+        "number": 7,
+        "statement": "One receiving design was modified to fit the dimensions of available materials."
+      },
+      {
+        "number": 8,
+        "statement": "The final report treated advertised quantities as identical to quantities collected."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "linked decisions on one building site to the timetable of another",
+        "explanation": "Supply and receiving schedules had to be coordinated."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "distinguished estimated quantities from quantities confirmed after removal",
+        "explanation": "Some advertised quantities were still estimates."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "Staff counted visible items and photographed examples",
+        "explanation": "The identities of the photographers as former pupils are not established."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "storage was neither unlimited nor free",
+        "explanation": "Both cost and capacity constraints applied."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "The exchange updated the listing",
+        "explanation": "Rejected doors were not left advertised as equivalent."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "A nearby workshop agreed to take a group of doors",
+        "explanation": "The doors' proposed destination within the workshop's work is not specified."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "changed the spacing of interior openings to accommodate available doors",
+        "explanation": "The design was adapted to the reused doors."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "Advertised quantities were kept separate from quantities actually collected.",
+        "explanation": "The two measures remained distinct."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-012",
+    "title": "Who kept the town's time?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For visitors entering the market square in the town of Alderwick, the clock on the meeting hall seems to offer a simple link with the past. Its face has occupied the same position for generations, and photographs show market stalls beneath it long before cars appeared in the square. When the local museum prepared an exhibition about the clock, however, continuity proved harder to describe than the photographs suggested. The visible face was only one part of a changing arrangement of machinery, maintenance and public expectations. The exhibition's starting question was not how old the clock looked, but how people had kept it working and decided which time it should show."
+      },
+      {
+        "label": "B",
+        "text": "The earliest surviving maintenance book listed payments for winding, cleaning and occasional replacement parts. Entries were irregular. A long gap might indicate that little had been spent, that records had been lost, or that work had been paid for under a different heading. The curator refused to interpret every blank period as evidence that the clock had stopped. Other documents sometimes filled a gap, including accounts for the building rather than for the clock itself. Each source described a particular administrative purpose. Comparing them revealed more than reading the clock book as a complete narrative, but it also left uncertainties that could not honestly be resolved into an unbroken sequence of events."
+      },
+      {
+        "label": "C",
+        "text": "A later agreement with a local repairer was more specific. It separated routine attention from major work that required additional approval. The arrangement explained why small adjustments appeared frequently in the accounts while a larger repair generated a long exchange of letters. Officials were deciding who could authorise expenditure as well as what the mechanism needed. The exhibition displayed a copy of the agreement beside photographs of tools, connecting financial rules with physical work. It also identified repairs documented in writing but no longer visible in the surviving mechanism. An object can retain evidence of some interventions while losing traces of others, particularly when an old component has been replaced more than once."
+      },
+      {
+        "label": "D",
+        "text": "Public complaints introduced a different voice. Letters mentioned missed appointments and disagreement between the meeting-hall clock and clocks in nearby shops. They showed that the displayed time mattered, but did not provide a representative survey of every resident. People with a reason to complain were more likely to write than those who found the clock satisfactory. Some correspondents asked for more reliable maintenance; others wanted the clock compared regularly with a chosen reference. The museum presented the letters with their dates and circumstances rather than arranging them as a story of constant failure. Their value lay partly in the situations they revealed: trading, travelling and meeting other people all depended on shared expectations about time."
+      },
+      {
+        "label": "E",
+        "text": "The mechanism was eventually altered so that the hands no longer depended on the original winding arrangement. Much of the earlier equipment remained inside the tower, although it no longer performed its former role. For a visitor in the square, the change was barely visible. This made the clock a useful challenge to the idea that an unchanged exterior implied an unchanged object. The museum built a display showing which components worked together at different stages. It did not ask visitors to rank one stage as the only authentic version. Each arrangement belonged to part of the clock's history, and each had shaped the maintenance work and skills needed to keep it useful."
+      },
+      {
+        "label": "F",
+        "text": "During preparation, the museum interviewed people who had looked after the clock in recent decades. Their accounts added practical details about access to the tower and checks made after adjustments, but were recorded separately from older written evidence. A present-day memory could illuminate recent practice without proving how the same task had been done a century earlier. The finished exhibition returned visitors to the clock face, now with a less simple sense of what they were seeing. Its endurance was not the result of remaining untouched. It was the outcome of repeated decisions about repair, responsibility and public use. Those decisions, rather than the dial alone, were what the museum had set out to recover."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The exhibition investigated the work and decisions behind the clock's continued use."
+      },
+      {
+        "number": 2,
+        "statement": "Gaps in the maintenance book were treated as certain evidence that the clock was not operating."
+      },
+      {
+        "number": 3,
+        "statement": "The earliest maintenance worker lived in the meeting hall."
+      },
+      {
+        "number": 4,
+        "statement": "The repair agreement required separate approval for major work."
+      },
+      {
+        "number": 5,
+        "statement": "The museum regarded complaint letters as a representative survey of all residents."
+      },
+      {
+        "number": 6,
+        "statement": "The most expensive alteration took place immediately after a public complaint."
+      },
+      {
+        "number": 7,
+        "statement": "Some earlier equipment remained in the tower after its original function had ended."
+      },
+      {
+        "number": 8,
+        "statement": "Recent interviews were used to prove exactly how maintenance had been performed a century earlier."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "how people had kept it working and decided which time it should show",
+        "explanation": "This was the exhibition's stated focus."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "refused to interpret every blank period as evidence that the clock had stopped",
+        "explanation": "The curator rejected that inference."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "payments for winding, cleaning and occasional replacement parts",
+        "explanation": "The records described payments, not the worker's home."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "major work that required additional approval",
+        "explanation": "Major repairs were handled differently from routine attention."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "did not provide a representative survey of every resident",
+        "explanation": "The letters were explicitly recognised as unrepresentative."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "The mechanism was eventually altered",
+        "explanation": "No comparison of alteration costs or direct timing link is given."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "remained inside the tower, although it no longer performed its former role",
+        "explanation": "The equipment was retained despite becoming inactive."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "without proving how the same task had been done a century earlier",
+        "explanation": "Recent recollection was not treated as proof of distant practice."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-013",
+    "title": "Remembering a route",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Ask several people to describe the same journey and they may produce instructions that hardly resemble one another. One person names every turning, another lists buildings, and a third offers a rough direction followed by a familiar destination. A learning centre explored these differences when preparing a walking guide for visitors to its large campus. The guide had to help people who had never seen the site, but staff who knew it well found it difficult to judge what newcomers needed. Their first drafts relied heavily on local names. The organisers therefore invited a group of unfamiliar visitors to complete short journeys and describe the instructions they found useful along the way."
+      },
+      {
+        "label": "B",
+        "text": "Participants received one of two versions of a route card. The first emphasised distances and changes of direction; the second described visible features near the turning points. Both cards led to the same destination and contained approximately the same number of words. The team wanted to compare the information supplied, not the effects of giving one group a much longer explanation. Participants walked individually, with an observer following at a distance. The observer noted hesitation and wrong turns but offered help only if the participant asked. Time to arrival was recorded, although the organisers recognised that walking speed could vary for reasons unrelated to the quality of the card."
+      },
+      {
+        "label": "C",
+        "text": "The initial results seemed to favour the cards using visible features. More participants reached the destination without requesting help. Yet a closer examination showed that not every landmark was equally useful. A reference to a large window was weak in a corridor containing several similar windows. A description of a distinctive staircase worked better, particularly when the staircase was visible before the visitor had to turn. The useful quality was not simply that an instruction mentioned an object. It was whether a person could identify that object reliably at the moment a decision was required. This shifted the team's attention from the number of landmarks on a card to their placement and distinctiveness."
+      },
+      {
+        "label": "D",
+        "text": "A second session introduced a change to the route. A temporary screen concealed one of the objects used in the first set of instructions. Some participants noticed that the scene no longer matched the card and searched for another clue; others continued confidently and passed the correct turning. The episode showed the fragility of directions that depended on a feature without explaining its role in the journey. In response, the next draft combined a distinctive landmark with a simple account of the action to take at that point. The organisers also added a way to recognise that a turning had been missed, so visitors could recover without returning to the beginning."
+      },
+      {
+        "label": "E",
+        "text": "After each walk, participants were asked to describe the route from memory. These accounts did not always contain the details that had helped them while walking. A visitor could remember an attractive courtyard but omit the small sign that had resolved a moment of uncertainty. For the guide writers, this was an important distinction. A memorable feature might be suitable for describing a campus tour while contributing little to navigation. The team compared spoken recollections with the observers' notes instead of using recollection alone as a record of what had worked. Participants were also allowed to say that they could not remember a particular section, rather than being pressed to invent a complete account."
+      },
+      {
+        "label": "F",
+        "text": "The published guide used short route sections with clear destinations and cues for checking progress. Staff were assigned to inspect the routes after building work or changes in room use. A guide that had worked well during the trial could become misleading if a doorway closed or a prominent object moved. The centre retained both the route cards and the observation sheets as a record of why particular wording had been chosen. This made later editing less dependent on one person's memory of the project. Giving directions emerged as a design task rooted in another person's decisions. Familiarity with the place was useful, but the guide improved when its writers examined where that familiarity stopped being shared."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The campus staff's first instructions used names that were familiar locally."
+      },
+      {
+        "number": 2,
+        "statement": "Participants using landmark cards were given substantially more text to read."
+      },
+      {
+        "number": 3,
+        "statement": "The participants were all first-year university students."
+      },
+      {
+        "number": 4,
+        "statement": "A landmark was particularly helpful when it could be recognised before the relevant turn."
+      },
+      {
+        "number": 5,
+        "statement": "The second session left every landmark mentioned on the original route cards clearly visible."
+      },
+      {
+        "number": 6,
+        "statement": "Every participant who passed the correct turning requested help."
+      },
+      {
+        "number": 7,
+        "statement": "Participants always recalled the same details that had helped them during the walk."
+      },
+      {
+        "number": 8,
+        "statement": "Staff were expected to review the routes after changes to the campus."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "Their first drafts relied heavily on local names.",
+        "explanation": "The early drafts assumed local knowledge."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "approximately the same number of words",
+        "explanation": "The versions were similar in length."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "Participants walked individually",
+        "explanation": "Their student status or year of study is not specified."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "visible before the visitor had to turn",
+        "explanation": "Visibility at the decision point contributed to usefulness."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "one of the objects used in the first set of instructions",
+        "explanation": "The screen hid one of the objects used as a cue in the original instructions."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "continued confidently and passed the correct turning",
+        "explanation": "Their subsequent requests for help are not described."
+      },
+      {
+        "number": 7,
+        "answer": "FALSE",
+        "paragraph": "E",
+        "evidence": "did not always contain the details that had helped them",
+        "explanation": "Memory and practical usefulness did not always coincide."
+      },
+      {
+        "number": 8,
+        "answer": "TRUE",
+        "paragraph": "F",
+        "evidence": "inspect the routes after building work or changes in room use",
+        "explanation": "The published guide had an assigned review process."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-014",
+    "title": "When a story changes language",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The first page of a children's story about a lost button caused more discussion at a translation workshop than its organisers had expected. In the original, a short description made the button sound both ordinary and faintly important. One translation preserved every physical detail but sounded unusually formal; another read smoothly while making the object seem precious from the start. The workshop brought together translators, teachers and readers to compare possible versions. Its purpose was not to select a winner. Participants were asked to identify what each wording led a reader to expect, and what might be lost or added when a sentence moved into another language."
+      },
+      {
+        "label": "B",
+        "text": "The group began by reading a complete draft before examining individual choices. This prevented a striking sentence from being judged entirely apart from its role in the story. A joke that sounded effective on its own might reveal information the next scene was meant to withhold. Similarly, an unusually simple description could be deliberate if a later passage depended on the reader having overlooked something. Participants marked places where their understanding changed as they read. The translator then explained some choices, but only after readers had described their reactions. This order preserved an opportunity to learn what the words communicated without an additional explanation of what they had been intended to communicate."
+      },
+      {
+        "label": "C",
+        "text": "Names were a recurring point of debate. The story included a street name whose sound suggested a description in the original language. Retaining it would preserve the setting but lose that suggestion for many new readers. Replacing it could make the connection clearer while introducing a name that did not belong naturally to the place. The translator prepared two versions and read the surrounding scene aloud. Neither option satisfied every participant. The group recorded the reasons for each preference, including concerns about rhythm and the age of the intended audience. The decision remained the translator's responsibility; the workshop offered evidence about reception rather than a rule capable of resolving every similar case."
+      },
+      {
+        "label": "D",
+        "text": "A teacher drew attention to repeated phrases that some adults had described as unnecessary. In her reading session, children anticipated one of these phrases and joined in when it returned. Repetition was performing an audible role that a silent adult reading could miss. The translator restored a phrase removed from an earlier draft and shortened a nearby sentence to keep the pace of the scene. This did not create a general instruction to preserve all repetition. It showed why the mode of reading mattered. A book read aloud to a group places different demands on the voice and listener from a text encountered privately, even when the printed words are identical."
+      },
+      {
+        "label": "E",
+        "text": "The workshop also considered explanatory additions. A reference to an unfamiliar household object tempted the translator to insert a definition. Readers tried the scene with and without that addition. In one version, the explanation interrupted a quick exchange between characters; in another, a small change to an action made the object's purpose understandable without a separate aside. The group preferred the latter solution for that passage. Elsewhere, it accepted that a reader might initially remain uncertain. Not every unfamiliar detail needed to be resolved immediately. The translator noted which uncertainties prevented readers from following the action and which simply invited them to continue reading, a distinction that helped limit unnecessary explanation."
+      },
+      {
+        "label": "F",
+        "text": "Before publication, the translator kept a record of major decisions alongside the final manuscript. The record was not intended to accompany the children's edition, but could assist future editors or a new translator revisiting the work. It preserved alternatives that had been considered and the reasons for rejecting them. The final text differed from the first draft in many small ways, yet no single change accounted for its more consistent voice. The work had involved listening to how readers understood a sequence of choices. Fidelity to the original had not disappeared from the discussion. It had become a more detailed question about tone, timing, sound and the experience of discovering the story."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The workshop was organised as a competition to choose the best translator."
+      },
+      {
+        "number": 2,
+        "statement": "Participants first read a whole draft before discussing individual wording decisions."
+      },
+      {
+        "number": 3,
+        "statement": "The translator had previously published three books in the target language."
+      },
+      {
+        "number": 4,
+        "statement": "All participants preferred the same version of the street name."
+      },
+      {
+        "number": 5,
+        "statement": "Children's responses helped reveal a function of a repeated phrase."
+      },
+      {
+        "number": 6,
+        "statement": "The children were asked to complete a written comprehension test after the reading."
+      },
+      {
+        "number": 7,
+        "statement": "For one passage, the group preferred showing an object's purpose through an action."
+      },
+      {
+        "number": 8,
+        "statement": "The published children's edition was intended to include the translator's full decision record."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "Its purpose was not to select a winner.",
+        "explanation": "There was no competitive selection aim."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "reading a complete draft before examining individual choices",
+        "explanation": "Whole-text reading preceded detailed examination."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "The translator then explained some choices",
+        "explanation": "The translator's publication history is not given."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "Neither option satisfied every participant.",
+        "explanation": "Opinions differed."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "children anticipated one of these phrases and joined in",
+        "explanation": "Their participation showed the audible role of repetition."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "In her reading session",
+        "explanation": "A reading session is described, but no written test is mentioned."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "made the object's purpose understandable without a separate aside",
+        "explanation": "The group preferred this contextual solution."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "not intended to accompany the children's edition",
+        "explanation": "The record was kept for editorial use."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-015",
+    "title": "Classroom furniture in motion",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A set of lightweight tables arrived at Meadow School with a promise that classrooms would become easier to rearrange. The tables could be moved individually and joined into different shapes. On the supplier's drawings, the same room supported a discussion, a practical activity and quiet individual work. Teachers were interested, but their first concern was more ordinary: how long would each change take in a real lesson? The school borrowed enough tables for two classrooms before making a larger purchase. The trial was organised around existing teaching plans, so furniture changes had to fit the activities teachers already intended to teach rather than provide a reason to replace them with demonstration lessons."
+      },
+      {
+        "label": "B",
+        "text": "The two rooms were similar in size but used by different classes. Teachers recorded the arrangement at the start of each lesson and any later changes. They also noted time spent moving furniture, obstacles near doors and occasions when pupils could not see a shared display comfortably. These observations were discussed at the end of each week. The school did not treat differences between the classes as proof that a table design had caused a particular learning outcome. Too many other features differed. The purpose of the trial was narrower: to examine whether the furniture supported the planned activities and what practical costs arose when the room was rearranged."
+      },
+      {
+        "label": "C",
+        "text": "Some apparently minor details had large effects. Tables that moved easily on a clear floor became awkward when bags occupied the spaces between them. A successful arrangement also depended on where coats and equipment were kept. One teacher introduced a separate storage area before attempting further changes. This reduced interruptions during movement, although it used a section of wall previously available for displays. The pupils were taught a short routine for moving and positioning tables without blocking exits. Once the routine became familiar, rearrangements took less time. The teachers therefore distinguished the first attempts from later use instead of averaging them together as if everyone had begun with the same experience."
+      },
+      {
+        "label": "D",
+        "text": "The trial also challenged the assumption that movement was always desirable. In a lesson built around careful individual drawing, one teacher kept the tables unchanged throughout. Moving them would have offered little benefit and might have disturbed materials already laid out. On another day, a group task worked better after two clusters were separated because conversation from one was distracting the other. Flexibility lay in having a useful choice, not in demonstrating as many arrangements as possible. The teachers stopped counting the number of changes as a positive result in itself and began asking whether a change had solved a specific problem or enabled a particular part of the lesson."
+      },
+      {
+        "label": "E",
+        "text": "Pupils contributed their own observations. Some liked being able to turn towards a partner quickly, while others preferred a predictable place with less movement nearby. The final room plans included both kinds of space where possible. Furniture dimensions were checked against the range of pupils using the rooms, and the school retained several existing tables that suited particular needs. The new design did not have to replace every older piece to be worthwhile. Care staff also commented on the time required to clean around different arrangements. Their work occurred outside the lessons being observed, but it formed part of the continuing effort needed to keep the classrooms usable."
+      },
+      {
+        "label": "F",
+        "text": "At the end of the loan, the school ordered tables for selected rooms and postponed a whole-school purchase. It also budgeted for storage changes and staff preparation, which had not been prominent in the initial sales proposal. Teachers received diagrams of arrangements tried during the study, accompanied by notes about when they had worked and what had caused difficulty. These were examples to adapt, not instructions to reproduce exactly. The trial had converted an attractive general promise into a smaller set of practical decisions. Lightweight furniture could make change possible, but space, routines and the requirements of a lesson determined whether that possibility was worth using on a particular day."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The school tested the tables before deciding on a larger purchase."
+      },
+      {
+        "number": 2,
+        "statement": "Both trial classrooms were used by the same class."
+      },
+      {
+        "number": 3,
+        "statement": "The supplier paid teachers for the time spent recording observations."
+      },
+      {
+        "number": 4,
+        "statement": "Rearranging the tables became quicker after pupils learned a routine."
+      },
+      {
+        "number": 5,
+        "statement": "Teachers concluded that the greatest possible number of layout changes indicated success."
+      },
+      {
+        "number": 6,
+        "statement": "The school kept some older tables to meet particular needs."
+      },
+      {
+        "number": 7,
+        "statement": "Care staff preferred cleaning the rooms in their original arrangement."
+      },
+      {
+        "number": 8,
+        "statement": "The school immediately purchased the new furniture for every classroom."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "TRUE",
+        "paragraph": "A",
+        "evidence": "borrowed enough tables for two classrooms before making a larger purchase",
+        "explanation": "The loan preceded the purchase decision."
+      },
+      {
+        "number": 2,
+        "answer": "FALSE",
+        "paragraph": "B",
+        "evidence": "used by different classes",
+        "explanation": "Different classes occupied the two rooms."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "Teachers recorded the arrangement",
+        "explanation": "No payment from the supplier is described."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "Once the routine became familiar, rearrangements took less time.",
+        "explanation": "Practice reduced rearrangement time."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "stopped counting the number of changes as a positive result in itself",
+        "explanation": "Changes were judged by purpose rather than frequency."
+      },
+      {
+        "number": 6,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "retained several existing tables that suited particular needs",
+        "explanation": "Not all old furniture was replaced."
+      },
+      {
+        "number": 7,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "commented on the time required to clean around different arrangements",
+        "explanation": "Their specific preference is not stated."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "postponed a whole-school purchase",
+        "explanation": "Only selected rooms received orders."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-016",
+    "title": "Counting what the sea leaves behind",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The beach survey at Bracken Bay began after photographs of litter circulated among local residents. Some images showed large piles beside the harbour wall, while others appeared to show a clean shore. The pictures had been taken on different days and at different points, yet were used to support opposing claims about the same beach. A volunteer coastal group decided to produce a more consistent record. Its members were interested in the material visible on the shore and how that changed over time. They did not claim that a beach count could measure every item entering or leaving the surrounding water. Their first challenge was to define what, where and when they would count."
+      },
+      {
+        "label": "B",
+        "text": "The group marked three fixed survey stretches. One lay near the harbour, another beside the main beach entrance and the third beyond the most frequently visited area. Volunteers recorded the limits of each stretch on a plan and photographed its endpoints. This allowed a new team to cover approximately the same ground without relying on someone else's memory. Survey dates were scheduled in advance, and each visit recorded weather, visible water level and recent organised cleaning. These details could help interpret a change in the count. A low total immediately after a clean-up meant something different from a low total where no collection had recently taken place."
+      },
+      {
+        "label": "C",
+        "text": "The categories required several revisions. Volunteers initially used labels such as small, medium and large without agreed definitions. One team's small item could therefore be another team's medium one. A sample sheet with size ranges and illustrated examples reduced these differences. Objects were classified by observable material and form rather than by a guessed origin. A fragment resembling packaging was not automatically assigned to a particular shop or user. When a category remained uncertain, volunteers recorded that uncertainty instead of choosing the most plausible story. The group wanted a dataset that others could examine, not a collection of confident explanations unsupported by the objects themselves."
+      },
+      {
+        "label": "D",
+        "text": "Training included a practice survey in which two teams examined the same short stretch independently. Their counts differed most for small fragments among pebbles. Discussing these differences was more useful than simply choosing the larger number. The teams compared where they had searched and what they had included, then adjusted the written method. During regular visits, objects were removed after counting where collection was appropriate under the group's agreed procedures. This meant the next survey represented material present after the previous collection, not an untouched accumulation since the project began. The dates of collections remained attached to the counts so a future reader could understand how the survey itself had changed the site."
+      },
+      {
+        "label": "E",
+        "text": "A rise in one category during the autumn attracted attention. The group checked its records before suggesting a cause. That season also contained a gap in the survey timetable, so the interval during which material could accumulate was longer for one visit. A direct comparison of raw totals would overlook that difference. The report presented counts together with the days between visits and discussed several possible influences without selecting one as established fact. Residents still asked which activity had produced the material. The group could identify what it had found and where; demonstrating a source would require additional evidence beyond the survey design they had used."
+      },
+      {
+        "label": "F",
+        "text": "The resulting record was less dramatic than the original photographs, but more informative for organising local action. It showed where repeated collection was needed and which parts of the method caused uncertainty. The coastal group published the counting instructions with its summaries so that another team could repeat the exercise or identify a difference in approach. It also kept photographs as context, linking each one to a location and visit. Images and counts now supported each other instead of competing as isolated descriptions of the whole coast. The project continued because its questions remained modest enough to answer: what was observed in defined places, under recorded conditions, using a method that could be checked."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The photographs that prompted the survey all showed the same section of beach on the same day."
+      },
+      {
+        "number": 2,
+        "statement": "The survey teams recorded whether organised cleaning had recently occurred."
+      },
+      {
+        "number": 3,
+        "statement": "The group obtained its endpoint cameras from a conservation charity."
+      },
+      {
+        "number": 4,
+        "statement": "Volunteers assigned fragments to particular local businesses whenever their origin seemed likely."
+      },
+      {
+        "number": 5,
+        "statement": "Independent practice counts helped reveal inconsistent treatment of small fragments."
+      },
+      {
+        "number": 6,
+        "statement": "The autumn increase occurred only on the stretch beside the main beach entrance."
+      },
+      {
+        "number": 7,
+        "statement": "The group established a single definite cause of the autumn increase."
+      },
+      {
+        "number": 8,
+        "statement": "The published summaries were accompanied by the counting method."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "taken on different days and at different points",
+        "explanation": "The photographs differed in both place and date."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "recent organised cleaning",
+        "explanation": "Recent cleaning was part of the visit record."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "photographed its endpoints",
+        "explanation": "The source of the cameras is not stated."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "not automatically assigned to a particular shop or user",
+        "explanation": "The method used observed features rather than guessed sources."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "Their counts differed most for small fragments among pebbles.",
+        "explanation": "The comparison exposed this source of variation."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "E",
+        "evidence": "A rise in one category during the autumn",
+        "explanation": "The paragraph does not specify that location or exclude other stretches."
+      },
+      {
+        "number": 7,
+        "answer": "FALSE",
+        "paragraph": "E",
+        "evidence": "without selecting one as established fact",
+        "explanation": "Possible influences were discussed without confirming one cause."
+      },
+      {
+        "number": 8,
+        "answer": "TRUE",
+        "paragraph": "F",
+        "evidence": "published the counting instructions with its summaries",
+        "explanation": "The instructions were made available with the results."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-017",
+    "title": "The mark beneath the bowl",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A shallow pottery bowl entered the Norchester collection with a handwritten label naming a local workshop. For years, the label's wording appeared in catalogues as a straightforward fact. When a curator prepared the bowl for a new display, she examined the small mark beneath its base and compared it with the old description. The mark was incomplete, and the label gave no explanation of how the identification had been made. This did not prove that the name was wrong. It showed that the museum held a conclusion without an accessible account of the evidence behind it. Reconstructing that account became the basis of a display about how objects acquire, retain and sometimes lose their identities."
+      },
+      {
+        "label": "B",
+        "text": "The curator began with the acquisition register. It recorded who had transferred the bowl to the museum and when, but repeated the workshop name without further explanation. A letter in the same file described where the donor had bought it. This provided a stage in the object's ownership history, not direct proof of where it had been made. The distinction mattered because an object can move far from its place of production before entering a collection. The curator recorded each statement with its source rather than joining the details into a continuous story that the documents did not support. A gap in the history remained visible as a gap."
+      },
+      {
+        "label": "C",
+        "text": "Comparison with other bowls offered more evidence, although not an immediate solution. Several objects attributed to the named workshop had similar rims, but their marks varied. Some had been identified from documents, while others had apparently been assigned on the basis of resemblance alone. Using all of them as equally secure references would risk repeating an earlier assumption. The curator therefore grouped the comparisons according to the strength of their supporting records. Photographs were taken under several lighting angles to make faint surface details easier to examine. The bowl itself remained unchanged; the aim was to improve observation, not sharpen the mark physically until it resembled a desired example."
+      },
+      {
+        "label": "D",
+        "text": "A catalogue from an old dealer provided an unexpected lead. It pictured a bowl with a related form under a different workshop name. The illustration was too small to resolve the base mark, so it could not settle the attribution. It did, however, reveal that similar objects had circulated under more than one description. The curator asked a specialist to review the material and documented the response as an opinion based on the available evidence. The museum did not replace one absolute statement with another simply because a specialist had been consulted. The review narrowed some possibilities while leaving the identity of the maker less certain than the original label had suggested."
+      },
+      {
+        "label": "E",
+        "text": "The new display label reflected that uncertainty. It described the bowl as possibly associated with the local workshop and explained which features supported the suggestion. Nearby images showed the incomplete mark and examples used in the comparison. Visitors could see why the conclusion was qualified rather than being asked to accept a mysterious change of wording. The earlier label was preserved in the archive as part of the museum's own history. Correcting a description did not mean erasing evidence of how the object had previously been understood. The exhibition also invited visitors to distinguish the place where an item had been purchased from the place where it had been produced."
+      },
+      {
+        "label": "F",
+        "text": "Some visitors found a qualified attribution disappointing, particularly because the bowl had long been used as an example of local craftsmanship. The curator acknowledged that an object could carry a community's expectations as well as a physical mark. Nevertheless, a confident story was not a sufficient reason to hide uncertainty. The display offered a different kind of interest: a view of the questions that turn an old object into historical evidence. Further information might strengthen or weaken the local connection. For that reason, the catalogue entry included references to the records examined and the date of the review, allowing the next researcher to begin with the investigation rather than merely inherit its latest conclusion."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The original label explained the evidence used to identify the workshop."
+      },
+      {
+        "number": 2,
+        "statement": "The acquisition register supplied information about the transfer to the museum."
+      },
+      {
+        "number": 3,
+        "statement": "The donor paid less for the bowl than for other objects bought at the same time."
+      },
+      {
+        "number": 4,
+        "statement": "Every comparison bowl had equally strong documentation of its origin."
+      },
+      {
+        "number": 5,
+        "statement": "The dealer's catalogue introduced a different workshop attribution for a similar object."
+      },
+      {
+        "number": 6,
+        "statement": "The specialist personally inspected the bowl at the museum."
+      },
+      {
+        "number": 7,
+        "statement": "The new display allowed visitors to examine images of the evidence."
+      },
+      {
+        "number": 8,
+        "statement": "The reviewed catalogue entry omitted references to the documents that had been consulted."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "gave no explanation of how the identification had been made",
+        "explanation": "The attribution had no explanation attached."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "who had transferred the bowl to the museum and when",
+        "explanation": "It documented the donor and date of transfer."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "described where the donor had bought it",
+        "explanation": "The purchase location is mentioned, but prices are not compared."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "according to the strength of their supporting records",
+        "explanation": "The curator distinguished stronger and weaker documentation."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "under a different workshop name",
+        "explanation": "A related form appeared under another name."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "review the material",
+        "explanation": "The text does not specify a physical museum visit or direct inspection."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "Nearby images showed the incomplete mark",
+        "explanation": "Supporting images accompanied the qualified description."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "included references to the records examined",
+        "explanation": "The references were retained for future researchers."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-018",
+    "title": "A river on a table",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "At a regional science centre, a long shallow table represented a section of a river valley. Water could be released at one end, and visitors could place small barriers and buildings along its course. The exhibit was popular because changes produced visible effects within seconds. Yet the education team became concerned about how confidently some visitors related those effects to real places. A miniature barrier that redirected water on the table was sometimes described as a proven solution for a town. The centre decided to redesign the explanations around the model. Its purpose was to support exploration of relationships, not to offer engineering advice for an actual river or building site."
+      },
+      {
+        "label": "B",
+        "text": "The table's instructions originally emphasised operation: how to start the water, where objects could be placed and when to return them. The revised version also identified what the model represented and what it simplified. The surface, the water supply and the range of available objects were all controlled for the exhibit. Visitors could investigate changes within that setup, but the setup did not reproduce every feature of a natural valley. These limits were described beside the controls where they were most likely to be read. Staff avoided placing all qualifications on a distant panel that visitors would encounter only after they had already interpreted the experiment."
+      },
+      {
+        "label": "C",
+        "text": "One activity asked visitors to place the same barrier in two different positions while keeping the starting water setting unchanged. This made the comparison easier to discuss. If visitors changed the water supply, the barrier and the buildings at once, they could observe a difference without knowing which change had produced it. The aim was not to prevent imaginative experimentation. After a short controlled comparison, visitors were free to develop other arrangements. The sequence gave them a reference point for discussing what happened. Staff asked them to describe observations before naming a result as better or worse, because an arrangement that protected one area might move water towards another."
+      },
+      {
+        "label": "D",
+        "text": "School groups received worksheets that allowed more than one prediction before a trial. Pupils could draw an expected route for the water and then mark where the actual flow differed. A wrong prediction was retained rather than rubbed out. Comparing expectation with observation helped the teacher see which assumptions needed discussion. The centre also provided photographs of selected arrangements for groups unable to use the table during a busy visit. Those photographs supported conversation about the visible situation but did not show every stage of the water's movement. Teachers were encouraged to distinguish what the image displayed from what a viewer might imagine had happened between the recorded moments."
+      },
+      {
+        "label": "E",
+        "text": "The exhibit's operators encountered practical issues of their own. Objects could shift between sessions, and small amounts of material could collect near an outlet. The education team introduced a check before each school visit so that comparisons did not begin from an unnoticed alteration in the apparatus. Maintenance became part of the educational record: staff noted adjustments that might affect how a familiar arrangement behaved. A worksheet prepared several months earlier could then be reviewed against the current setup. This was an important correction to the idea that a reusable model delivered an identical lesson indefinitely. Its physical condition influenced the observations just as the visitors' chosen arrangements did."
+      },
+      {
+        "label": "F",
+        "text": "In the revised programme, the final discussion asked what additional information would be needed to investigate a real location. Groups considered the surrounding land, changing conditions and the consequences for different users of the area. The table could help them formulate such questions without answering them all. Staff reported that visitors still enjoyed producing dramatic changes, but could more readily explain the limits of their conclusions. The centre kept the interactive element rather than replacing it with a lecture. The model remained useful because people could act on it and observe a response. The accompanying explanations made that experience a starting point for enquiry rather than a shortcut to certainty about the world outside."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The science centre intended the table to provide engineering advice for real building sites."
+      },
+      {
+        "number": 2,
+        "statement": "Information about the model's limitations was placed near its controls."
+      },
+      {
+        "number": 3,
+        "statement": "A university engineering department supplied the model's water pump."
+      },
+      {
+        "number": 4,
+        "statement": "One comparison activity kept the initial water setting constant."
+      },
+      {
+        "number": 5,
+        "statement": "Pupils were required to erase predictions that proved incorrect."
+      },
+      {
+        "number": 6,
+        "statement": "The photographed arrangements were the ones most frequently chosen by pupils."
+      },
+      {
+        "number": 7,
+        "statement": "The table was checked before school visits for changes that could affect results."
+      },
+      {
+        "number": 8,
+        "statement": "The centre replaced the interactive exhibit with a lecture."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "not to offer engineering advice for an actual river or building site",
+        "explanation": "Real engineering advice was outside the exhibit's purpose."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "described beside the controls",
+        "explanation": "The limits were positioned where users operated the exhibit."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "The surface, the water supply and the range of available objects",
+        "explanation": "The equipment's supplier is not identified."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "keeping the starting water setting unchanged",
+        "explanation": "The water setting was controlled while barrier position changed."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "A wrong prediction was retained rather than rubbed out.",
+        "explanation": "Incorrect predictions were kept for comparison."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "photographs of selected arrangements",
+        "explanation": "The selection criterion is not given."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "a check before each school visit",
+        "explanation": "Checks addressed unnoticed physical changes."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "kept the interactive element rather than replacing it with a lecture",
+        "explanation": "The interactive model remained."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-019",
+    "title": "Listening for wildlife",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "A nature group studying a wooded valley had traditionally asked volunteers to visit selected paths and write down the wildlife they noticed. The records were useful, but depended on who could attend and what they recognised. A set of small audio recorders offered a way to collect sounds while volunteers were elsewhere. The group installed them at fixed points for a short seasonal survey. It hoped to examine when particular calls appeared in the recordings and how patterns differed between locations. The new equipment did not remove the need for human judgement. It changed where that judgement entered the process, shifting some of the work from standing on a path to interpreting a collection of sound files."
+      },
+      {
+        "label": "B",
+        "text": "The recorders followed an agreed schedule rather than operating continuously. Each file carried a location code and a time reference, and the team checked the equipment during regular visits. A missing file was recorded as missing, not interpreted as a silent interval. Batteries, storage and placement all required attention. One recorder was moved after foliage repeatedly brushed against its casing, producing sounds unrelated to the survey's intended observations. The move was documented because a later comparison with that location would otherwise conceal a change in the setup. Consistency involved more than buying identical devices. It depended on keeping track of where and how each device had actually been used."
+      },
+      {
+        "label": "C",
+        "text": "Volunteers began by listening to a shared set of examples. They discussed features that supported an identification and cases in which the sound remained uncertain. A call could be faint, overlap another sound or end before its distinguishing feature became clear. The survey form therefore allowed a listener to mark a possible identification without presenting it as confirmed. Several difficult files were reviewed by a second listener. This required more time than accepting every first judgement, but gave the group a way to investigate disagreement. The team kept the original files linked to the decisions so that an identification could be reconsidered without depending entirely on a written description."
+      },
+      {
+        "label": "D",
+        "text": "Software helped sort the files by suggesting sections that might contain calls of interest. The suggestions were treated as candidates for review rather than final results. To examine what the software might overlook, listeners also checked a sample of sections it had not selected. This was important: checking only suggested detections could reveal incorrect suggestions while leaving missed sounds invisible. The review found both kinds of problem. The group adjusted its process accordingly, reserving time for checking unselected material as well as confirming likely calls. It did not describe the software as either wholly reliable or useless. Its value depended on how it was incorporated into a process with explicit checks."
+      },
+      {
+        "label": "E",
+        "text": "Interpreting a quiet recording proved harder than interpreting an obvious call. The absence of an identifiable sound in a short file did not establish that the animal concerned was absent from the surrounding area. It established that the group had not identified its call in that recording under those conditions. Similarly, a larger number of detected calls could not automatically be translated into the same increase in the number of individual animals. One individual might call repeatedly. The final summaries therefore reported detections in recording periods, with the method stated clearly, rather than presenting them as a direct count of the entire wildlife population in the valley."
+      },
+      {
+        "label": "F",
+        "text": "The survey produced a set of questions for further field visits. Volunteers returned to locations where patterns were unexpected and compared what they heard on site with the recordings. The audio archive also remained available for later review, subject to the group's access arrangements. Files containing recognisable human conversations were kept out of public playback. The group had gained a record that could be revisited, something an ordinary field note could not fully provide. Yet the archive required storage, descriptions and continuing care. Recording more hours was easy to celebrate; making those hours interpretable was the less visible work that determined whether another listener could learn anything dependable from them."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "Installing recorders eliminated the need for people to interpret the observations."
+      },
+      {
+        "number": 2,
+        "statement": "The team distinguished a missing recording from a recording of a quiet period."
+      },
+      {
+        "number": 3,
+        "statement": "The recorders were purchased with money raised through an online appeal."
+      },
+      {
+        "number": 4,
+        "statement": "Uncertain identifications could be recorded without being labelled confirmed."
+      },
+      {
+        "number": 5,
+        "statement": "Listeners examined only the sections selected by the software."
+      },
+      {
+        "number": 6,
+        "statement": "The updated software found twice as many calls as the previous version."
+      },
+      {
+        "number": 7,
+        "statement": "Repeated calls from one animal could make detections differ from a count of individuals."
+      },
+      {
+        "number": 8,
+        "statement": "Recordings containing recognisable conversations were made available for public playback."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "did not remove the need for human judgement",
+        "explanation": "Human interpretation remained necessary."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "recorded as missing, not interpreted as a silent interval",
+        "explanation": "Missing data was treated separately from silence."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "buying identical devices",
+        "explanation": "The funding source is not described."
+      },
+      {
+        "number": 4,
+        "answer": "TRUE",
+        "paragraph": "C",
+        "evidence": "mark a possible identification without presenting it as confirmed",
+        "explanation": "The form preserved uncertainty."
+      },
+      {
+        "number": 5,
+        "answer": "FALSE",
+        "paragraph": "D",
+        "evidence": "also checked a sample of sections it had not selected",
+        "explanation": "Unselected sections were sampled too."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "The group adjusted its process accordingly",
+        "explanation": "No comparison between software versions or numerical doubling is given."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "One individual might call repeatedly.",
+        "explanation": "Call detections did not directly count animals."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "kept out of public playback",
+        "explanation": "Those files were excluded from public playback."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  },
+  {
+    "id": "rd-020",
+    "title": "Sharing a rehearsal room",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The old station building in Riverton became a community arts centre with three rehearsal rooms. During its first year, groups reserved time by contacting the volunteer coordinator. Regular users quickly learned which evenings were popular and booked them several months ahead. New groups were often told that nothing suitable remained. The rooms were busy, yet the centre's committee questioned whether high occupancy alone meant the building was meeting its purpose. The centre had been established to broaden participation in local arts, not simply to provide predictable space for the groups that arrived first. Reviewing the booking arrangements became a discussion about what fair access meant in practice."
+      },
+      {
+        "label": "B",
+        "text": "The committee examined a season of reservations and actual attendance. The two were not identical. Some groups regularly finished early, while others cancelled at short notice and left a slot that was difficult to offer to someone else. The coordinator also received requests that were never entered into the calendar because no space was available. Without these requests, a record of full rooms could conceal demand from people who had been turned away. For the review, volunteers logged unsuccessful enquiries as well as completed bookings. This broadened the evidence beyond the behaviour of existing users, although informal enquiries made in conversation remained harder to capture consistently."
+      },
+      {
+        "label": "C",
+        "text": "One proposal would have allocated every evening through a monthly draw. It offered a clear form of equal opportunity, but would make planning a production difficult for groups needing the same room each week. Another proposal would preserve all regular reservations and offer newcomers only the remaining gaps. That would improve predictability without changing the exclusion that had prompted the review. The committee eventually divided time into two categories: a limited block for continuing projects and a pool available for shorter bookings. Regular groups had to reapply for the continuing block each season. Having held a particular evening previously was relevant background, not an automatic claim to keep it indefinitely."
+      },
+      {
+        "label": "D",
+        "text": "The cancellation rules were revised as well. Groups were asked to release unwanted sessions by a stated deadline, allowing the coordinator to contact a waiting list. The centre also began offering some short-notice vacancies through a noticeboard, since not everyone could respond quickly to electronic messages. These arrangements did not ensure that every empty slot would be filled. A room available at short notice might still be unsuitable for a group that needed several members to coordinate work and travel. The review therefore separated avoidable failures to communicate from vacancies that remained despite reasonable notice. Treating every unused hour as someone's mistake would have discouraged honest reporting."
+      },
+      {
+        "label": "E",
+        "text": "Room differences complicated the allocation process. One space had fixed equipment that made it particularly suitable for music, while another offered a clearer floor for movement. Asking applicants only how many hours they wanted was insufficient. The revised request form asked what the activity required, including storage and access to equipment. Groups were not asked to prove that their art was more valuable than someone else's. They were asked for practical information that could support a workable match. Sometimes changing rooms opened a useful slot; in other cases, it would have made the booking meaningless. The coordinator retained responsibility for discussing those cases instead of letting the calendar make the decision by itself."
+      },
+      {
+        "label": "F",
+        "text": "At the next seasonal review, the centre reported both occupancy and the number of different groups using the building. It also kept a record of requests it had been unable to meet. The committee accepted that no single figure could demonstrate fair access. A wider range of users might be welcome, but not if every project received too little time to achieve anything. The revised rules would therefore remain open to review rather than being presented as a permanent solution. The rooms were still a limited resource. What had changed was the visibility of the choices involved in sharing them, and the opportunity for people outside the established timetable to have their needs considered."
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "statement": "The centre was created only to provide space for its earliest regular users."
+      },
+      {
+        "number": 2,
+        "statement": "The review included enquiries from groups that had not obtained a booking."
+      },
+      {
+        "number": 3,
+        "statement": "Most last-minute cancellations were caused by transport problems."
+      },
+      {
+        "number": 4,
+        "statement": "Regular groups were given a permanent right to their existing evenings."
+      },
+      {
+        "number": 5,
+        "statement": "A noticeboard was used to make some short-notice vacancies more widely known."
+      },
+      {
+        "number": 6,
+        "statement": "Groups using the noticeboard paid a lower hourly fee."
+      },
+      {
+        "number": 7,
+        "statement": "Room requests began to include information about the practical needs of the activity."
+      },
+      {
+        "number": 8,
+        "statement": "The committee considered occupancy alone sufficient to demonstrate fair access."
+      }
+    ],
+    "answer_key": [
+      {
+        "number": 1,
+        "answer": "FALSE",
+        "paragraph": "A",
+        "evidence": "to broaden participation in local arts",
+        "explanation": "Its purpose extended beyond serving the first groups."
+      },
+      {
+        "number": 2,
+        "answer": "TRUE",
+        "paragraph": "B",
+        "evidence": "logged unsuccessful enquiries as well as completed bookings",
+        "explanation": "Unmet demand was added to the evidence."
+      },
+      {
+        "number": 3,
+        "answer": "NOT GIVEN",
+        "paragraph": "B",
+        "evidence": "cancelled at short notice",
+        "explanation": "The reasons for cancellations are not specified."
+      },
+      {
+        "number": 4,
+        "answer": "FALSE",
+        "paragraph": "C",
+        "evidence": "had to reapply for the continuing block each season",
+        "explanation": "Existing bookings did not guarantee permanent access."
+      },
+      {
+        "number": 5,
+        "answer": "TRUE",
+        "paragraph": "D",
+        "evidence": "offering some short-notice vacancies through a noticeboard",
+        "explanation": "The noticeboard supplemented electronic messages."
+      },
+      {
+        "number": 6,
+        "answer": "NOT GIVEN",
+        "paragraph": "D",
+        "evidence": "a noticeboard",
+        "explanation": "No fee difference is described."
+      },
+      {
+        "number": 7,
+        "answer": "TRUE",
+        "paragraph": "E",
+        "evidence": "what the activity required, including storage and access to equipment",
+        "explanation": "Practical requirements became part of matching groups to rooms."
+      },
+      {
+        "number": 8,
+        "answer": "FALSE",
+        "paragraph": "F",
+        "evidence": "no single figure could demonstrate fair access",
+        "explanation": "The committee used several measures rather than occupancy alone."
+      }
+    ],
+    "question_type": "true_false_not_given",
+    "scope": "single_passage_practice",
+    "instructions": "Classify each statement using the passage only: TRUE if supported, FALSE if contradicted, or NOT GIVEN if the information is insufficient.",
+    "scenario_basis": "Fictional case study written for reading practice; not a report of real research.",
+    "used": false,
+    "_task_type": "reading_passage",
+    "_source": "assistant_authored_practice",
+    "_created_on": "2026-09-03",
+    "_spec_version": 2
+  }
+]
