@@ -8,6 +8,7 @@ export default defineConfig([
   { settings: { next: { rootDir: "apps/web/" } } },
   globalIgnores([
     "**/.next/**",
+    "**/.swc/**",
     "**/.local/**",
     "**/playwright-report/**",
     "**/test-results/**",
