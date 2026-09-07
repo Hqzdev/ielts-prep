@@ -12,12 +12,13 @@
 <p align="center">
   <a href="#how-to-install">Install</a> ·
   <a href="#inside-veylo">Features</a> ·
+  <a href="#ios-preview">iOS preview</a> ·
   <a href="#architecture">Architecture</a> ·
   <a href="#tech-stack">Tech stack</a> ·
   <a href="#documentation">Documentation</a>
 </p>
 
-**Veylo is a workspace for IELTS Academic preparation.** Practise with tasks, save drafts, build speaking confidence with Vey, and return each day to earn another flame. The web app runs locally; shared API contracts and design data are ready for future iOS and macOS apps.
+**Veylo is a workspace for IELTS Academic preparation.** Practise with tasks, save drafts, build speaking confidence with Vey, and return each day to earn another flame. The repository includes the web app and an interactive SwiftUI iOS preview. The iOS preview works with local demo data; connecting it to the backend is the next stage. macOS has a separate starter project.
 
 <a href="assets/readme/reading-desktop.png"><img src="assets/readme/reading-desktop.png" width="100%" alt="Veylo catalogue: 46 Academic Reading tests, random task selection and workspace navigation"></a>
 
@@ -82,6 +83,8 @@ Qualifying activities include a submitted practice attempt or quiz, a completed 
 
 ## How to install
 
+### Web app
+
 You need **Node.js 24.17.0**, **pnpm 11.19.0**, and a running **Docker Desktop or OrbStack**. Python, Swift and a Gemini key are optional for the initial setup.
 
 ```sh
@@ -121,17 +124,19 @@ For a new Google configuration, follow the [environment setup guide](docs/runboo
 
 Domain is independent of Next.js, React, Supabase and platform APIs. Browser audio, DOM and IndexedDB stay in web adapters. Run `pnpm architecture:check` to verify import boundaries and detect dependency cycles.
 
-| Path                                                 | Responsibility                                             |
-| ---------------------------------------------------- | ---------------------------------------------------------- |
-| [`apps/web`](apps/web)                               | Next.js, pages, HTTP, Auth and browser adapters.           |
-| [`packages/backend`](packages/backend)               | Domain, Application, Infrastructure and Composition.       |
-| [`packages/contracts`](packages/contracts)           | Zod → OpenAPI 3.1: 46 operations under `/api/v1`.          |
-| [`packages/api-client`](packages/api-client)         | A typed TypeScript HTTP client.                            |
-| [`packages/design-tokens`](packages/design-tokens)   | Colours, typography, assets and Vey parameters.            |
-| [`packages/ui-web`](packages/ui-web)                 | The SVG character, motion, gaze and shared web models.     |
-| [`tools/content-generator`](tools/content-generator) | A Python generator for practice materials.                 |
-| [`tools/api-compatibility`](tools/api-compatibility) | Swift client generation and compilation from the contract. |
-| [`infra/supabase`](infra/supabase)                   | Database, Auth, Storage, SQL migrations and checks.        |
+| Path                                                 | Responsibility                                                       |
+| ---------------------------------------------------- | -------------------------------------------------------------------- |
+| [`apps/web`](apps/web)                               | Next.js, pages, HTTP, Auth and browser adapters.                     |
+| [`apps/ios`](apps/ios)                               | SwiftUI screens, local demo scenarios, persistence and native tests. |
+| [`apps/macos`](apps/macos)                           | Separate macOS starter project and platform resources.               |
+| [`packages/backend`](packages/backend)               | Domain, Application, Infrastructure and Composition.                 |
+| [`packages/contracts`](packages/contracts)           | Zod → OpenAPI 3.1: 46 operations under `/api/v1`.                    |
+| [`packages/api-client`](packages/api-client)         | A typed TypeScript HTTP client.                                      |
+| [`packages/design-tokens`](packages/design-tokens)   | Colours, typography, assets and Vey parameters.                      |
+| [`packages/ui-web`](packages/ui-web)                 | The SVG character, motion, gaze and shared web models.               |
+| [`tools/content-generator`](tools/content-generator) | A Python generator for practice materials.                           |
+| [`tools/api-compatibility`](tools/api-compatibility) | Swift client generation and compilation from the contract.           |
+| [`infra/supabase`](infra/supabase)                   | Database, Auth, Storage, SQL migrations and checks.                  |
 
 ```mermaid
 flowchart LR
@@ -139,7 +144,7 @@ flowchart LR
     O --> T[TypeScript SDK]
     O --> S[Swift compatibility check]
     T --> W[Web application]
-    S -. next phase .-> N[iOS / macOS]
+    S -. backend integration next .-> N[iOS / macOS]
     style C fill:#e2dffe,stroke:#65548e,color:#3c315b
     style O fill:#3c315b,stroke:#3c315b,color:#fdfcfe
     style T fill:#e2dffe,stroke:#65548e,color:#3c315b
@@ -148,28 +153,45 @@ flowchart LR
     style N fill:#fdfcfe,stroke:#b5a9c9,color:#3c315b
 ```
 
-**The iOS and macOS apps have not been built yet.** Their API, Bearer authentication and shared design data are prepared; Swift client compatibility is verified through compilation. See the [architecture decision](docs/adr/001-layered-monorepo.md) and [native client contract](docs/adr/002-api-and-native-clients.md).
+The iOS preview follows the same layer direction within its own app target: Domain, Application, Infrastructure, Interfaces and Composition. Its current adapters provide demo content and local JSON storage. iOS and macOS keep separate sources, resources and bundle identifiers inside one Xcode workspace. See the [native architecture decision](docs/adr/003-native-app-layers.md) and [native client contract](docs/adr/002-api-and-native-clients.md).
+
+### iOS preview
+
+Open [`apps/Veylo.xcworkspace`](apps/Veylo.xcworkspace) in **Xcode 27**, select **Veylo iOS**, and run on an **iOS 27** simulator with the runtime installed. The native preview does not require Node.js, Docker or a running server.
+
+- **25 main screens:** demo sign-in and registration, five onboarding questions, plan confirmation, Home, Tests, Progress, Profile, Vocabulary, Vey AI and Arcade, plus practice and feedback screens.
+- **Interactive practice:** Reading, Listening, Writing and Speaking, a short full demo exam, saved answers, writing drafts, sample results and detailed feedback.
+- **Native presentation:** Nunito Sans, skill-specific colours, Liquid Glass controls, four independent tab histories and a plus menu for AI and Arcade.
+- **Motion and accessibility:** shared press, selection and transition animations, charts, voice waveforms, Reduce Motion and Reduce Transparency support.
+- **Local state:** profile, onboarding answers, drafts, results, vocabulary and game scores persist between launches. Profile settings can reset the demo.
+
+Use **Continue with Google** to explore the returning learner demo, or **Create an account** to walk through onboarding with an empty learning history. Neither action creates a real account. Scores, forecasts, AI replies, playback and recording are demonstrations; no password is stored and no microphone or backend is used.
+
+The editable source is [`design.pen`](design.pen). See the [iOS guide](apps/ios/README.md) for build commands and the [onboarding specification](docs/ios-onboarding.md) for the survey flow. The **Veylo macOS** scheme currently opens a starter screen.
 
 ## Tech stack
 
-| Area                    | Technologies                                                       |
-| ----------------------- | ------------------------------------------------------------------ |
-| Foundation              | Node.js 24 · pnpm 11 workspaces · TypeScript 5.9                   |
-| Web                     | Next.js 16 App Router · React 19 · Tailwind CSS 4 · CSS · Radix UI |
-| Visualisation           | SVG · Recharts · React Flow · Phosphor / Lucide                    |
-| Data and authentication | PostgreSQL 17 · Supabase Auth · private Supabase Storage           |
-| AI and background jobs  | Google Gemini · Workflow                                           |
-| Voice and local data    | Web Audio · VAD / ONNX · WAV PCM · IndexedDB                       |
-| API                     | Zod 4 · OpenAPI 3.1 · openapi-typescript · openapi-fetch           |
-| Python                  | Python 3.13 · uv · Pydantic · google-genai · Black · Ruff          |
-| Apple compatibility     | Swift 6.1+ · Swift OpenAPI Generator / Runtime / URLSession        |
-| Quality                 | Vitest · Playwright · SQL · ESLint · Prettier · GitHub Actions     |
+| Area                    | Technologies                                                                  |
+| ----------------------- | ----------------------------------------------------------------------------- |
+| Foundation              | Node.js 24 · pnpm 11 workspaces · TypeScript 5.9                              |
+| Web                     | Next.js 16 App Router · React 19 · Tailwind CSS 4 · CSS · Radix UI            |
+| Visualisation           | SVG · Recharts · React Flow · Phosphor / Lucide                               |
+| Data and authentication | PostgreSQL 17 · Supabase Auth · private Supabase Storage                      |
+| AI and background jobs  | Google Gemini · Workflow                                                      |
+| Voice and local data    | Web Audio · VAD / ONNX · WAV PCM · IndexedDB                                  |
+| API                     | Zod 4 · OpenAPI 3.1 · openapi-typescript · openapi-fetch                      |
+| Python                  | Python 3.13 · uv · Pydantic · google-genai · Black · Ruff                     |
+| Apple compatibility     | Swift 6.1+ · Swift OpenAPI Generator / Runtime / URLSession                   |
+| Native iOS preview      | Xcode 27 · iOS 27 · SwiftUI · Swift Charts · Liquid Glass · XCTest / XCUITest |
+| Quality                 | Vitest · Playwright · SQL · ESLint · Prettier · GitHub Actions                |
 
 ## Verification
 
 <img src="assets/readme/verification.svg" width="100%" alt="Local verification on 6 September 2026: 105 unit, 14 integration, 57 browser and 4 Python tests passed, with 5 expected browser skips">
 
 Local verification snapshot, **6 September 2026**: **105 unit**, **14 integration**, **57 browser** and **4 Python** tests passed, with **5 expected browser skips**. Two SQL suites, the production build, a clean installation and Swift compilation also passed. These are test counts, not coverage percentages. The Verify badge above shows the remote CI status. [Read the detailed report](docs/migration-report.md).
+
+Native checks are separate from the web snapshot. The iOS project includes tests for onboarding rules, saved state, repeated attempts, forecast eligibility and font registration, plus UI tests for onboarding, practice, feedback, games, profile editing and navigation. Run them through the **Veylo iOS** scheme. The local iOS build and 15 unit tests passed on **7 September 2026**.
 
 ```sh
 pnpm check
@@ -196,15 +218,20 @@ Pre-commit checks formatting, layers, contracts, types and linting. Commit-msg e
 
 </details>
 
+## Community
+
+Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) when participating in Veylo. It includes community standards and a private contact for reporting concerns.
+
 ## Documentation
 
-| Understand the project                                          | Prepare for operations                                 |
-| --------------------------------------------------------------- | ------------------------------------------------------ |
-| [Architecture and boundaries](docs/architecture.md)             | [Deployment and rollback](docs/runbooks/deployment.md) |
-| [API and Apple clients](docs/adr/002-api-and-native-clients.md) | [Backup and recovery](docs/runbooks/recovery.md)       |
-| [Veylo design system](docs/veylo-design-system.md)              | [Logs and diagnostics](docs/runbooks/observability.md) |
-| [Learning flame streaks](docs/daily-streak.md)                  | [Assessment quality](docs/assessment-quality.md)       |
-| [README visual sources](assets/readme/README.md)                | [Migration report](docs/migration-report.md)           |
+| Understand the project                                          | Prepare for operations                                       |
+| --------------------------------------------------------------- | ------------------------------------------------------------ |
+| [Architecture and boundaries](docs/architecture.md)             | [Deployment and rollback](docs/runbooks/deployment.md)       |
+| [API and Apple clients](docs/adr/002-api-and-native-clients.md) | [Backup and recovery](docs/runbooks/recovery.md)             |
+| [iOS preview and local flows](apps/ios/README.md)               | [Native layer boundaries](docs/adr/003-native-app-layers.md) |
+| [Veylo design system](docs/veylo-design-system.md)              | [Logs and diagnostics](docs/runbooks/observability.md)       |
+| [Learning flame streaks](docs/daily-streak.md)                  | [Assessment quality](docs/assessment-quality.md)             |
+| [README visual sources](assets/readme/README.md)                | [Migration report](docs/migration-report.md)                 |
 
 Staging/production, branch protection and centralised metrics still need configuration. Publishing the repository does not deploy the website. A code licence has not been selected yet; third-party font licences are preserved alongside their assets.
 
