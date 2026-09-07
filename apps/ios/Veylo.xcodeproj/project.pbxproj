@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		813F528FF1E878823C7C163E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62D6A99C8C15762BC8048DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C262B16900B05E5B899D4E07;
+			remoteInfo = Veylo;
+		};
+		8D7BB4435E22EC32C43E9F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62D6A99C8C15762BC8048DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C262B16900B05E5B899D4E07;
+			remoteInfo = Veylo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		334E4CF13119CB8FE7C451D4 /* VeyloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = VeyloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4C07CF66C239984BAEAA25 /* VeyloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = VeyloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B632FC9400C55F2BA44F86D /* Veylo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veylo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AAFF24CA02B259FDA63AE43C /* Exceptions for "Veylo" folder in "Veylo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Application/README.md,
+				Domain/README.md,
+				Infrastructure/README.md,
+			);
+			target = C262B16900B05E5B899D4E07 /* Veylo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		36D31923E73D5589C36DC88B /* VeyloTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VeyloTests;
+			sourceTree = "<group>";
+		};
+		6E096B026B2526A6CB2EEA1F /* VeyloUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VeyloUITests;
+			sourceTree = "<group>";
+		};
+		E267600C00985DD8930C5F4A /* Veylo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAFF24CA02B259FDA63AE43C /* Exceptions for "Veylo" folder in "Veylo" target */,
+			);
+			path = Veylo;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0A9D0FDAEA51E9943706A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		5CC54D514C056AD809A5F3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		C81BD1043C22E20D51A24791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C8FE1E6FFB50A086544CE7 = {
+			isa = PBXGroup;
+			children = (
+				E267600C00985DD8930C5F4A /* Veylo */,
+				6E096B026B2526A6CB2EEA1F /* VeyloUITests */,
+				36D31923E73D5589C36DC88B /* VeyloTests */,
+				458992C748F5523ABA23D859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		458992C748F5523ABA23D859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B632FC9400C55F2BA44F86D /* Veylo.app */,
+				5D4C07CF66C239984BAEAA25 /* VeyloUITests.xctest */,
+				334E4CF13119CB8FE7C451D4 /* VeyloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314C6A66DDB3466B74DA3BB8 /* VeyloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549CB64294C439A7F66226A7 /* Build configuration list for PBXNativeTarget "VeyloUITests" */;
+			buildPhases = (
+				4221E99257CB00F30B39E887 /* Sources */,
+				C81BD1043C22E20D51A24791 /* Frameworks */,
+				95FB82DB11C7CCA2CF5B09CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A799386557C1F3CEE96BF7A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E096B026B2526A6CB2EEA1F /* VeyloUITests */,
+			);
+			name = VeyloUITests;
+			productName = VeyloUITests;
+			productReference = 5D4C07CF66C239984BAEAA25 /* VeyloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		35A706FBEA78B40E99AFE139 /* VeyloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05C3B8FF16D1BEBC089A927 /* Build configuration list for PBXNativeTarget "VeyloTests" */;
+			buildPhases = (
+				2F9CDEEEE9F4D22EA2EC293C /* Sources */,
+				5CC54D514C056AD809A5F3F7 /* Frameworks */,
+				666A0E81C2505A70A59F7E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B246166693F961F02CE4BA47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				36D31923E73D5589C36DC88B /* VeyloTests */,
+			);
+			name = VeyloTests;
+			productName = VeyloTests;
+			productReference = 334E4CF13119CB8FE7C451D4 /* VeyloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C262B16900B05E5B899D4E07 /* Veylo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701C72831C09548BB33A97EC /* Build configuration list for PBXNativeTarget "Veylo" */;
+			buildPhases = (
+				CC8640AFECFF5F0898AF55BA /* Sources */,
+				2F0A9D0FDAEA51E9943706A6 /* Frameworks */,
+				5B0A62C053225801A0FD7FC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				E267600C00985DD8930C5F4A /* Veylo */,
+			);
+			name = Veylo;
+			productName = Veylo;
+			productReference = 9B632FC9400C55F2BA44F86D /* Veylo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A62D6A99C8C15762BC8048DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					C262B16900B05E5B899D4E07 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = D10DB60B6D1856DBB01247D1 /* Build configuration list for PBXProject "Veylo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C8FE1E6FFB50A086544CE7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 458992C748F5523ABA23D859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314C6A66DDB3466B74DA3BB8 /* VeyloUITests */,
+				35A706FBEA78B40E99AFE139 /* VeyloTests */,
+				C262B16900B05E5B899D4E07 /* Veylo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B0A62C053225801A0FD7FC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		666A0E81C2505A70A59F7E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		95FB82DB11C7CCA2CF5B09CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F9CDEEEE9F4D22EA2EC293C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		4221E99257CB00F30B39E887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		CC8640AFECFF5F0898AF55BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A799386557C1F3CEE96BF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C262B16900B05E5B899D4E07 /* Veylo */;
+			targetProxy = 8D7BB4435E22EC32C43E9F2E /* PBXContainerItemProxy */;
+		};
+		B246166693F961F02CE4BA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C262B16900B05E5B899D4E07 /* Veylo */;
+			targetProxy = 813F528FF1E878823C7C163E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B932FD9CEC5556AAA8CA878 /* Debug configuration for PBXProject "Veylo" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B3823EFF3A8588BBB848F23 /* Release configuration for PBXProject "Veylo" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		421ACE2F0700D31320713D42 /* Debug configuration for PBXNativeTarget "VeyloTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Veylo.ios.VeyloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veylo.app/Veylo";
+			};
+			name = Debug;
+		};
+		4D173E459E71ED20DB9AF9DA /* Debug configuration for PBXNativeTarget "VeyloUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Veylo.ios.VeyloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veylo;
+			};
+			name = Debug;
+		};
+		4ED301E4C67B5DF9A464402C /* Release configuration for PBXNativeTarget "Veylo" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Veylo.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C25728708FC5ACCBAB36DA8 /* Debug configuration for PBXNativeTarget "Veylo" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Veylo.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6154B037BACB9FF6DD6C136 /* Release configuration for PBXNativeTarget "VeyloTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Veylo.ios.VeyloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veylo.app/Veylo";
+			};
+			name = Release;
+		};
+		D222665CB382DC332114AE04 /* Release configuration for PBXNativeTarget "VeyloUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Veylo.ios.VeyloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veylo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		549CB64294C439A7F66226A7 /* Build configuration list for PBXNativeTarget "VeyloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D173E459E71ED20DB9AF9DA /* Debug configuration for PBXNativeTarget "VeyloUITests" */,
+				D222665CB382DC332114AE04 /* Release configuration for PBXNativeTarget "VeyloUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		701C72831C09548BB33A97EC /* Build configuration list for PBXNativeTarget "Veylo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C25728708FC5ACCBAB36DA8 /* Debug configuration for PBXNativeTarget "Veylo" */,
+				4ED301E4C67B5DF9A464402C /* Release configuration for PBXNativeTarget "Veylo" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A05C3B8FF16D1BEBC089A927 /* Build configuration list for PBXNativeTarget "VeyloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ACE2F0700D31320713D42 /* Debug configuration for PBXNativeTarget "VeyloTests" */,
+				A6154B037BACB9FF6DD6C136 /* Release configuration for PBXNativeTarget "VeyloTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D10DB60B6D1856DBB01247D1 /* Build configuration list for PBXProject "Veylo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B932FD9CEC5556AAA8CA878 /* Debug configuration for PBXProject "Veylo" */,
+				3B3823EFF3A8588BBB848F23 /* Release configuration for PBXProject "Veylo" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A62D6A99C8C15762BC8048DA /* Project object */;
+	validationLevel = 1;
+}

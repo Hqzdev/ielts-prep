@@ -24,3 +24,6 @@ apps/web/src/app/.well-known/
 .build/
 .swiftpm/
 .ruff_cache/
+DerivedData/
+xcuserdata/
+*.xcuserstate
