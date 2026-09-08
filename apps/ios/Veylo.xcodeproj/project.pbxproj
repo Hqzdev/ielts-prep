@@ -6,6 +6,10 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B10C12340000000000000001 /* VeyloAPI in Frameworks */ = {isa = PBXBuildFile; productRef = B10C12340000000000000002 /* VeyloAPI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		813F528FF1E878823C7C163E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,6 +70,7 @@
 		2F0A9D0FDAEA51E9943706A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				B10C12340000000000000001 /* VeyloAPI in Frameworks */,
 			);
 		};
 		5CC54D514C056AD809A5F3F7 /* Frameworks */ = {
@@ -160,6 +165,9 @@
 				E267600C00985DD8930C5F4A /* Veylo */,
 			);
 			name = Veylo;
+			packageProductDependencies = (
+				B10C12340000000000000002 /* VeyloAPI */,
+			);
 			productName = Veylo;
 			productReference = 9B632FC9400C55F2BA44F86D /* Veylo.app */;
 			productType = "com.apple.product-type.application";
@@ -188,6 +196,9 @@
 			);
 			mainGroup = 17C8FE1E6FFB50A086544CE7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B10C12340000000000000003 /* XCLocalSwiftPackageReference "Packages/VeyloAPI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 458992C748F5523ABA23D859 /* Products */;
 			projectDirPath = "";
@@ -380,7 +391,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veylo.app/Veylo";
 			};
 			name = Debug;
@@ -395,10 +406,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Veylo.ios.VeyloUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Veylo;
 			};
 			name = Debug;
@@ -441,7 +455,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -483,7 +497,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -501,7 +515,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veylo.app/Veylo";
 			};
 			name = Release;
@@ -516,10 +530,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Veylo.ios.VeyloUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Veylo;
 			};
 			name = Release;
@@ -560,6 +577,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B10C12340000000000000003 /* XCLocalSwiftPackageReference "Packages/VeyloAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/VeyloAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B10C12340000000000000002 /* VeyloAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B10C12340000000000000003 /* XCLocalSwiftPackageReference "Packages/VeyloAPI" */;
+			productName = VeyloAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A62D6A99C8C15762BC8048DA /* Project object */;
 	validationLevel = 1;

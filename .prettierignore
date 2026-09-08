@@ -15,6 +15,7 @@ tools/content-generator/practice_tasks/
 
 packages/api-client/src/schema.ts
 packages/contracts/openapi.json
+apps/ios/Packages/VeyloAPI/Sources/VeyloAPI/openapi.json
 
 packages/design-tokens/assets/
 packages/design-tokens/src/theme.css

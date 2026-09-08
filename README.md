@@ -12,6 +12,7 @@
 <p align="center">
   <a href="#how-to-install">Install</a> ·
   <a href="#inside-veylo">Features</a> ·
+  <a href="#iphone-and-mac-designs">iPhone & Mac designs</a> ·
   <a href="#ios-preview">iOS preview</a> ·
   <a href="#architecture">Architecture</a> ·
   <a href="#tech-stack">Tech stack</a> ·
@@ -23,6 +24,70 @@
 <a href="assets/readme/reading-desktop.png"><img src="assets/readme/reading-desktop.png" width="100%" alt="Veylo catalogue: 46 Academic Reading tests, random task selection and workspace navigation"></a>
 
 <sub>Real interface, Chrome, test account. Click a screenshot to view it at full size.</sub>
+
+## iPhone and Mac designs
+
+Five matching screen pairs exported from [`design.pen`](design.pen). These are **design previews**, not screenshots of shipped native features; the macOS app is currently a starter project. Click either image for the full-size view.
+
+### Sign in
+
+Email and Google sign-in, password recovery and a familiar welcome from Vey.
+
+<table>
+  <tr><th width="25%">iPhone</th><th width="75%">macOS</th></tr>
+  <tr>
+    <td valign="top"><a href="assets/readme/native/sign-in-iphone.png"><img src="assets/readme/native/sign-in-iphone.png" width="100%" alt="Veylo Sign in design for iPhone"></a></td>
+    <td valign="top"><a href="assets/readme/native/sign-in-macos.png"><img src="assets/readme/native/sign-in-macos.png" width="100%" alt="Veylo Sign in design for Mac"></a></td>
+  </tr>
+</table>
+
+### Dashboard
+
+A daily study plan, a target band and a learning streak. Mac adds room for skill estimates and the next recommended task.
+
+<table>
+  <tr><th width="25%">iPhone</th><th width="75%">macOS</th></tr>
+  <tr>
+    <td valign="top"><a href="assets/readme/native/dashboard-iphone.png"><img src="assets/readme/native/dashboard-iphone.png" width="100%" alt="Veylo Dashboard design for iPhone"></a></td>
+    <td valign="top"><a href="assets/readme/native/dashboard-macos.png"><img src="assets/readme/native/dashboard-macos.png" width="100%" alt="Veylo Dashboard design for Mac"></a></td>
+  </tr>
+</table>
+
+### Practice
+
+Choose a skill and start practising. iPhone uses a compact catalogue; Mac presents the skill areas in a wider workspace.
+
+<table>
+  <tr><th width="25%">iPhone</th><th width="75%">macOS</th></tr>
+  <tr>
+    <td valign="top"><a href="assets/readme/native/practice-iphone.png"><img src="assets/readme/native/practice-iphone.png" width="100%" alt="Veylo Practice design for iPhone"></a></td>
+    <td valign="top"><a href="assets/readme/native/practice-macos.png"><img src="assets/readme/native/practice-macos.png" width="100%" alt="Veylo Practice design for Mac"></a></td>
+  </tr>
+</table>
+
+### Progress
+
+Review estimated band progress, the forecast and individual skills. These sample estimates are not official IELTS results.
+
+<table>
+  <tr><th width="25%">iPhone</th><th width="75%">macOS</th></tr>
+  <tr>
+    <td valign="top"><a href="assets/readme/native/progress-iphone.png"><img src="assets/readme/native/progress-iphone.png" width="100%" alt="Veylo Progress design for iPhone"></a></td>
+    <td valign="top"><a href="assets/readme/native/progress-macos.png"><img src="assets/readme/native/progress-macos.png" width="100%" alt="Veylo Progress design for Mac"></a></td>
+  </tr>
+</table>
+
+### Chat with Vey
+
+Work through an IELTS answer with the coach. iPhone focuses on one conversation; Mac keeps conversation history alongside it.
+
+<table>
+  <tr><th width="25%">iPhone</th><th width="75%">macOS</th></tr>
+  <tr>
+    <td valign="top"><a href="assets/readme/native/vey-chat-iphone.png"><img src="assets/readme/native/vey-chat-iphone.png" width="100%" alt="Veylo Chat with Vey design for iPhone"></a></td>
+    <td valign="top"><a href="assets/readme/native/vey-chat-macos.png"><img src="assets/readme/native/vey-chat-macos.png" width="100%" alt="Veylo Chat with Vey design for Mac"></a></td>
+  </tr>
+</table>
 
 ## Inside Veylo
 

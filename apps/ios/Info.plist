@@ -1,3 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"><dict><key>UIAppFonts</key><array><string>NunitoSans.ttf</string></array><key>UIUserInterfaceStyle</key><string>Light</string></dict></plist>
+<plist version="1.0"><dict><key>UIAppFonts</key><array><string>NunitoSans.ttf</string></array><key>UIUserInterfaceStyle</key><string>Light</string><key>NSMicrophoneUsageDescription</key><string>Record your practice answer so you can listen back. Audio is not sent to an AI.</string><key>CFBundleURLTypes</key><array><dict><key>CFBundleURLSchemes</key><array><string>veylo</string></array></dict></array><key>NSAppTransportSecurity</key><dict><key>NSAllowsLocalNetworking</key><true/></dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>play.fill</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Your goal is one step closer</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Continue practice</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>app.veylo.quick.resume</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>flame</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>A little practice, every day</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Keep your streak</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>app.veylo.quick.streak</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>bubble.left.and.bubble.right</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Got two minutes for English?</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Talk to Vey</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>app.veylo.quick.chat</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>character.book.closed</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Five words. One small win.</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Review saved words</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>app.veylo.quick.vocabulary</string>
+		</dict>
+	</array>
+</dict></plist>
