@@ -3,13 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Hqzdev/ielts-prep/actions/workflows/check.yml"><img src="https://github.com/Hqzdev/ielts-prep/actions/workflows/check.yml/badge.svg?branch=main" alt="Verify CI status"></a>
-  <img src="https://img.shields.io/badge/Next.js-16-3c315b?style=flat-square" alt="Next.js 16">
-  <img src="https://img.shields.io/badge/TypeScript-5.9-65548e?style=flat-square" alt="TypeScript 5.9">
-  <img src="https://img.shields.io/badge/pnpm-monorepo-ab9ff2?style=flat-square" alt="pnpm monorepo">
-</p>
-
-<p align="center">
   <a href="#how-to-install">Install</a> ·
   <a href="#inside-veylo">Features</a> ·
   <a href="#iphone-and-mac-designs">iPhone & Mac designs</a> ·
