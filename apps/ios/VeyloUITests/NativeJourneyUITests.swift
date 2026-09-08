@@ -6,32 +6,8 @@ final class NativeJourneyUITests: XCTestCase {
     override func setUp() { continueAfterFailure = false }
 
     func testLiveAccountOnboardingWritingAndSessionRestore() throws {
-        guard let fixture = Bundle(for: Self.self).url(forResource: "NativeTestAccount", withExtension: "plist") else {
-            throw XCTSkip("Run pnpm native:prepare-tests to create an isolated local account.")
-        }
-        let values = try XCTUnwrap(
-            PropertyListSerialization.propertyList(from: Data(contentsOf: fixture), format: nil) as? [String: String])
-        app.launchArguments = ["--native-test-signout"]
-        app.launch()
-        XCTAssertTrue(app.textFields["Email"].waitForExistence(timeout: 20))
-        app.textFields["Email"].tap()
-        app.textFields["Email"].typeText(try XCTUnwrap(values["email"]))
-        app.secureTextFields["Password"].tap()
-        app.secureTextFields["Password"].typeText(try XCTUnwrap(values["password"]))
-        if app.buttons["Dismiss keyboard"].exists { app.buttons["Dismiss keyboard"].tap() }
-        tap("Sign in")
-        XCTAssertTrue(app.buttons["Not sure yet"].waitForExistence(timeout: 20))
-        tap("Not sure yet")
-        tap("Next")
-        tap("band-7.0")
-        tap("Next")
-        tap("Haven't booked yet")
-        tap("Next")
-        tap("Reading")
-        tap("Next")
-        tap("Prefer not to say")
-        tap("Next")
-        tap("Let's begin")
+        try signIn(fixture())
+        completeOnboarding()
         XCTAssertTrue(app.staticTexts["Your plan for today"].waitForExistence(timeout: 20))
         XCTAssertFalse(app.buttons["Listening"].exists)
         attach("Home connected to Supabase")
@@ -95,13 +71,64 @@ final class NativeJourneyUITests: XCTestCase {
         }
         XCTAssertTrue(app.staticTexts["Sprint complete"].waitForExistence(timeout: 20))
         attach("Word Sprint server score")
+        back()
         tap("Done")
         tap("Profile")
         tap("Save profile")
         tap("OK")
-        if values["recording"] == "true" {
-            try recordingLifecycle()
+        tap("Open Arcade and Vey AI")
+        tap("Vey AI")
+        XCTAssertTrue(app.staticTexts["Meet Vey"].waitForExistence(timeout: 20))
+        attach("Vey AI capability state")
+        tap("Done")
+    }
+
+    func testMicrophoneLifecycle() throws {
+        let values = try fixture()
+        guard values["recording"] == "true" else {
+            throw XCTSkip("Run pnpm native:prepare-tests --recording to enable the recording fixture.")
         }
+        try signIn(values)
+        if app.buttons["Not sure yet"].waitForExistence(timeout: 5) { completeOnboarding() }
+        XCTAssertTrue(app.staticTexts["Your plan for today"].waitForExistence(timeout: 20))
+        tap("Profile")
+        try recordingLifecycle()
+    }
+
+    private func fixture() throws -> [String: String] {
+        guard let fixture = Bundle(for: Self.self).url(forResource: "NativeTestAccount", withExtension: "plist") else {
+            throw XCTSkip("Run pnpm native:prepare-tests to create an isolated local account.")
+        }
+        let values = try XCTUnwrap(
+            PropertyListSerialization.propertyList(from: Data(contentsOf: fixture), format: nil) as? [String: String])
+        return values
+    }
+
+    private func signIn(_ values: [String: String]) throws {
+        app.launchArguments = ["--native-test-signout"]
+        app.launch()
+        XCTAssertTrue(app.textFields["Email"].waitForExistence(timeout: 20))
+        app.textFields["Email"].tap()
+        app.textFields["Email"].typeText(try XCTUnwrap(values["email"]))
+        app.secureTextFields["Password"].tap()
+        app.secureTextFields["Password"].typeText(try XCTUnwrap(values["password"]))
+        if app.buttons["Dismiss keyboard"].exists { app.buttons["Dismiss keyboard"].tap() }
+        tap("Sign in")
+    }
+
+    private func completeOnboarding() {
+        XCTAssertTrue(app.buttons["Not sure yet"].waitForExistence(timeout: 20))
+        tap("Not sure yet")
+        tap("Next")
+        tap("band-7.0")
+        tap("Next")
+        tap("Haven't booked yet")
+        tap("Next")
+        tap("Reading")
+        tap("Next")
+        tap("Prefer not to say")
+        tap("Next")
+        tap("Let's begin")
     }
 
     private func recordingLifecycle() throws {
@@ -115,7 +142,7 @@ final class NativeJourneyUITests: XCTestCase {
             return false
         }
         tap("Start recording")
-        app.tap()
+        app.coordinate(withNormalizedOffset: CGVector(dx: 0.98, dy: 0.5)).tap()
         XCTAssertTrue(app.buttons["Stop recording"].waitForExistence(timeout: 20))
         attach("Real microphone recording")
         tap("Stop recording")
@@ -129,14 +156,6 @@ final class NativeJourneyUITests: XCTestCase {
         tap("Delete")
         XCTAssertFalse(app.buttons["Play saved audio"].exists)
         attach("Recording deleted without speech AI")
-    }
-
-    func testRecordingWithRestoredAccount() throws {
-        app.launchArguments = []
-        app.launch()
-        XCTAssertTrue(app.staticTexts["Your plan for today"].waitForExistence(timeout: 20))
-        tap("Profile")
-        try recordingLifecycle()
     }
 
     private func tap(_ title: String) {
@@ -153,7 +172,20 @@ final class NativeJourneyUITests: XCTestCase {
         XCTAssertTrue(button.waitForExistence(timeout: 20), title)
         let enabled = XCTNSPredicateExpectation(predicate: NSPredicate(format: "enabled == true"), object: button)
         XCTAssertEqual(XCTWaiter.wait(for: [enabled], timeout: 20), .completed, title)
-        for _ in 0..<6 where button.frame.maxY > app.frame.maxY - 34 || button.frame.minY < 44 { app.swipeUp() }
+        let fixed: Set<String> = [
+            "Home", "Tests", "Progress", "Profile", "Next", "Let's begin", "Save answer", "Save changes",
+            "Finish practice", "Submit answers", "Open Arcade and Vey AI", "Close menu", "Back", "Done",
+        ]
+        for _ in 0..<8 {
+            let rectangle = button.frame
+            if rectangle.midY > app.frame.maxY - (fixed.contains(title) ? 40 : 160) {
+                app.swipeUp()
+            } else if rectangle.midY < 100 && !fixed.contains(title) {
+                app.swipeDown()
+            } else {
+                break
+            }
+        }
         button.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.5)).tap()
     }
 

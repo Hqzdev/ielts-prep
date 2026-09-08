@@ -15,7 +15,7 @@ it("handles ten concurrent learners saving and queueing one assessment each", as
     auth: { persistSession: false },
   });
   const learners: { id: string; cookie: string }[] = [];
-  const base = "http://127.0.0.1:3000";
+  const base = process.env.NATIVE_API_BASE ?? "http://127.0.0.1:3000";
   try {
     for (let index = 0; index < 10; index++) {
       const email = `load-${randomUUID()}@ielts.local`;

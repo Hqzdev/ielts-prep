@@ -1,11 +1,11 @@
 import { AppError } from "../../domain/errors";
-import type { AiProviderSource } from "../ports/ai";
+import type { TextAiSource } from "../ports/ai";
 import type { UsageQuota } from "../ports/conversations";
 import type { IdentifierSource } from "../ports/runtime";
 
 export class WordAssistance {
   constructor(
-    private readonly ai: AiProviderSource,
+    private readonly ai: TextAiSource,
     private readonly quota: UsageQuota,
     private readonly ids: IdentifierSource,
     private readonly dailyLimit: number,

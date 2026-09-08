@@ -66,7 +66,9 @@ The pinned Apple OpenAPI build plugin must be trusted in Xcode or explicitly ena
 pnpm native:prepare-tests
 ```
 
-This creates an isolated verified local account and an ignored test-bundle fixture. Run the native UI test while the local API and Supabase are running, then remove the account with `pnpm native:prepare-tests --cleanup`. Prepare a fresh account for each new onboarding run. Screenshots and videos are attached to the Xcode test result.
+This creates an isolated verified local account and an ignored test-bundle fixture. Add `--recording` to include the microphone lifecycle and temporarily allowlist only this test account. Run the native UI test while the local API and Supabase are running, then remove the account and its allowlist entry with `pnpm native:prepare-tests --cleanup`. Prepare a fresh account for each new onboarding run. Screenshots are attached to the Xcode test result; failed UI runs also include a video.
+
+Use `-parallel-testing-enabled NO` when granting simulator permissions to a particular device. For an automated recording run, grant that app's microphone permission with `xcrun simctl privacy <device-id> grant microphone yaroslavstrelkov.Veylo.ios`. A physical iPhone must display and accept its own permission prompt. No audio is sent to AI.
 
 Development launch arguments:
 

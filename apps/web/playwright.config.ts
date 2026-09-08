@@ -17,7 +17,7 @@ export default defineConfig({
       name: "chrome",
       use: {
         ...devices["Desktop Chrome"],
-        channel: "chrome",
+        channel: process.env.PLAYWRIGHT_CHROME_CHANNEL ?? "chrome",
         viewport: { width: 1440, height: 1024 },
       },
     },

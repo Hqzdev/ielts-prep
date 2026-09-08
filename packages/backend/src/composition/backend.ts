@@ -1,3 +1,4 @@
+import { createNativeAi, type NativeAiSettings } from "./gigachat";
 import { ObservedAiSource } from "../infrastructure/ai/observed-provider";
 import { CatalogService } from "../application/services/catalog";
 import { SpeakingArcadeService } from "../application/services/speaking-arcade";
@@ -48,7 +49,7 @@ import {
 } from "../infrastructure/runtime";
 import { GeminiGateway } from "../infrastructure/ai/gateway";
 
-export interface BackendSettings extends AssessmentPolicy {
+export interface BackendSettings extends AssessmentPolicy, NativeAiSettings {
   readonly supabaseUrl: string;
   readonly supabaseSecretKey: string;
   readonly databaseReady: boolean;
@@ -88,13 +89,18 @@ export function createBackend(
   ),
 ) {
   const clock = new SystemClock();
+  const nativeAI = createNativeAi(settings, db);
   const ids = new SecureIdentifiers();
   const encoding = new NodeContentEncoding();
   const attempts = new PracticeRepository(db);
   const catalog = new CatalogRepository(db);
   const learningStore = new SupabaseLearningStore(db);
   const learning = new LearningService(learningStore, attempts, catalog, clock);
-  const conversationStore = new SupabaseConversationStore(db);
+  const conversationStore = new SupabaseConversationStore(
+    db,
+    "gemini",
+    settings.textModel,
+  );
   const quota = new SupabaseUsageQuota(db);
   const tutor = new TutorService(
     conversationStore,
@@ -115,6 +121,7 @@ export function createBackend(
   );
   const tooling = createTooling(db, settings.appUrl);
   return {
+    nativeAI,
     administration: new AdministrationService(
       new SupabaseAdministrationStore(db),
       tooling.invitations,
@@ -130,6 +137,7 @@ export function createBackend(
       new GeminiFailurePolicy(),
       clock,
       encoding,
+      nativeAI,
     ),
     identity: new IdentityService(
       new SupabaseIdentityStore(db),

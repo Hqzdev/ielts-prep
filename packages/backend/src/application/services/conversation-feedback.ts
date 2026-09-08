@@ -1,14 +1,14 @@
 import { ConversationMetrics } from "../../domain/conversation-feedback";
 import { AppError } from "../../domain/errors";
 import type { TutorService } from "./tutor";
-import type { AiProviderSource } from "../ports/ai";
+import type { TextAiSource } from "../ports/ai";
 import type { UsageQuota } from "../ports/conversations";
 import type { IdentifierSource } from "../ports/runtime";
 
 export class ConversationFeedbackService {
   constructor(
     private readonly tutor: Pick<TutorService, "messages">,
-    private readonly ai: AiProviderSource,
+    private readonly ai: TextAiSource,
     private readonly quota: UsageQuota,
     private readonly ids: IdentifierSource,
     private readonly dailyLimit: number,

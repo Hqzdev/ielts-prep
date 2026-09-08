@@ -22,7 +22,28 @@ export interface TutorProvider {
   ): Promise<AsyncIterable<{ text?: string }>>;
 }
 
-export interface LearningAiProvider extends TutorProvider {
+export interface TextAiProvider extends TutorProvider {
+  word(term: string, topic: string): Promise<WordInput>;
+  conversationFeedback(
+    messages: { role: string; content: string }[],
+  ): Promise<ConversationFeedback>;
+}
+
+export interface TextAiSource {
+  readonly available: boolean;
+  provider(model?: string): TextAiProvider;
+}
+
+export interface WritingAssessmentSource {
+  readonly available: boolean;
+  assessor(model: string): WritingAssessor;
+}
+
+export interface WritingAssessor {
+  assessWriting(attempt: Attempt): Promise<Grade>;
+}
+
+export interface LearningAiProvider extends TextAiProvider {
   transcribe(audio: AudioInput): Promise<Transcript>;
   assess(
     attempt: Attempt,
@@ -38,5 +59,5 @@ export interface LearningAiProvider extends TutorProvider {
 
 export interface AiProviderSource {
   readonly available: boolean;
-  provider(): LearningAiProvider;
+  provider(model?: string): LearningAiProvider;
 }

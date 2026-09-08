@@ -12,7 +12,7 @@ export class GeminiFailurePolicy implements ProviderFailurePolicy {
         ? String(error.code)
         : "PROVIDER_ERROR";
     const permanent =
-      [400, 401, 403, 404].includes(status) ||
+      [400, 401, 403, 404, 422].includes(status) ||
       code.startsWith("INVALID_AI") ||
       error instanceof SyntaxError ||
       (error instanceof AppError &&

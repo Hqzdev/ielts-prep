@@ -10,7 +10,7 @@ import type { Attempt } from "@veylo/backend/domain/attempt";
 import { WavCodec } from "@veylo/backend/domain/wav";
 
 config({ path: new URL("../.env.local", import.meta.url), quiet: true });
-const base = "http://127.0.0.1:3000";
+const base = process.env.NATIVE_API_BASE ?? "http://127.0.0.1:3000";
 const userIds: string[] = [];
 let db: SupabaseClient;
 let cookies: string[] = [];

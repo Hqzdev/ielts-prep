@@ -31,7 +31,7 @@ file_size_limit = "20MiB"
 [auth]
 enabled = true
 site_url = "http://localhost:3000"
-additional_redirect_urls = ["http://localhost:3000/auth/callback", "http://127.0.0.1:3000/auth/callback", "http://127.0.0.1:3000/account/password"]
+additional_redirect_urls = ["http://localhost:3000/auth/callback", "http://127.0.0.1:3000/auth/callback", "http://127.0.0.1:3000/account/password", "veylo://auth/callback", "veylo://auth/recovery"]
 jwt_expiry = 3600
 enable_signup = true
 enable_anonymous_sign_ins = false

@@ -8,7 +8,7 @@ export class GeminiGateway implements AiProviderSource {
     return !!this.settings.key;
   }
 
-  provider() {
-    return new GeminiProvider(this.settings);
+  provider(model = this.settings.textModel) {
+    return new GeminiProvider({ ...this.settings, textModel: model });
   }
 }

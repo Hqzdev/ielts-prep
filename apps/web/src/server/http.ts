@@ -46,6 +46,7 @@ const routeNames = apiOperations.map((operation) => ({
     "^" + operation.path.replace(/\{[^}]+\}/g, "[^/]+") + "$",
   ),
   name: operation.id,
+  schema: operation.response,
 }));
 
 export function handle<T>(
@@ -54,10 +55,11 @@ export function handle<T>(
 ): Promise<Response> {
   const requestId = randomUUID();
   const path = new URL(request.url).pathname.replace(/^\/api(?:\/v1)?/, "");
+  const contract = routeNames.find(
+    (route) => route.method === request.method && route.pattern.test(path),
+  );
   const name =
-    routeNames.find(
-      (route) => route.method === request.method && route.pattern.test(path),
-    )?.name ?? (path === "/maintenance" ? "maintenance" : "unknown");
+    contract?.name ?? (path === "/maintenance" ? "maintenance" : "unknown");
   return withRequestContext(requestId, async () => {
     const started = performance.now();
     let response: Response;
@@ -68,7 +70,11 @@ export function handle<T>(
           ? chatResponse(value as ChatReply)
           : value instanceof Response
             ? value
-            : NextResponse.json(value);
+            : NextResponse.json(
+                path.startsWith("/ios/") && contract
+                  ? nativeResponse(contract.schema, value)
+                  : value,
+              );
     } catch (error) {
       response = errorResponse(error, requestId);
     }
@@ -85,6 +91,17 @@ export function handle<T>(
     });
     return response;
   });
+}
+
+function nativeResponse(schema: ZodType, value: unknown) {
+  const result = schema.safeParse(value);
+  if (!result.success)
+    throw new AppError(
+      "RESPONSE_CONTRACT",
+      "The server could not prepare this response. Please try again.",
+      "internal",
+    );
+  return result.data;
 }
 
 function errorResponse(error: unknown, requestId: string) {

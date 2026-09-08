@@ -11,6 +11,7 @@ export interface RandomSource {
 }
 
 export interface AssessmentPolicy {
+  canAssessAttempt?(attempt: import("../../domain/attempt").Attempt): boolean;
   readonly dailyAssessmentLimit: number;
   canAssess(skill: "writing" | "speaking"): boolean;
 }

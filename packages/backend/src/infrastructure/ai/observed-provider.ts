@@ -13,8 +13,8 @@ export class ObservedAiSource implements AiProviderSource {
   get available() {
     return this.source.available;
   }
-  provider() {
-    return new ObservedAiProvider(this.source.provider());
+  provider(model?: string) {
+    return new ObservedAiProvider(this.source.provider(model));
   }
 }
 

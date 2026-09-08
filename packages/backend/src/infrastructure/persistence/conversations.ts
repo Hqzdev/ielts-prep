@@ -9,7 +9,11 @@ import { AppError } from "../../domain/errors";
 import { databaseError, camelRow } from "./mapping";
 
 export class SupabaseConversationStore implements ConversationStore {
-  constructor(private readonly db: SupabaseClient) {}
+  constructor(
+    private readonly db: SupabaseClient,
+    private readonly provider = "gemini",
+    private readonly model: string | null = null,
+  ) {}
 
   async threads(userId: string) {
     const { data, error } = await this.db
@@ -48,7 +52,7 @@ export class SupabaseConversationStore implements ConversationStore {
   async messages(userId: string, threadId: string) {
     const { data, error } = await this.db
       .from("chat_messages")
-      .select("id,role,content,status")
+      .select("id,role,content,status,provider,model")
       .eq("user_id", userId)
       .eq("thread_id", threadId)
       .order("created_at")
@@ -83,6 +87,8 @@ export class SupabaseConversationStore implements ConversationStore {
             user_id: userId,
             thread_id: threadId,
             role: "assistant",
+            provider: this.provider,
+            model: this.model,
             content: "",
             status: "streaming",
           },
@@ -92,6 +98,19 @@ export class SupabaseConversationStore implements ConversationStore {
   }
 
   async claimRetry(userId: string, assistantId: string) {
+    const { data: message, error: readError } = await this.db
+      .from("chat_messages")
+      .select("provider")
+      .eq("id", assistantId)
+      .eq("user_id", userId)
+      .maybeSingle();
+    databaseError(readError);
+    if (message && message.provider !== this.provider)
+      throw new AppError(
+        "RETRY_PROVIDER_CHANGED",
+        "Retry this reply in the app where the conversation started",
+        "conflict",
+      );
     const { data, error } = await this.db
       .from("chat_messages")
       .update({ status: "streaming" })

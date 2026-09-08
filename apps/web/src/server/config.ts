@@ -1,6 +1,34 @@
 import "server-only";
 
 export class AppConfig {
+  readonly gigachatCredentials = process.env.GIGACHAT_CREDENTIALS ?? "";
+  readonly gigachatScope = process.env.GIGACHAT_SCOPE ?? "GIGACHAT_API_PERS";
+  readonly gigachatCertificatePath = process.env.GIGACHAT_CA_FILE ?? "";
+  readonly nativeTextModel =
+    process.env.IOS_GIGACHAT_TEXT_MODEL ?? "GigaChat-2-Pro";
+  readonly nativeWritingModel =
+    process.env.IOS_GIGACHAT_WRITING_MODEL ?? "GigaChat-2-Max";
+  readonly nativeWritingEnabled =
+    process.env.IOS_WRITING_ASSESSMENT_ENABLED === "true";
+  readonly nativeRecordingTesters = (process.env.IOS_RECORDING_TESTER_IDS ?? "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
+  canAssessAttempt(
+    attempt: import("@veylo/backend/domain/attempt").Attempt,
+  ): boolean {
+    if (attempt.client === "ios")
+      return (
+        attempt.taskSnapshot.skill === "writing" &&
+        !!this.gigachatCredentials &&
+        this.nativeWritingEnabled
+      );
+    return (
+      attempt.taskSnapshot.skill !== "reading" &&
+      this.canAssess(attempt.taskSnapshot.skill)
+    );
+  }
+
   readonly supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
   readonly supabasePublishableKey =
     process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??

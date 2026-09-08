@@ -35,9 +35,7 @@ struct NativeProfileView: View {
                 ) {
                     guard var updated = self.profile else { return }
                     updated.timezone = TimeZone.current.identifier
-                    let result = try await model.remote.send(
-                        "profile", method: "PATCH", body: updated, as: NativeProfile.self)
-                    model.account?.profile = result
+                    let result = try await model.saveProfile(updated)
                     self.profile = result
                     model.notice = "Your profile is saved."
                 }

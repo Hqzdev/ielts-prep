@@ -20,6 +20,8 @@ export type AssessmentStatus =
   | "insufficient_evidence";
 
 export interface Attempt {
+  client?: "web" | "ios";
+  requestedModel?: string | null;
   id: string;
   userId: string;
   taskId: string;

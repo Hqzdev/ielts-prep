@@ -5,7 +5,11 @@ import type {
   AssessmentSettings,
   ProviderFailurePolicy,
 } from "../ports/assessment";
-import type { AiProviderSource, AudioInput } from "../ports/ai";
+import type {
+  AiProviderSource,
+  AudioInput,
+  WritingAssessmentSource,
+} from "../ports/ai";
 import type { PracticeStore } from "../ports/practice";
 import type { RecordingStore, AudioStorage } from "../ports/audio";
 import type { Clock, ContentEncoding } from "../ports/runtime";
@@ -32,6 +36,7 @@ export class AssessmentService {
     private readonly failures: ProviderFailurePolicy,
     private readonly clock: Clock,
     private readonly encoding: ContentEncoding,
+    private readonly nativeWriting?: WritingAssessmentSource,
   ) {}
 
   async evaluate(id: string, tryNumber: number) {
@@ -52,18 +57,31 @@ export class AssessmentService {
         throw new EvaluationFailure("ATTEMPT_MISSING", false);
       });
     const skill = attempt.taskSnapshot.skill;
-    if (skill === "reading" || !this.policy.canAssess(skill))
+    if (
+      skill === "reading" ||
+      !(this.policy.canAssessAttempt?.(attempt) ?? this.policy.canAssess(skill))
+    )
       throw new EvaluationFailure("AI_UNAVAILABLE", false);
     await this.store.begin(id, tryNumber, this.clock.now());
     try {
       const audio: AudioInput[] = [];
       for (const audioId of attempt.answer.audioIds)
         audio.push(await this.recording(attempt.userId, attempt.id, audioId));
-      const provider = this.ai.provider();
       const transcripts: Transcript[] = [];
-      for (const recording of audio)
-        transcripts.push(await provider.transcribe(recording));
-      const grade = await provider.assess(attempt, audio, transcripts);
+      const model =
+        assessment.requestedModel ??
+        (skill === "speaking" ? this.policy.audioModel : this.policy.textModel);
+      let grade;
+      if (assessment.provider === "gigachat") {
+        if (skill !== "writing" || !this.nativeWriting?.available)
+          throw new EvaluationFailure("AI_UNAVAILABLE", false);
+        grade = await this.nativeWriting.assessor(model).assessWriting(attempt);
+      } else {
+        const provider = this.ai.provider();
+        for (const recording of audio)
+          transcripts.push(await provider.transcribe(recording));
+        grade = await provider.assess(attempt, audio, transcripts);
+      }
       const band = grade.sufficientEvidence
         ? new BandCalculator().calculate(
             grade.criteria.map((criterion) => criterion.score),
@@ -75,7 +93,7 @@ export class AssessmentService {
           grade,
           transcripts,
           band,
-          skill === "speaking" ? this.policy.audioModel : this.policy.textModel,
+          model,
           this.clock.now(),
         );
       } catch {

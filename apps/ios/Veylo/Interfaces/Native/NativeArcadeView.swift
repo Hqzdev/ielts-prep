@@ -10,7 +10,7 @@ struct NativeArcadeView: View {
             ScreenHeading(title: "A little play. Real practice.", subtitle: "Keep your words moving.")
             VStack(alignment: .leading, spacing: 20) {
                 Image(systemName: "bolt.fill").font(.system(size: 40)).foregroundStyle(VeyloStyle.arcadeInk)
-                ScreenHeading(title: "Word Sprint", subtitle: "10 rounds · 3 hearts · your saved vocabulary")
+                ScreenHeading(title: "Word Sprint", subtitle: "10 rounds · 3 hearts · IELTS vocabulary")
                 NativeBusyButton(title: "Start Word Sprint") {
                     struct Request: Encodable { var id: String }
                     let sprint = try await model.remote.send(

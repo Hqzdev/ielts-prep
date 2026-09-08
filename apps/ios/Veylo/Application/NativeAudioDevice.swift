@@ -15,7 +15,7 @@ protocol NativeAudioDevice {
     func start() async throws
     func stop()
     func data() throws -> Data
-    func play() throws
-    func play(url: URL) throws
+    func play() async throws
+    func play(url: URL) async throws
     func delete() throws
 }

@@ -42,7 +42,7 @@ struct NativeSurveyView: View {
                 } label: {
                     Image(systemName: "chevron.left").frame(width: 40, height: 40)
                 }
-                .disabled(step == 0 || model.busy).accessibilityLabel("Previous question")
+                .disabled((step == 0 && !editing) || model.busy).accessibilityLabel("Previous question")
                 Spacer()
                 Text(step < 5 ? "\(step + 1) of 5" : "Your study plan").font(VeyloStyle.font(13, weight: .bold))
             }
@@ -167,7 +167,7 @@ struct NativeSurveyView: View {
         default:
             Mascot(size: 130).frame(maxWidth: .infinity)
             reviewRow(
-                "Starting level", answers.startingLevel?.replacingOccurrences(of: "_", with: ".") ?? "Not sure",
+                "Starting level", startingLevelLabel,
                 index: 0)
             reviewRow(
                 "Target band", answers.targetBand.map { String(format: "%.1f", $0) } ?? "Choose a target", index: 1)
@@ -180,6 +180,16 @@ struct NativeSurveyView: View {
                         ? model.account?.profile.timezone ?? TimeZone.current.identifier : TimeZone.current.identifier)
             )
             .font(VeyloStyle.font(12)).foregroundStyle(VeyloStyle.muted)
+        }
+    }
+
+    private var startingLevelLabel: String {
+        switch answers.startingLevel {
+        case "below_5_5": "Below 5.5"
+        case "5_5_6_0": "5.5–6.0"
+        case "6_5_7_0": "6.5–7.0"
+        case "7_5_plus": "7.5+"
+        default: "Not sure yet"
         }
     }
 

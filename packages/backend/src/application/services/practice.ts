@@ -93,7 +93,10 @@ export class PracticeService {
       (await this.attempts.submit(
         userId,
         id,
-        skill !== "reading" && !empty && this.policy.canAssess(skill),
+        skill !== "reading" &&
+          !empty &&
+          (this.policy.canAssessAttempt?.(attempt) ??
+            this.policy.canAssess(skill)),
         this.policy.dailyAssessmentLimit,
       ));
     if (skill === "reading" && assessment.status === "queued") {
@@ -110,7 +113,10 @@ export class PracticeService {
     const attempt = await this.attempts.get(userId, id);
     if (attempt.taskSnapshot.skill === "reading")
       return this.submit(userId, id);
-    if (!this.policy.canAssess(attempt.taskSnapshot.skill))
+    if (!(
+      this.policy.canAssessAttempt?.(attempt) ??
+      this.policy.canAssess(attempt.taskSnapshot.skill)
+    ))
       throw new AppError(
         "AI_UNAVAILABLE",
         "Assessment will be available once AI is connected and scoring quality has been validated",

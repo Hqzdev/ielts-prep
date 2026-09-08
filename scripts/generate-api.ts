@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import ts from "typescript";
 import openapiTS, { astToString } from "openapi-typescript";
+import { nativeSwiftGateway } from "./generate-native-api";
 import {
   openApiDocument,
   apiOperationCount,
@@ -27,10 +28,18 @@ const source = ts.createSourceFile(
 const printer = ts.createPrinter({ removeComments: true });
 const outputs = new Map([
   [
+    "apps/ios/Veylo/Infrastructure/Native/NativeGeneratedAPI.swift",
+    nativeSwiftGateway(openApiDocument),
+  ],
+  [
     "packages/contracts/openapi.json",
     JSON.stringify(openApiDocument, null, 2) + "\n",
   ],
   ["packages/api-client/src/schema.ts", printer.printFile(source)],
+  [
+    "apps/ios/Packages/VeyloAPI/Sources/VeyloAPI/openapi.json",
+    JSON.stringify(openApiDocument, null, 2) + "\n",
+  ],
 ]);
 let stale = false;
 for (const [file, content] of outputs) {

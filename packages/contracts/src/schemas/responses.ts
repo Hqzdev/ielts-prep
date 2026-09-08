@@ -5,6 +5,8 @@ import { gradeSchema, transcriptSchema } from "./assessment";
 import { profileInputSchema } from "./profile";
 
 export const attemptSchema = z.object({
+  client: z.enum(["web", "ios"]).optional(),
+  requestedModel: z.string().nullable().optional(),
   id: z.string(),
   userId: z.string(),
   taskId: z.string(),
@@ -38,6 +40,8 @@ export const readingVerdictSchema = z.object({
 });
 
 export const assessmentSchema = z.object({
+  provider: z.enum(["gemini", "gigachat", "deterministic"]).optional(),
+  requestedModel: z.string().nullable().optional(),
   id: z.string(),
   attemptId: z.string(),
   userId: z.string(),
@@ -202,6 +206,8 @@ export const vocabularyQuizSchema = z.object({
   result: z.array(quizAnswerSchema).nullable(),
 });
 export const chatMessageSchema = z.object({
+  provider: z.string().optional(),
+  model: z.string().nullable().optional(),
   id: z.string(),
   role: z.enum(["user", "assistant"]),
   content: z.string(),

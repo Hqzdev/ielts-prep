@@ -10,7 +10,7 @@ import type {
   ChatEvent,
   UsageQuota,
 } from "../ports/conversations";
-import type { AiProviderSource } from "../ports/ai";
+import type { TextAiSource } from "../ports/ai";
 import type { IdentifierSource } from "../ports/runtime";
 import type { PracticeStore } from "../ports/practice";
 import type { LearningService } from "./learning";
@@ -22,7 +22,7 @@ export class TutorService {
     private readonly store: ConversationStore,
     private readonly attempts: PracticeStore,
     private readonly learning: Pick<LearningService, "statistics">,
-    private readonly ai: AiProviderSource,
+    private readonly ai: TextAiSource,
     private readonly quota: UsageQuota,
     private readonly ids: IdentifierSource,
     private readonly dailyLimit: number,
@@ -157,7 +157,7 @@ export class TutorService {
       const history = previous.filter(
         (message) => message.status === "complete",
       );
-      const provider = this.ai.provider();
+      const provider = this.ai.provider(retry?.model ?? undefined);
       const response =
         !userContent && !history.some((message) => message.role === "user")
           ? await provider.greet(preferences)

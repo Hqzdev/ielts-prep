@@ -66,6 +66,8 @@ export interface ReadingVerdict {
 }
 
 export interface Assessment {
+  provider?: "gemini" | "gigachat" | "deterministic";
+  requestedModel?: string | null;
   id: string;
   attemptId: string;
   userId: string;

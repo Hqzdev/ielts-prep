@@ -31,10 +31,10 @@ export const test = base.extend<{ learner: string }>({
       })
       .eq("id", id);
     await page.goto("/login");
-    await page.getByLabel("Email", { exact: true }).fill(email);
     await page
       .getByRole("button", { name: "Use a password", exact: true })
       .click();
+    await page.getByLabel("Email", { exact: true }).fill(email);
     await page.getByLabel("Password", { exact: true }).fill(password);
     await page.getByRole("button", { name: "Sign in", exact: true }).click();
     await expect(page).toHaveURL(/\/$/);

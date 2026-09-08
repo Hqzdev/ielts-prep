@@ -94,6 +94,19 @@ pnpm native:prepare-tests
 
 SQL and integration tests use disposable local accounts and rolled-back SQL transactions. Browser tests require installed Playwright browsers. Native journey tests use the real local HTTP API and attach screenshots to the Xcode result bundle. Native rules include nullable answer serialization and account-isolated drafts.
 
+## Verified locally on 8 September 2026
+
+- `pnpm check`: formatting, 275-module architecture validation, 86 API operations, design assets, lint, TypeScript, 118 unit tests, content validation and production build passed.
+- Twenty integration tests and three SQL suites passed, including account isolation, onboarding revisions, deterministic Reading results, provider provenance and retry-safe Word Sprint answers.
+- Fifty-seven browser scenarios passed across the full run and targeted reruns; five environment-dependent scenarios were skipped.
+- The generated Swift contract client compiled. The current native suite passed 29 unit tests.
+- The complete small-iPhone UI journey passed: onboarding, session restoration, Writing submission without a fabricated grade, Reading results, progress, vocabulary, Word Sprint results, profile editing and the AI capability state.
+- The recording UI test passed on the large iPhone simulator: real WAV capture, private upload, playback, submission and deletion. A second pass verified asynchronous audio-session activation and recorder preparation outside the main actor. Silence or unavailable meter values do not produce invalid animation sizes.
+
+The additional native Release build was stopped at the user's request before completion. Debug builds and the native tests above passed.
+
+Live Google OAuth, a physical-device recording, GigaChat responses and cloud deployment require their respective configured external environments. Writing calibration has not run because provider credentials and the expert corpus are absent.
+
 ## Cloud staging
 
 Cloud deployment is not configured by these local changes. It needs a Veylo Supabase project, HTTPS API hosting, server secrets, email delivery, Google OAuth credentials and the native redirect URLs. Apply migrations, seed the published content, configure private Storage and schedule the existing maintenance worker. The host must support the required background-work and maintenance frequency; a once-daily-only scheduler is insufficient for a minute-based configuration.

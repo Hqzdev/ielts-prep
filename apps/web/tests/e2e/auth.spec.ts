@@ -1,5 +1,5 @@
 import { test, expect, type Page } from "@playwright/test";
-import { randomUUID, createHash } from "node:crypto";
+import { randomUUID } from "node:crypto";
 import { db } from "./fixtures";
 
 async function confirmationLink(page: Page, email: string, subject: string) {
@@ -28,19 +28,13 @@ async function confirmationLink(page: Page, email: string, subject: string) {
   return link;
 }
 
-test("email registration, invitation, onboarding and password recovery", async ({
+test("verified email registration, onboarding and password recovery", async ({
   page,
 }) => {
   const email = `signup-${randomUUID()}@ielts.local`;
   const password = randomUUID() + "Aa1!";
-  const token = randomUUID() + randomUUID();
-  const hash = createHash("sha256").update(token).digest("hex");
-  await db.from("invitations").insert({ email, token_hash: hash });
   try {
-    await page.goto(`/login?invite=${token}`);
-    await page
-      .getByRole("link", { name: "Create account", exact: true })
-      .click();
+    await page.goto("/quiz?step=10");
     await expect(
       page.getByRole("heading", { name: "Your plan is ready!", exact: true }),
     ).toBeVisible();
@@ -56,12 +50,6 @@ test("email registration, invitation, onboarding and password recovery", async (
       page.getByText(/Check your inbox to verify your email/),
     ).toBeVisible();
     await page.goto(await confirmationLink(page, email, "confirm"));
-    await expect(
-      page.getByRole("button", { name: "Accept invitation", exact: true }),
-    ).toBeVisible();
-    await page
-      .getByRole("button", { name: "Accept invitation", exact: true })
-      .click();
     await expect(page).toHaveURL(/\/onboarding$/);
     await page
       .getByLabel("What should we call you?", { exact: true })
@@ -101,7 +89,6 @@ test("email registration, invitation, onboarding and password recovery", async (
       .eq("email", email)
       .maybeSingle();
     if (user.data) await db.auth.admin.deleteUser(user.data.id);
-    await db.from("invitations").delete().eq("token_hash", hash);
     await page.request.delete(
       `http://127.0.0.1:54324/api/v1/search?query=${encodeURIComponent(`to:${email}`)}`,
     );

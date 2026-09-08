@@ -42,7 +42,15 @@ final class NativeAppModel {
         signedIn = true
     }
 
-    func perform(_ action: @escaping @MainActor () async throws -> Void) {
+    func saveProfile(_ profile: NativeProfile) async throws -> NativeProfile {
+        let _: NativeAcknowledgement = try await remote.send(
+            "profile", method: "PATCH", body: profile, as: NativeAcknowledgement.self)
+        let updated = try await remote.get("profile", as: NativeProfile.self)
+        account?.profile = updated
+        return updated
+    }
+
+    func perform(_ action: @escaping @MainActor @Sendable () async throws -> Void) {
         guard !busy else { return }
         busy = true
         Task {
@@ -89,10 +97,6 @@ final class NativeAppModel {
 
     func saveOnboarding(_ answers: NativeAnswers, step: Int, complete: Bool) async throws {
         guard let current = account?.onboarding else { return }
-        if complete, current.completedAt == nil, var profile = account?.profile {
-            profile.timezone = TimeZone.current.identifier
-            account?.profile = try await remote.send("profile", method: "PATCH", body: profile, as: NativeProfile.self)
-        }
         struct Request: Encodable {
             var revision: Int
             var step: Int
@@ -103,8 +107,18 @@ final class NativeAppModel {
             "onboarding", method: "PATCH",
             body: Request(revision: current.revision, step: step, answers: answers, complete: complete),
             as: NativeOnboarding.self)
-        account?.onboarding = updated
-        if complete { try await refresh() }
+        if complete {
+            var refreshed = try await remote.bootstrap()
+            if current.completedAt == nil && refreshed.profile.timezone != TimeZone.current.identifier {
+                var profile = refreshed.profile
+                profile.timezone = TimeZone.current.identifier
+                refreshed.profile = try await saveProfile(profile)
+            }
+            account = refreshed
+            learningRevision += 1
+        } else {
+            account?.onboarding = updated
+        }
     }
 }
 

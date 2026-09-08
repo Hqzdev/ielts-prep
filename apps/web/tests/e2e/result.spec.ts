@@ -9,7 +9,9 @@ test("renders the band, exact quotations and corrections from a stored assessmen
 }, info) => {
   const text =
     "Many students uses social media to find information. Schools should teach them to compare sources. This is very very important for their future. A practical lesson could ask students to check the evidence behind a popular claim.";
-  const headers = { Origin: "http://127.0.0.1:3000" };
+  const headers = {
+    Origin: process.env.PLAYWRIGHT_BASE_URL ?? "http://127.0.0.1:3000",
+  };
   const created = await page.request.post("/api/v1/attempts", {
     headers,
     data: { taskId: "w2-001", mode: "practice" },
@@ -152,7 +154,9 @@ test("all Reading layouts and all Task 1 visualizations render usable controls",
   ];
   for (const task of [...reading, ...visuals]) {
     const response = await page.request.post("/api/v1/attempts", {
-      headers: { Origin: "http://127.0.0.1:3000" },
+      headers: {
+        Origin: process.env.PLAYWRIGHT_BASE_URL ?? "http://127.0.0.1:3000",
+      },
       data: { taskId: task.id, mode: "practice" },
     });
     expect(response.ok()).toBe(true);

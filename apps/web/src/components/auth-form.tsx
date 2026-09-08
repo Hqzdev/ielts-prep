@@ -94,7 +94,7 @@ export function AuthForm({
         });
         if (error) throw error;
         setNotice(
-          "Check your inbox to verify your email. Then accept your invitation.",
+          "Check your inbox to verify your email. Then sign in to start learning.",
         );
       } else {
         const { error } = await auth.signInWithPassword({ email, password });

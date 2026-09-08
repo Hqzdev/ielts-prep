@@ -1,4 +1,5 @@
 import { z } from "zod";
+import * as native from "./schemas/native";
 import * as requests from "./schemas/requests";
 import * as responses from "./schemas/responses";
 import { taskSchema } from "./schemas/task";
@@ -470,3 +471,155 @@ export const apiOperations: ApiOperation[] = [
       "Administrator only: validate and import versioned content. Identical content hashes are unchanged.",
   },
 ];
+
+const nativeAliases = new Set([
+  "getProfile",
+  "saveProfile",
+  "deleteAccount",
+  "listTasks",
+  "getTask",
+  "createAttempt",
+  "getAttempt",
+  "saveAttempt",
+  "getResult",
+  "submitAttempt",
+  "reviseAttempt",
+  "retryAssessment",
+  "listChatThreads",
+  "listChatMessages",
+  "replyToConversation",
+  "conversationFeedback",
+  "listVocabulary",
+  "suggestWord",
+  "addWord",
+  "saveWord",
+  "createVocabularyQuiz",
+  "getVocabularyQuiz",
+  "submitVocabularyQuiz",
+  "uploadAudioTicket",
+  "completeAudio",
+  "playAudio",
+  "deleteAudio",
+]);
+apiOperations.push(
+  ...apiOperations
+    .filter((operation) => nativeAliases.has(operation.id))
+    .map((operation) => ({
+      ...operation,
+      id: "ios" + operation.id[0].toUpperCase() + operation.id.slice(1),
+      path: "/ios" + operation.path,
+      description: "iOS: " + operation.description,
+    })),
+);
+apiOperations.push(
+  {
+    id: "iosBootstrap",
+    method: "get",
+    path: "/ios/bootstrap",
+    response: native.nativeBootstrapSchema,
+    description:
+      "Read the signed-in account, resumable survey and enabled native capabilities.",
+  },
+  {
+    id: "iosGetOnboarding",
+    method: "get",
+    path: "/ios/onboarding",
+    response: native.nativeOnboardingSchema,
+    description:
+      "Read the saved native questionnaire without converting a reported range into a numeric band.",
+  },
+  {
+    id: "iosSaveOnboarding",
+    method: "patch",
+    path: "/ios/onboarding",
+    body: native.saveNativeOnboardingSchema,
+    response: native.nativeOnboardingSchema,
+    description:
+      "Save the expected questionnaire revision or complete a valid survey. Repeated completion is idempotent.",
+  },
+  {
+    id: "iosSavePreferences",
+    method: "patch",
+    path: "/ios/preferences",
+    body: native.nativePreferencesSchema,
+    response: saved,
+    description: "Persist reminder and sound preferences.",
+  },
+  {
+    id: "iosDashboard",
+    method: "get",
+    path: "/ios/dashboard",
+    response: native.nativeDashboardSchema,
+    description:
+      "Read a stable daily plan for enabled skills and the real activity streak.",
+  },
+  {
+    id: "iosStatistics",
+    method: "get",
+    path: "/ios/statistics",
+    query: { days: { schema: z.number().int().min(1).max(3650) } },
+    response: native.nativeProgressSchema,
+    description:
+      "Read skill-specific practice results and qualified forecasts; no overall IELTS estimate.",
+  },
+  {
+    id: "iosGetNotes",
+    method: "get",
+    path: "/ios/attempts/{id}/notes",
+    response: native.nativeAttemptNotesSchema,
+    description: "Read owned passage highlights and question flags.",
+  },
+  {
+    id: "iosSaveNotes",
+    method: "patch",
+    path: "/ios/attempts/{id}/notes",
+    body: native.nativeAttemptNotesSchema,
+    response: native.nativeAttemptNotesSchema,
+    description:
+      "Save notes using the expected revision; highlights must quote the passage.",
+  },
+  {
+    id: "iosHint",
+    method: "post",
+    path: "/ios/attempts/{id}/hints",
+    body: native.nativeHintSchema,
+    response: chatEventSchema,
+    stream: true,
+    description:
+      "Stream GigaChat assistance for an owned task. Active strict exams cannot request hints.",
+  },
+  {
+    id: "iosRecordEvent",
+    method: "post",
+    path: "/ios/events",
+    body: native.nativeEventSchema,
+    response: saved,
+    description:
+      "Record deduplicated onboarding progress metadata, without the answers.",
+  },
+  {
+    id: "iosStartSprint",
+    method: "post",
+    path: "/ios/word-sprints",
+    body: z.object({ id: z.uuid() }),
+    response: native.sprintSchema,
+    description:
+      "Start or recover a Word Sprint using a client-generated stable UUID.",
+  },
+  {
+    id: "iosGetSprint",
+    method: "get",
+    path: "/ios/word-sprints/{id}",
+    response: native.sprintSchema,
+    description: "Read the current round without revealing future answers.",
+  },
+  {
+    id: "iosAnswerSprint",
+    method: "post",
+    path: "/ios/word-sprints/{id}",
+    body: native.sprintAnswerSchema,
+    response: native.sprintSchema,
+    description:
+      "Answer the current round once; finish after ten answers or three mistakes.",
+  },
+);

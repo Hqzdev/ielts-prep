@@ -13,10 +13,13 @@ import { GeminiProvider, type AudioInput } from "@veylo/backend/ai/gemini";
 import { BandCalculator } from "@veylo/backend/domain/assessment";
 import type { Attempt } from "@veylo/backend/domain/attempt";
 import { WavCodec } from "@veylo/backend/domain/wav";
+import { createClient } from "@supabase/supabase-js";
+import { createNativeAi } from "@veylo/backend/composition/gigachat";
 
 config({ path: ".env.local", quiet: true });
 const { values } = parseArgs({
   options: {
+    provider: { type: "string", default: "gemini" },
     corpus: { type: "string" },
     output: { type: "string", default: ".local/assessment-evaluation.json" },
     live: { type: "boolean", default: false },
@@ -27,7 +30,7 @@ if (values.schema)
   console.log(JSON.stringify(z.toJSONSchema(calibrationCorpusSchema), null, 2));
 else if (!values.corpus)
   console.log(
-    "pnpm assessment:evaluate --corpus /path/corpus.json [--live] [--output .local/report.json]\nWithout --live only validates the expert corpus; no AI requests are made. --schema prints its JSON schema.",
+    "pnpm assessment:evaluate --provider gemini|gigachat --corpus /path/corpus.json [--live] [--output .local/report.json]\nWithout --live only validates the expert corpus; no AI requests are made. --schema prints its JSON schema.",
   );
 else {
   const corpusPath = resolve(values.corpus);
@@ -37,8 +40,20 @@ else {
       JSON.parse(await readFile(corpusPath, "utf8")),
     ),
   );
+  if (!["gemini", "gigachat"].includes(values.provider))
+    throw new Error("Choose gemini or gigachat");
+  const native = values.provider === "gigachat";
+  if (
+    native &&
+    corpus.some(
+      (sample) => sample.task.skill !== "writing" || sample.audio.length,
+    )
+  )
+    throw new Error(
+      "GigaChat calibration accepts Writing only; no audio is sent",
+    );
   const key = process.env.GEMINI_API_KEY ?? "";
-  if (values.live && !key)
+  if (values.live && !native && !key)
     throw new Error(
       "Set GEMINI_API_KEY in apps/web/.env.local for an explicit live run",
     );
@@ -49,7 +64,27 @@ else {
     ttsModel: process.env.GEMINI_TTS_MODEL ?? "gemini-3.1-flash-tts-preview",
     voice: process.env.GEMINI_VOICE ?? "Kore",
   };
-  const provider = values.live ? new GeminiProvider(settings) : null;
+  const provider = values.live && !native ? new GeminiProvider(settings) : null;
+  const nativeModel =
+    process.env.IOS_GIGACHAT_WRITING_MODEL ?? "GigaChat-2-Max";
+  if (values.live && native && !process.env.GIGACHAT_CREDENTIALS)
+    throw new Error("Configure GIGACHAT_CREDENTIALS for the explicit live run");
+  const nativeProvider =
+    values.live && native
+      ? createNativeAi(
+          {
+            gigachatCredentials: process.env.GIGACHAT_CREDENTIALS,
+            gigachatScope: process.env.GIGACHAT_SCOPE,
+            gigachatCertificatePath: process.env.GIGACHAT_CA_FILE,
+            nativeTextModel: nativeModel,
+          },
+          createClient(
+            process.env.NEXT_PUBLIC_SUPABASE_URL!,
+            process.env.SUPABASE_SECRET_KEY!,
+            { auth: { persistSession: false } },
+          ),
+        ).assessor(nativeModel)
+      : null;
   const measurements: CalibrationMeasurement[] = [];
   for (const sample of corpus) {
     const audio: AudioInput[] = [];
@@ -66,7 +101,7 @@ else {
       });
     }
     const bands: (number | null)[] = [];
-    if (provider) {
+    if (provider || nativeProvider) {
       const now = new Date().toISOString();
       const attempt: Attempt = {
         id: randomUUID(),
@@ -94,8 +129,10 @@ else {
       for (let run = 0; run < (sample.split === "holdout" ? 2 : 1); run++) {
         const transcripts = [];
         for (const recording of audio)
-          transcripts.push(await provider.transcribe(recording));
-        const grade = await provider.assess(attempt, audio, transcripts);
+          transcripts.push(await provider!.transcribe(recording));
+        const grade = nativeProvider
+          ? await nativeProvider.assessWriting(attempt)
+          : await provider!.assess(attempt, audio, transcripts);
         bands.push(
           grade.sufficientEvidence
             ? new BandCalculator().calculate(grade.criteria.map((c) => c.score))
@@ -115,7 +152,11 @@ else {
     mode: values.live ? "live" : "corpus-validation",
     createdAt: new Date().toISOString(),
     rubricVersion: "ielts-academic-practice-v1",
-    models: { text: settings.textModel, audio: settings.audioModel },
+    provider: values.provider,
+    models: {
+      text: native ? nativeModel : settings.textModel,
+      audio: native ? null : settings.audioModel,
+    },
     cases: measurements,
     groups: values.live ? evaluator.summarize(measurements) : [],
   };
@@ -126,6 +167,15 @@ else {
   console.log(
     `${corpus.length} expert cases validated. Report: ${values.output}`,
   );
-  if (values.live && report.groups.some((group) => !group.passed))
+  if (
+    values.live &&
+    (report.groups.some((group) => !group.passed) ||
+      (native &&
+        !["writing-1", "writing-2"].every((group) =>
+          report.groups.some(
+            (result) => result.group === group && result.passed,
+          ),
+        )))
+  )
     process.exitCode = 1;
 }

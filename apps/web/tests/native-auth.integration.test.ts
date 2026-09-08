@@ -5,7 +5,7 @@ import { randomUUID } from "node:crypto";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
 config({ path: new URL("../.env.local", import.meta.url), quiet: true });
-const base = "http://127.0.0.1:3000";
+const base = process.env.NATIVE_API_BASE ?? "http://127.0.0.1:3000";
 let db: SupabaseClient;
 let userId: string;
 let token: string;

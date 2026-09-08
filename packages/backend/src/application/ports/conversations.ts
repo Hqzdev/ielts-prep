@@ -5,6 +5,8 @@ import type {
 } from "../../domain/preppy";
 
 export interface ChatMessage {
+  provider?: string;
+  model?: string | null;
   id: string;
   role: "user" | "assistant";
   content: string;

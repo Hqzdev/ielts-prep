@@ -12,7 +12,10 @@ export interface CatalogQuery {
 }
 
 export class CatalogService {
-  constructor(private readonly store: CatalogStore) {}
+  constructor(
+    private readonly store: CatalogStore,
+    private readonly skills?: string[],
+  ) {}
 
   tasks() {
     return this.store.tasks();
@@ -25,7 +28,9 @@ export class CatalogService {
   }
 
   async search(userId: string, query: CatalogQuery) {
-    let items = await this.store.catalog(userId);
+    let items = (await this.store.catalog(userId)).filter(
+      (item) => !this.skills || this.skills.includes(item.task.skill),
+    );
     for (const key of ["skill", "topic", "format", "part"] as const) {
       if (query[key])
         items = items.filter((item) => String(item.task[key]) === query[key]);

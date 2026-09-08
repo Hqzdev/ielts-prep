@@ -50,7 +50,7 @@ import SwiftUI
                             ticket = nil
                         }
                         if hasLocal {
-                            NativeBusyButton(title: "Play recording") { try device?.play() }
+                            NativeBusyButton(title: "Play recording") { try await device?.play() }
                             NativeBusyButton(title: "Upload recording") {
                                 guard let data = try device?.data() else { return }
                                 struct Request: Encodable {
@@ -96,7 +96,7 @@ import SwiftUI
                         NativeBusyButton(title: "Play saved audio") {
                             struct Playback: Decodable { var url: URL }
                             let result = try await model.remote.get("audio/\(id)", as: Playback.self)
-                            try device?.play(url: result.url)
+                            try await device?.play(url: result.url)
                         }
                         if state.result?.attempt.editable != true || id == state.answer.audioIds.last {
                             NativeBusyButton(title: "Delete") {
