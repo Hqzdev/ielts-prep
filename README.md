@@ -153,8 +153,6 @@ pnpm local:setup
 pnpm dev
 ```
 
-Open **[127.0.0.1:3000/login](http://127.0.0.1:3000/login)** → **Open local account** → **Tests** → **Reading**. Choose a task and save your first answer.
-
 `local:setup` starts local Supabase, applies migrations, imports tasks and vocabulary, and creates `apps/web/.env.local`. Running it again preserves existing settings without duplicating the content bank. Quick local sign-in is available only in development with a local database.
 
 <details>
